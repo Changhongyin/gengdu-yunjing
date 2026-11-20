@@ -1,0 +1,11 @@
+const store=require('../../utils/store');
+const {products}=require('../../utils/data');
+Page({
+ data:{items:[],direct:false,delivery:'pickup',address:{name:'',phone:'',street:''},slots:['明日 10:00—12:00','明日 14:00—17:00','后日 10:00—12:00','后日 14:00—17:00'],slotIndex:0,subtotal:0,shippingFee:0,total:0},
+ onLoad(options){const pending=getApp().globalData.checkout;const direct=options.direct==='1'&&!!pending;const info=direct?pending:{items:store.read().cart,delivery:'pickup',address:{name:'',phone:'',street:''}};this.setData({items:info.items.map(item=>{const product=products.find(p=>p.id===item.productId);return Object.assign({},item,{image:product?product.cover:item.image||''});}),direct,delivery:info.delivery,address:info.address,slotIndex:Math.max(0,this.data.slots.indexOf(info.slot))});this.calculate();},
+ calculate(){const subtotal=store.cartTotals(this.data.items).total;const shippingFee=this.data.delivery==='shipping'&&this.data.items.length?6:0;this.setData({subtotal,shippingFee,total:subtotal+shippingFee});},
+ setDelivery(e){this.setData({delivery:e.currentTarget.dataset.mode});this.calculate();},setSlot(e){this.setData({slotIndex:Number(e.detail.value)});},addressInput(e){this.setData({['address.'+e.currentTarget.dataset.field]:e.detail.value});},
+ remove(e){const items=this.data.items.filter(x=>x.key!==e.currentTarget.dataset.key);if(!this.data.direct)store.save({cart:items});this.setData({items});this.calculate();},
+ submit(){if(this.submitting||!this.data.items.length)return;if(this.data.delivery==='shipping'){const a=this.data.address;if(!a.name.trim()||!/^1\d{10}$/.test(a.phone)||!a.street.trim()){wx.showToast({title:'请填写完整收货信息及11位手机号',icon:'none'});return;}}this.submitting=true;const orders=store.read().orders.slice();orders.unshift({id:'GD'+Date.now(),items:this.data.items,delivery:this.data.delivery,slot:this.data.slots[this.data.slotIndex],total:this.data.total,date:new Date().toLocaleDateString(),status:'演示订单 · 未付款'});store.save({orders});if(!this.data.direct)store.save({cart:[]});getApp().globalData.checkout=null;this.setData({items:[]});wx.showModal({title:'演示订单已保存',content:'你可以在“我的 → 购买记录”中查看。当前未接入支付，未向商家发送订单。',showCancel:false,success:()=>wx.switchTab({url:'/pages/profile/index'})});},
+ shop(){wx.switchTab({url:'/pages/shop/index'});}
+});

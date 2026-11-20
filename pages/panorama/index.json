@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "线上寻樟 · 全景漫游",
+  "disableScroll": false,
+  "usingComponents": {
+    "scene-art": "/components/scene-art/index",
+    "village-pet": "/components/village-pet/index"
+  }
+}

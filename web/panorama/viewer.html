@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#243f3b"><title>千年古樟 · 360° 实景漫游</title>
+<style>
+:root{color-scheme:dark;--cream:#f5f1e8;--green:#243f3b;--gold:#dcc391}*{box-sizing:border-box}body{margin:0;background:#172823;color:var(--cream);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;overflow:hidden}button{font:inherit;cursor:pointer;color:inherit;border:1px solid #ffffff32;background:#ffffff12;border-radius:12px;min-height:44px;padding:10px 16px;transition:background .2s,transform .2s}button:hover{background:#ffffff26}button:active{transform:scale(.97)}button:focus-visible,canvas:focus-visible{outline:3px solid var(--gold);outline-offset:3px}button[disabled]{opacity:.4;cursor:wait}.scene{position:relative;width:100vw;height:100vh;height:100dvh;isolation:isolate}canvas{width:100%;height:100%;display:block;touch-action:none;cursor:grab}canvas.dragging{cursor:grabbing}.scrim{position:absolute;inset:0;background:linear-gradient(180deg,#122b2975 0%,transparent 34%,transparent 56%,#122b29bc 100%);pointer-events:none}header{position:absolute;top:0;left:0;right:0;padding:calc(32px + env(safe-area-inset-top)) 40px 24px;display:flex;align-items:flex-start;justify-content:space-between;gap:24px;pointer-events:none}.eyebrow{font-size:11px;letter-spacing:4px;color:#fff9e8bb}h1{font-family:"STKaiti","KaiTi",serif;font-size:40px;letter-spacing:7px;font-weight:400;margin:12px 0 8px}.intro{font-size:13px;letter-spacing:1px;margin:0;color:#fff9e8cb}.badge{display:flex;align-items:center;gap:8px;border:1px solid #fff5;border-radius:99px;padding:10px 14px;font-size:11px;white-space:nowrap;backdrop-filter:blur(10px);background:#1d363542}.dot{width:5px;height:5px;border-radius:50%;background:#d2dfbd;box-shadow:0 0 12px #d2dfbd}.reticle{position:absolute;left:50%;top:50%;width:16px;height:16px;border:1px solid #ffffff55;border-radius:50%;transform:translate(-50%,-50%);pointer-events:none}.reticle:after{content:"";position:absolute;left:6px;top:6px;width:2px;height:2px;border-radius:50%;background:#ffffffa6}.footer{position:absolute;left:32px;right:32px;bottom:calc(24px + env(safe-area-inset-bottom));display:flex;flex-direction:column;align-items:center;gap:16px}.viewpoints{display:flex;gap:10px}.viewpoints button{border-radius:99px;min-height:36px;font-size:12px;padding:8px 15px;background:#193a367d;backdrop-filter:blur(12px)}.viewpoints button.active{background:#f5f1e8;color:#243f3b;border-color:transparent}.toolbar{display:flex;align-items:center;gap:8px;padding:8px;background:#1e3735d9;border:1px solid #ffffff25;border-radius:18px;backdrop-filter:blur(24px);box-shadow:0 16px 48px #0003}.toolbar button{font-size:12px;background:transparent;border-color:transparent}.toolbar button[aria-pressed=true]{background:#d6bd8626;color:var(--gold);border-color:#d6bd8642}.toolbar .zoom{font-size:22px;padding:8px;width:44px}.divider{width:1px;height:24px;background:#ffffff26;margin:0 4px}.caption{text-align:center;color:#fff8;font-size:11px;line-height:1.6;margin:0}.hint{color:#fff;font-size:12px;letter-spacing:1px}.angle{font-variant-numeric:tabular-nums;color:var(--gold)}.loading{position:absolute;inset:0;background:#203b37;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:22px;z-index:5}.loading[hidden]{display:none}.ring{width:36px;height:36px;border:2px solid #f5f1e83d;border-top-color:var(--gold);border-radius:50%;animation:spin 1s linear infinite}.loading p{max-width:300px;line-height:1.8;text-align:center;font-size:14px;padding:0 16px}.loading button{display:none}.loading.error .ring{display:none}.loading.error button{display:block}@keyframes spin{to{transform:rotate(360deg)}}.fallback{display:none;width:100%;height:100%;object-fit:cover}.no-gl canvas{display:none}.no-gl .fallback{display:block}.fallback-notice{position:absolute;top:55%;left:50%;transform:translateX(-50%);max-width:280px;padding:16px;background:#1e3735e6;border-radius:12px;line-height:1.7;font-size:12px;text-align:center}.fallback-notice[hidden]{display:none}@media(max-width:650px){header{padding:calc(22px + env(safe-area-inset-top)) 22px 20px}h1{font-size:32px}.eyebrow{letter-spacing:2px;font-size:9px}.badge{font-size:10px;padding:8px 10px}.intro{font-size:11px}.footer{left:14px;right:14px;bottom:calc(18px + env(safe-area-inset-bottom));gap:12px}.toolbar{gap:0;width:100%;justify-content:center;flex-wrap:wrap;padding:6px}.toolbar button{padding:10px 11px;font-size:11px;flex:1;white-space:nowrap}.toolbar .zoom{flex:0 0 38px;width:38px}.divider{margin:0 2px}.caption{font-size:10px;max-width:320px}.viewpoints{gap:7px}.viewpoints button{font-size:11px;padding:7px 12px}.hint{font-size:10px}.angle{display:none}}@media(prefers-reduced-motion:reduce){button{transition:none}.ring{animation:none}}
+</style>
+</head>
+<body>
+<main class="scene" id="scene">
+ <canvas id="panorama" tabindex="0" aria-label="千年古樟360度实景，拖动或使用方向键环顾，使用加减键缩放"></canvas>
+ <img class="fallback" id="fallback" alt="千年古樟实景全景照片">
+ <div class="scrim"></div>
+ <header><div><div class="eyebrow">古渊头村 / 樟影书声</div><h1>千年古樟</h1><p class="intro">沿着樟影，慢看一村时光。</p></div><div class="badge"><span class="dot"></span>360° 实景漫游</div></header>
+ <div class="reticle"></div>
+ <div class="footer">
+  <div class="viewpoints" aria-label="选择观景方向"><button data-yaw="-1.18">左侧古樟</button><button data-yaw="0.48" class="active">古樟主景</button><button data-yaw="2.7">庭院四周</button></div>
+  <div class="hint">拖动环顾 · 滚轮 / 双指缩放 <span class="angle" id="bearing">视角 0°</span></div>
+  <nav class="toolbar" aria-label="全景控制"><button class="zoom" id="zoomOut" aria-label="缩小">−</button><button class="zoom" id="zoomIn" aria-label="放大">＋</button><span class="divider"></span><button id="tour" aria-pressed="false">自动环游</button><button id="reset">重置视角</button><button id="fullscreen">全屏浏览</button><button id="version" aria-pressed="false">对比原片</button></nav>
+  <p class="caption" id="caption">以实景照片为基础，AI 清理标注并增强局部细节。</p>
+ </div>
+ <div class="loading" id="loading" role="status"><div class="ring"></div><p id="loadingText">正在展开古樟实景…</p><button id="retry">重新加载</button></div>
+ <p class="fallback-notice" id="fallbackNotice" hidden>当前浏览器无法启用3D显示，已显示全景照片。请在支持 WebGL 的浏览器中打开。</p>
+</main>
+<script>
+__PANORAMA_RENDERER__
+</script>
+<script>
+(function(){
+'use strict';
+const textures={enhanced:__ENHANCED_URL__,original:__ORIGINAL_URL__};
+const $=id=>document.getElementById(id),canvas=$('panorama'),loading=$('loading');
+let renderer,mode='enhanced',request=0,frame=0,previousTime=0,auto=false,contextLost=false;
+const pointers=new Map();
+function angle(){if(!renderer)return;$('bearing').textContent='视角 '+Math.round(((renderer.yaw-.48)*180/Math.PI%360+360)%360)+'°';}
+function stop(){auto=false;cancelAnimationFrame(frame);frame=0;previousTime=0;$('tour').textContent='自动环游';$('tour').setAttribute('aria-pressed','false');}
+function tick(time){if(!auto||!renderer)return;if(previousTime)renderer.yaw+=Math.min(time-previousTime,80)*.00008;previousTime=time;renderer.draw();angle();frame=requestAnimationFrame(tick);}
+function run(){if(!renderer||!renderer.ready)return;auto=true;$('tour').textContent='暂停环游';$('tour').setAttribute('aria-pressed','true');frame=requestAnimationFrame(tick);}
+function size(){if(renderer)renderer.resize(canvas.clientWidth,canvas.clientHeight);}
+async function load(nextMode){
+ const token=++request;stop();mode=nextMode;loading.hidden=false;loading.classList.remove('error');$('loadingText').textContent='正在展开古樟实景…';
+ try{
+  const info=await new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve({width:im.naturalWidth,height:im.naturalHeight});im.onerror=()=>reject(new Error('全景照片无法读取'));im.src=textures[mode];});
+  if(token!==request)return;
+  if(!renderer)renderer=new PanoramaRenderer(canvas,canvas.clientWidth,canvas.clientHeight,{yaw:.48});
+  await renderer.load(textures[mode],info);if(token!==request)return;
+  loading.hidden=true;$('version').textContent=mode==='enhanced'?'对比原片':'查看增强图';$('version').setAttribute('aria-pressed',String(mode==='original'));
+  $('caption').textContent=mode==='enhanced'?'以实景照片为基础，AI 清理标注并增强局部细节。':'原始照片 · 保留原始标注，可切换增强图对比。';angle();
+ }catch(error){
+  if(token!==request)return;
+  if(!renderer){document.body.classList.add('no-gl');$('fallback').src=textures[mode];$('fallbackNotice').hidden=false;loading.hidden=true;document.querySelectorAll('.toolbar button,.viewpoints button').forEach(b=>b.disabled=true);}
+  else{loading.classList.add('error');$('loadingText').textContent=error.message||'暂时无法载入全景，请重试。';}
+ }
+}
+canvas.addEventListener('pointerdown',e=>{stop();canvas.focus({preventScroll:true});canvas.setPointerCapture(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});canvas.classList.add('dragging');});
+canvas.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId)||!renderer||!renderer.ready)return;const old=pointers.get(e.pointerId),all=[...pointers.values()];if(pointers.size===1){renderer.rotate(e.clientX-old.x,e.clientY-old.y);}else{const other=[...pointers.entries()].find(([id])=>id!==e.pointerId)[1],before=Math.hypot(old.x-other.x,old.y-other.y),after=Math.hypot(e.clientX-other.x,e.clientY-other.y);if(after>2&&before>2)renderer.zoom(before/after);}pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});angle();});
+function release(e){pointers.delete(e.pointerId);if(!pointers.size)canvas.classList.remove('dragging');}
+canvas.addEventListener('pointerup',release);canvas.addEventListener('pointercancel',release);canvas.addEventListener('lostpointercapture',release);
+canvas.addEventListener('wheel',e=>{if(!renderer)return;e.preventDefault();stop();renderer.zoom(Math.exp(Math.max(-100,Math.min(100,e.deltaY))*.0015));},{passive:false});
+canvas.addEventListener('keydown',e=>{if(!renderer)return;const keys=['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','+','=','-','0','Escape'];if(!keys.includes(e.key))return;e.preventDefault();stop();if(e.key==='ArrowLeft')renderer.setView(renderer.yaw-.12,renderer.pitch,renderer.fov);if(e.key==='ArrowRight')renderer.setView(renderer.yaw+.12,renderer.pitch,renderer.fov);if(e.key==='ArrowUp')renderer.setView(renderer.yaw,renderer.pitch+.08,renderer.fov);if(e.key==='ArrowDown')renderer.setView(renderer.yaw,renderer.pitch-.08,renderer.fov);if(e.key==='+'||e.key==='=')renderer.zoom(.88);if(e.key==='-')renderer.zoom(1.14);if(e.key==='0')renderer.reset();if(e.key==='Escape'&&document.fullscreenElement)document.exitFullscreen();angle();});
+$('zoomIn').onclick=()=>{if(renderer)renderer.zoom(.85);};$('zoomOut').onclick=()=>{if(renderer)renderer.zoom(1.18);};
+$('tour').onclick=()=>auto?stop():run();$('reset').onclick=()=>{stop();if(renderer)renderer.reset();angle();document.querySelectorAll('[data-yaw]').forEach(b=>b.classList.toggle('active',b.dataset.yaw==='0.48'));};
+$('version').onclick=()=>load(mode==='enhanced'?'original':'enhanced');$('retry').onclick=()=>load(mode);
+$('fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else if($('scene').requestFullscreen)await $('scene').requestFullscreen();else{$('fullscreen').textContent='已铺满窗口';}}catch(error){$('fullscreen').textContent='已铺满窗口';}};
+document.addEventListener('fullscreenchange',()=>{$('fullscreen').textContent=document.fullscreenElement?'退出全屏':'全屏浏览';size();});
+document.querySelectorAll('[data-yaw]').forEach(b=>b.onclick=()=>{if(!renderer)return;stop();renderer.setView(Number(b.dataset.yaw));angle();document.querySelectorAll('[data-yaw]').forEach(x=>x.classList.toggle('active',x===b));});
+window.addEventListener('resize',size);document.addEventListener('visibilitychange',()=>{if(document.hidden){stop();pointers.clear();}});
+canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();contextLost=true;stop();loading.hidden=false;loading.classList.add('error');$('loadingText').textContent='3D显示已暂停，请重试。';});
+canvas.addEventListener('webglcontextrestored',()=>{contextLost=false;renderer=null;load(mode);});
+window.addEventListener('pagehide',()=>{stop();if(renderer){renderer.destroy();renderer=null;}});window.addEventListener('pageshow',e=>{if(e.persisted&&!contextLost)load(mode);});
+load(mode);
+})();
+</script>
+</body>
+</html>

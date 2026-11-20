@@ -1,0 +1,14 @@
+{
+  "knowledge": "docs/项目资料/知识库/古渊头村AI讲解知识库.docx",
+  "sha256": "0693b390811fc102979ded77144a42cdaa72871bcec33230df4d4e622332763c",
+  "knowledgeChunks": 70,
+  "sourceCount": 15,
+  "requestContainsRetrievedReferences": true,
+  "retrievedChunkIds": [
+    "APP-1",
+    "Q15"
+  ],
+  "model": "agent/qwen3-coder-30b-a3b-instruct(free)",
+  "network": "stubbed transport; no live API call",
+  "referenceArchiveExcludedFromPackage": true
+}

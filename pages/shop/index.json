@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "乡味好物",
+  "usingComponents": {
+    "product-gallery": "/components/product-gallery/index"
+  }
+}

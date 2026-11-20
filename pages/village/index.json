@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "古村漫行",
+  "usingComponents": {
+    "village-pet": "/components/village-pet/index"
+  }
+}

@@ -1,0 +1,1 @@
+.legend{font-size:20rpx;color:#7d8779;margin-top:30rpx;margin-bottom:8rpx}.unlock-hint{text-align:center;font-size:20rpx;color:#88907e;margin-top:-4rpx}.progress-panel{box-shadow:0 10rpx 30rpx rgba(36,63,59,.05);padding:26rpx;margin-top:28rpx}.progress-title{font-size:29rpx;font-weight:500}.progress-panel .muted{margin-top:6rpx}

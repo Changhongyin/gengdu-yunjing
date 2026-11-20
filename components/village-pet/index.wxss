@@ -1,0 +1,110 @@
+/* Floating village companion. Class selectors only (component style isolation).
+   Layer order, lowest first:
+     webview page content, photos, swiper, movable-view, fixed bars (<= 10), page sheets (50)
+     companion and its bubble (700)
+     custom tab bar (800)
+     guide layer (900)
+   The ordinary companion is above webview page content. Page sheets are the one thing that
+   must cover it, so the page passes covered=true while a sheet is open and the
+   companion steps aside (.vp-away), exactly as it does for the chat.
+   translate3d + will-change keep the box in a compositing layer of its own at all
+   times so it stays above composited photos in a swiper or movable-view. */
+.vp { position: fixed; z-index: 700; transform: translate3d(0, 0, 0); will-change: transform; transition: left .26s cubic-bezier(.2, .8, .2, 1), top .26s cubic-bezier(.2, .8, .2, 1), opacity .22s ease, transform .22s ease; animation: vp-enter .42s cubic-bezier(.2, .9, .3, 1.2) backwards; }
+.vp-drag { transition: none; }
+.vp-away { opacity: 0; transform: translate3d(0, 0, 0) scale(.82); pointer-events: none; }
+@keyframes vp-enter { 0% { opacity: 0; transform: translate3d(0, 18rpx, 0) scale(.7); } 100% { opacity: 1; transform: translate3d(0, 0, 0) scale(1); } }
+
+/* ---------- character ---------- */
+.vp-body { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.vp-shadow { position: absolute; left: 20%; right: 20%; bottom: 0; height: 9%; border-radius: 50%; background: radial-gradient(ellipse at center, rgba(36, 63, 59, .22) 0%, rgba(36, 63, 59, 0) 72%); }
+.vp-actor { position: absolute; left: 0; top: 0; width: 100%; height: 100%; transform-origin: 50% 96%; }
+.vp-breath { position: absolute; left: 0; top: 0; width: 100%; height: 100%; transform-origin: 50% 97%; animation: vp-breathe 3.6s ease-in-out infinite; }
+.vp-clip { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; }
+.vp-sheet { display: block; width: 400%; height: 300%; }
+.vp-drag .vp-actor { transform: scale(1.06) rotate(-3deg); transition: transform .15s ease; }
+.vp-drag .vp-shadow { opacity: .5; transform: scale(.8); }
+@keyframes vp-breathe { 0%, 100% { transform: scale(1, 1); } 50% { transform: scale(1.012, 1.028); } }
+.vp-p-sleep { animation-duration: 5.4s; }
+.vp-p-think { animation-duration: 2.4s; }
+
+/* long-press progress: a ring fills during the 420 ms recognition window */
+.vp-ring { position: absolute; left: 6%; right: 6%; bottom: -3%; height: 16%; border-radius: 50%; border: 3rpx solid #ad8849; opacity: 0; box-sizing: border-box; }
+.vp-press .vp-ring { animation: vp-ring .42s linear both; }
+.vp-press .vp-actor { transform: scale(.965); transition: transform .12s ease; }
+@keyframes vp-ring { 0% { opacity: 0; transform: scale(.35); } 25% { opacity: .5; } 100% { opacity: .95; transform: scale(1); } }
+
+/* one-shot motions; every one has a twin name (.vp-alt) so it can restart */
+.vp-a-wave { animation: vp-wave 1.5s ease-in-out; }
+.vp-a-wave.vp-alt { animation-name: vp-wave-b; }
+.vp-a-pop { animation: vp-pop .6s cubic-bezier(.3, 1.4, .5, 1); }
+.vp-a-pop.vp-alt { animation-name: vp-pop-b; }
+.vp-a-hop { animation: vp-hop .8s ease-out; }
+.vp-a-hop.vp-alt { animation-name: vp-hop-b; }
+.vp-a-squish { animation: vp-squish .7s ease-out; }
+.vp-a-squish.vp-alt { animation-name: vp-squish-b; }
+.vp-a-talk { animation: vp-talk 1.2s ease-in-out 2; }
+.vp-a-talk.vp-alt { animation-name: vp-talk-b; }
+.vp-a-nod { animation: vp-nod .9s ease-in-out; }
+.vp-a-nod.vp-alt { animation-name: vp-nod-b; }
+.vp-a-splash { animation: vp-splash .8s ease-out; }
+.vp-a-splash.vp-alt { animation-name: vp-splash-b; }
+.vp-a-jump { animation: vp-jump 1.3s ease-out; }
+.vp-a-jump.vp-alt { animation-name: vp-jump-b; }
+.vp-a-think { animation: vp-think 2.2s ease-in-out infinite; }
+.vp-a-doze { animation: vp-doze 5.4s ease-in-out infinite; }
+@keyframes vp-wave { 0%, 100% { transform: rotate(0); } 15% { transform: rotate(-7deg); } 35% { transform: rotate(6deg); } 55% { transform: rotate(-5deg); } 75% { transform: rotate(4deg); } }
+@keyframes vp-wave-b { 0%, 100% { transform: rotate(0); } 15% { transform: rotate(-7deg); } 35% { transform: rotate(6deg); } 55% { transform: rotate(-5deg); } 75% { transform: rotate(4deg); } }
+@keyframes vp-pop { 0% { transform: scale(.86); } 45% { transform: scale(1.14); } 72% { transform: scale(.97); } 100% { transform: scale(1); } }
+@keyframes vp-pop-b { 0% { transform: scale(.86); } 45% { transform: scale(1.14); } 72% { transform: scale(.97); } 100% { transform: scale(1); } }
+@keyframes vp-hop { 0%, 100% { transform: translateY(0); } 12% { transform: translateY(4rpx) scale(1.04, .95); } 34% { transform: translateY(-22rpx); } 56% { transform: translateY(0) scale(1.03, .97); } 74% { transform: translateY(-9rpx); } }
+@keyframes vp-hop-b { 0%, 100% { transform: translateY(0); } 12% { transform: translateY(4rpx) scale(1.04, .95); } 34% { transform: translateY(-22rpx); } 56% { transform: translateY(0) scale(1.03, .97); } 74% { transform: translateY(-9rpx); } }
+@keyframes vp-squish { 0%, 100% { transform: scale(1, 1); } 22% { transform: scale(1.09, .9); } 48% { transform: scale(.95, 1.07) rotate(-3deg); } 74% { transform: scale(1.03, .98) rotate(2deg); } }
+@keyframes vp-squish-b { 0%, 100% { transform: scale(1, 1); } 22% { transform: scale(1.09, .9); } 48% { transform: scale(.95, 1.07) rotate(-3deg); } 74% { transform: scale(1.03, .98) rotate(2deg); } }
+@keyframes vp-talk { 0%, 100% { transform: rotate(0) translateY(0); } 30% { transform: rotate(3deg) translateY(-4rpx); } 65% { transform: rotate(-2deg) translateY(0); } }
+@keyframes vp-talk-b { 0%, 100% { transform: rotate(0) translateY(0); } 30% { transform: rotate(3deg) translateY(-4rpx); } 65% { transform: rotate(-2deg) translateY(0); } }
+@keyframes vp-nod { 0%, 100% { transform: rotate(0); } 30% { transform: rotate(4deg) translateY(3rpx); } 60% { transform: rotate(-1deg); } }
+@keyframes vp-nod-b { 0%, 100% { transform: rotate(0); } 30% { transform: rotate(4deg) translateY(3rpx); } 60% { transform: rotate(-1deg); } }
+@keyframes vp-splash { 0%, 100% { transform: rotate(0); } 18% { transform: rotate(-6deg) translateY(-6rpx); } 40% { transform: rotate(5deg); } 62% { transform: rotate(-3deg) translateY(-3rpx); } 82% { transform: rotate(2deg); } }
+@keyframes vp-splash-b { 0%, 100% { transform: rotate(0); } 18% { transform: rotate(-6deg) translateY(-6rpx); } 40% { transform: rotate(5deg); } 62% { transform: rotate(-3deg) translateY(-3rpx); } 82% { transform: rotate(2deg); } }
+@keyframes vp-jump { 0%, 100% { transform: translateY(0) rotate(0); } 10% { transform: translateY(5rpx) scale(1.06, .92); } 28% { transform: translateY(-36rpx) rotate(-5deg); } 46% { transform: translateY(0) scale(1.05, .95); } 64% { transform: translateY(-24rpx) rotate(5deg); } 82% { transform: translateY(0) scale(1.02, .98); } }
+@keyframes vp-jump-b { 0%, 100% { transform: translateY(0) rotate(0); } 10% { transform: translateY(5rpx) scale(1.06, .92); } 28% { transform: translateY(-36rpx) rotate(-5deg); } 46% { transform: translateY(0) scale(1.05, .95); } 64% { transform: translateY(-24rpx) rotate(5deg); } 82% { transform: translateY(0) scale(1.02, .98); } }
+@keyframes vp-think { 0%, 100% { transform: rotate(-4deg); } 50% { transform: rotate(-6deg) translateY(-3rpx); } }
+@keyframes vp-doze { 0%, 100% { transform: rotate(0); } 50% { transform: rotate(-2deg) translateY(2rpx); } }
+
+/* ---------- bubble: paper slip with a gold edge ---------- */
+.vp-bubble { position: absolute; box-sizing: border-box; padding: 18rpx 22rpx 18rpx 24rpx; background: #fffcf5; border: 1rpx solid #d9c9a5; border-left: 5rpx solid #ad8849; box-shadow: 0 12rpx 32rpx rgba(36, 63, 59, .14); color: #243f3b; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", sans-serif; animation: vp-bubble .26s cubic-bezier(.2, .8, .2, 1) both; }
+.vp-right .vp-bubble { right: 100%; margin-right: 10rpx; border-radius: 26rpx 26rpx 6rpx 26rpx; transform-origin: 100% 100%; }
+.vp-left .vp-bubble { left: 100%; margin-left: 10rpx; border-radius: 26rpx 26rpx 26rpx 6rpx; transform-origin: 0 100%; }
+.vp-b-up { bottom: 46%; }
+.vp-b-down { top: 12%; }
+.vp-right .vp-b-down { border-radius: 26rpx 6rpx 26rpx 26rpx; transform-origin: 100% 0; }
+.vp-left .vp-b-down { border-radius: 6rpx 26rpx 26rpx 26rpx; transform-origin: 0 0; }
+@keyframes vp-bubble { 0% { opacity: 0; transform: scale(.82); } 100% { opacity: 1; transform: scale(1); } }
+.vp-b-head { display: flex; align-items: center; min-height: 44rpx; padding-right: 56rpx; }
+.vp-b-name { font-family: "STKaiti", "KaiTi", serif; font-size: 28rpx; line-height: 1.3; letter-spacing: 2rpx; }
+.vp-b-tag { margin-left: 14rpx; font-size: 17rpx; line-height: 1.5; letter-spacing: 1rpx; color: #9c7b42; border: 1rpx solid #d9c9a5; border-radius: 6rpx; padding: 0 10rpx; white-space: nowrap; }
+.vp-b-close { position: absolute; right: 0; top: 0; width: 76rpx; height: 76rpx; display: flex; align-items: center; justify-content: center; }
+.vp-b-x { font-size: 36rpx; line-height: 1; color: #8c927f; }
+.vp-b-text { display: block; margin-top: 6rpx; font-size: 25rpx; line-height: 1.72; color: #2f4743; word-break: break-all; }
+.vp-b-react .vp-b-text, .vp-b-hint .vp-b-text, .vp-b-celebrate .vp-b-text { font-size: 26rpx; }
+.vp-b-source { margin-top: 10rpx; padding-top: 10rpx; border-top: 1rpx solid #ece8da; font-size: 18rpx; line-height: 1.6; color: #9a8a63; }
+.vp-b-actions { display: flex; flex-wrap: wrap; margin-top: 14rpx; }
+.vp-b-act { min-height: 60rpx; padding: 0 24rpx; margin: 0 12rpx 4rpx 0; box-sizing: border-box; display: flex; align-items: center; border: 1rpx solid #d9d8c8; border-radius: 32rpx; font-size: 22rpx; color: #4b5f58; background: rgba(255, 252, 245, .9); }
+.vp-b-act-on { background: #243f3b; border-color: #243f3b; color: #fff8e6; }
+.vp-b-tip { margin-top: 10rpx; font-size: 18rpx; letter-spacing: 1rpx; color: #a39a80; }
+.vp-hover { opacity: .6; }
+
+/* ---------- minimized: a small tab at the screen edge ---------- */
+.vp-tab { position: absolute; left: 0; top: 0; width: 100%; height: 100%; box-sizing: border-box; background: #fffcf5; border: 1rpx solid #d9c9a5; box-shadow: 0 8rpx 22rpx rgba(36, 63, 59, .16); overflow: hidden; }
+.vp-right .vp-tab { border-radius: 42rpx 0 0 42rpx; border-right-width: 0; }
+.vp-left .vp-tab { border-radius: 0 42rpx 42rpx 0; border-left-width: 0; }
+.vp-tab-clip { position: absolute; left: 6rpx; top: 4rpx; width: 76rpx; height: 76rpx; border-radius: 50%; overflow: hidden; }
+/* shows the head of the first cell (greeting pose) of the sheet */
+.vp-tab-img { position: absolute; left: -12rpx; top: -6rpx; width: 420rpx; height: 374rpx; display: block; }
+
+/* The panorama dock scrolls with the page. Top padding clears the pose animations. */
+.vp-docked { position: relative; display: flex; justify-content: flex-end; align-items: flex-start; gap: 10rpx; padding-top: 44rpx; }
+.vp-docked.vp-left { justify-content: flex-start; }
+.vp-character { position: relative; flex: none; }
+.vp-docked.vp-left .vp-character { order: -1; }
+.vp-docked .vp-bubble { position: relative; inset: auto; flex: 0 1 500rpx; min-width: 0; margin: 0; }

@@ -1,0 +1,460 @@
+{
+ "source": "character-reference.jpg",
+ "sourceSha256": "d3a25abda00337873a3e8ec0d31630c38deb5adc8ea250a56211335e7d6a29fb",
+ "sourceSize": [
+  1318,
+  758
+ ],
+ "cell": [
+  256,
+  304
+ ],
+ "baselineY": 296,
+ "leakGuardRadius": 2,
+ "poses": [
+  {
+   "pose": "greet",
+   "sheetCaption": "1 greeting",
+   "sourceBox": [
+    14,
+    14,
+    240,
+    306
+   ],
+   "offsetInCell": [
+    10,
+    16
+   ],
+   "opaquePixelsLostToCanvas": 9,
+   "foregroundBBoxInCrop": [
+    6,
+    7,
+    216,
+    280
+   ],
+   "bodyBBoxInCrop": [
+    6,
+    7,
+    216,
+    280
+   ],
+   "paperColour": [
+    248.0,
+    245.0,
+    240.0
+   ],
+   "keptIslands": 1,
+   "droppedSpecks": 5,
+   "file": "pose-greet.png",
+   "sha256": "29b00c7e8e382497e1db37f1e4a812def97786131c52377ef523b008341b6d84",
+   "bytes": 74982
+  },
+  {
+   "pose": "cheer",
+   "sheetCaption": "2 encouragement",
+   "sourceBox": [
+    240,
+    14,
+    458,
+    306
+   ],
+   "offsetInCell": [
+    21,
+    15
+   ],
+   "opaquePixelsLostToCanvas": 9,
+   "foregroundBBoxInCrop": [
+    7,
+    7,
+    216,
+    281
+   ],
+   "bodyBBoxInCrop": [
+    7,
+    7,
+    216,
+    281
+   ],
+   "paperColour": [
+    248.0,
+    245.0,
+    240.0
+   ],
+   "keptIslands": 1,
+   "droppedSpecks": 1,
+   "file": "pose-cheer.png",
+   "sha256": "cb1bb330cb71f2d26201232eb691c9db403622293d1975f43f9d6c0d30167cf7",
+   "bytes": 74635
+  },
+  {
+   "pose": "think",
+   "sheetCaption": "3 thinking",
+   "sourceBox": [
+    456,
+    14,
+    640,
+    306
+   ],
+   "offsetInCell": [
+    32,
+    16
+   ],
+   "opaquePixelsLostToCanvas": 15,
+   "foregroundBBoxInCrop": [
+    1,
+    29,
+    168,
+    280
+   ],
+   "bodyBBoxInCrop": [
+    1,
+    29,
+    168,
+    280
+   ],
+   "paperColour": [
+    248.0,
+    245.0,
+    240.0
+   ],
+   "keptIslands": 1,
+   "droppedSpecks": 0,
+   "file": "pose-think.png",
+   "sha256": "afc2459d1f4c9b88748fda62a5c9dcb413e0f7c61f6e7c02e8593f01b68c1091",
+   "bytes": 66530
+  },
+  {
+   "pose": "read",
+   "sheetCaption": "4 reading",
+   "sourceBox": [
+    656,
+    14,
+    858,
+    306
+   ],
+   "offsetInCell": [
+    33,
+    16
+   ],
+   "opaquePixelsLostToCanvas": 11,
+   "foregroundBBoxInCrop": [
+    9,
+    40,
+    183,
+    280
+   ],
+   "bodyBBoxInCrop": [
+    9,
+    40,
+    183,
+    280
+   ],
+   "paperColour": [
+    248.0,
+    245.0,
+    239.0
+   ],
+   "keptIslands": 1,
+   "droppedSpecks": 0,
+   "file": "pose-read.png",
+   "sha256": "46e877da0ab63318178d769044203b1cd4e2b8849f9d784f0ea8529a4da396f8",
+   "bytes": 70374
+  },
+  {
+   "pose": "scroll",
+   "sheetCaption": "5 holding a scroll",
+   "sourceBox": [
+    860,
+    14,
+    1058,
+    306
+   ],
+   "offsetInCell": [
+    34,
+    15
+   ],
+   "opaquePixelsLostToCanvas": 7,
+   "foregroundBBoxInCrop": [
+    6,
+    17,
+    189,
+    281
+   ],
+   "bodyBBoxInCrop": [
+    6,
+    17,
+    189,
+    281
+   ],
+   "paperColour": [
+    248.0,
+    245.0,
+    238.0
+   ],
+   "keptIslands": 1,
+   "droppedSpecks": 0,
+   "file": "pose-scroll.png",
+   "sha256": "7f667658a3e2cfdb5faa504f779027bfd1c1036fc4afa487f18d2c6716f905df",
+   "bytes": 69527
+  },
+  {
+   "pose": "walk",
+   "sheetCaption": "6 happy walking",
+   "sourceBox": [
+    1058,
+    14,
+    1272,
+    306
+   ],
+   "offsetInCell": [
+    17,
+    15
+   ],
+   "opaquePixelsLostToCanvas": 12,
+   "foregroundBBoxInCrop": [
+    1,
+    15,
+    204,
+    281
+   ],
+   "bodyBBoxInCrop": [
+    8,
+    15,
+    204,
+    281
+   ],
+   "paperColour": [
+    249.0,
+    245.0,
+    238.0
+   ],
+   "keptIslands": 2,
+   "droppedSpecks": 1,
+   "file": "pose-walk.png",
+   "sha256": "620e04f0410341449b81e8f17f19733d7e2788859de412f9eeecd997cbab09de",
+   "bytes": 75778
+  },
+  {
+   "pose": "point",
+   "sheetCaption": "7 pointing",
+   "sourceBox": [
+    6,
+    398,
+    214,
+    678
+   ],
+   "offsetInCell": [
+    15,
+    28
+   ],
+   "opaquePixelsLostToCanvas": 11,
+   "foregroundBBoxInCrop": [
+    10,
+    13,
+    198,
+    268
+   ],
+   "bodyBBoxInCrop": [
+    10,
+    13,
+    198,
+    268
+   ],
+   "paperColour": [
+    248.0,
+    245.0,
+    240.0
+   ],
+   "keptIslands": 1,
+   "droppedSpecks": 1,
+   "file": "pose-point.png",
+   "sha256": "1f970c5d0540585f2d0cf65723e669df4cbf0e3dfe7d9c23b889d1b74e268889",
+   "bytes": 68049
+  },
+  {
+   "pose": "fish",
+   "sheetCaption": "8 hugging a fish",
+   "sourceBox": [
+    234,
+    398,
+    428,
+    678
+   ],
+   "offsetInCell": [
+    28,
+    29
+   ],
+   "opaquePixelsLostToCanvas": 13,
+   "foregroundBBoxInCrop": [
+    9,
+    7,
+    182,
+    267
+   ],
+   "bodyBBoxInCrop": [
+    9,
+    7,
+    182,
+    267
+   ],
+   "paperColour": [
+    248.0,
+    245.0,
+    240.0
+   ],
+   "keptIslands": 1,
+   "droppedSpecks": 1,
+   "file": "pose-fish.png",
+   "sha256": "1bb26a8f95ae9beccb3ff87fa35da9d1b8adc79b2f1773be00792920241f80a8",
+   "bytes": 75428
+  },
+  {
+   "pose": "approve",
+   "sheetCaption": "9 approval",
+   "sourceBox": [
+    438,
+    398,
+    648,
+    678
+   ],
+   "offsetInCell": [
+    17,
+    28
+   ],
+   "opaquePixelsLostToCanvas": 9,
+   "foregroundBBoxInCrop": [
+    8,
+    10,
+    199,
+    268
+   ],
+   "bodyBBoxInCrop": [
+    8,
+    10,
+    199,
+    268
+   ],
+   "paperColour": [
+    248.0,
+    245.0,
+    240.0
+   ],
+   "keptIslands": 2,
+   "droppedSpecks": 2,
+   "file": "pose-approve.png",
+   "sha256": "30249c89e092f436a84c31a8a9b933c3705ddbe4c85b2dd1b024b129a0192ec0",
+   "bytes": 74683
+  },
+  {
+   "pose": "shy",
+   "sheetCaption": "10 shy affection",
+   "sourceBox": [
+    650,
+    398,
+    846,
+    678
+   ],
+   "offsetInCell": [
+    23,
+    25
+   ],
+   "opaquePixelsLostToCanvas": 18,
+   "foregroundBBoxInCrop": [
+    6,
+    20,
+    189,
+    271
+   ],
+   "bodyBBoxInCrop": [
+    6,
+    20,
+    189,
+    271
+   ],
+   "paperColour": [
+    248.0,
+    245.0,
+    240.0
+   ],
+   "keptIslands": 1,
+   "droppedSpecks": 0,
+   "file": "pose-shy.png",
+   "sha256": "e5bba179c82676b4d5869d7726112db2d2ba3f5b15ae501ed12aa0f9a025b356",
+   "bytes": 63092
+  },
+  {
+   "pose": "sleep",
+   "sheetCaption": "11 sleeping",
+   "sourceBox": [
+    850,
+    398,
+    1044,
+    678
+   ],
+   "offsetInCell": [
+    24,
+    25
+   ],
+   "opaquePixelsLostToCanvas": 12,
+   "foregroundBBoxInCrop": [
+    8,
+    61,
+    192,
+    271
+   ],
+   "bodyBBoxInCrop": [
+    8,
+    61,
+    192,
+    271
+   ],
+   "paperColour": [
+    248.0,
+    245.0,
+    238.0
+   ],
+   "keptIslands": 3,
+   "droppedSpecks": 0,
+   "file": "pose-sleep.png",
+   "sha256": "1a77ae670e728af047a3bbd040c245f67abb9d36f4cad6bcb3a417a3f5bf4a6e",
+   "bytes": 65639
+  },
+  {
+   "pose": "celebrate",
+   "sheetCaption": "12 celebration",
+   "sourceBox": [
+    1044,
+    398,
+    1272,
+    678
+   ],
+   "offsetInCell": [
+    18,
+    28
+   ],
+   "opaquePixelsLostToCanvas": 22,
+   "foregroundBBoxInCrop": [
+    1,
+    18,
+    226,
+    268
+   ],
+   "bodyBBoxInCrop": [
+    27,
+    18,
+    226,
+    268
+   ],
+   "paperColour": [
+    249.0,
+    244.0,
+    238.0
+   ],
+   "keptIslands": 9,
+   "droppedSpecks": 0,
+   "file": "pose-celebrate.png",
+   "sha256": "79a99600899c2794b2d045d1a8b1bf31cb2b0aa2b079d8bdf5a7ad82264c83b0",
+   "bytes": 73654
+  }
+ ]
+}

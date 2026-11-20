@@ -1,0 +1,119 @@
+[
+  {
+    "key": "camphor-canopy",
+    "source": "docs/项目资料/调研素材/DJI_20261114130616_0252_D.JPG",
+    "target": "assets/photos/camphor-canopy.jpg",
+    "width": 3840,
+    "height": 2160,
+    "bytes": 9908224,
+    "sha256": "b34d633a95222693f542287f8584f76ab2d56ac9f95a39e4de85b4bf457f947a"
+  },
+  {
+    "key": "camphor-trunk",
+    "source": "docs/项目资料/调研素材/DJI_20261114130957_0261_D.JPG",
+    "target": "assets/photos/camphor-trunk.jpg",
+    "width": 3840,
+    "height": 2160,
+    "bytes": 7774208,
+    "sha256": "059ecd92f0c2cc477ff05ad131f84bc25f74701f6cd1cf25edec12ce300a0252"
+  },
+  {
+    "key": "camphor-square",
+    "source": "docs/项目资料/调研素材/DJI_20261114132533_0296_D.JPG",
+    "target": "assets/photos/camphor-square.jpg",
+    "width": 3840,
+    "height": 2160,
+    "bytes": 8912896,
+    "sha256": "726ef2f3e27bbe1b10c39682e7bcde0ce1df0373837deb9471870b8a5c6452a3"
+  },
+  {
+    "key": "water-street",
+    "source": "docs/项目资料/调研素材/DJI_20261114133405_0328_D.JPG",
+    "target": "assets/photos/water-street.jpg",
+    "width": 3840,
+    "height": 2160,
+    "bytes": 9797632,
+    "sha256": "a15e087fd228347790490ed6fd5cecd3f5adffa47261f73348c16fe02fa2e600"
+  },
+  {
+    "key": "water-divider",
+    "source": "docs/项目资料/调研素材/DJI_20261114133517_0331_D.JPG",
+    "target": "assets/photos/water-divider.jpg",
+    "width": 3840,
+    "height": 2160,
+    "bytes": 7663616,
+    "sha256": "7a9a6b49b95abe0d31971d7de8482aa3f6adf7d8e9fca4d63efab08812dbcb98"
+  },
+  {
+    "key": "water-channel",
+    "source": "docs/项目资料/调研素材/DJI_20261114133414_0329_D.JPG",
+    "target": "assets/photos/water-channel.jpg",
+    "width": 3840,
+    "height": 2160,
+    "bytes": 8486912,
+    "sha256": "8924cfece56f0273844763e502dafa7db61a635444bcc28926403ee93f3b379f"
+  },
+  {
+    "key": "chengqi-front",
+    "source": "docs/项目资料/调研素材/DJI_20261114134124_0345_D.JPG",
+    "target": "assets/photos/chengqi-front.jpg",
+    "width": 3840,
+    "height": 2160,
+    "bytes": 5836800,
+    "sha256": "47db4c53f3d715d8a827dd37e3284c7969814473d1466ff73592391d50cbaade"
+  },
+  {
+    "key": "chengqi-interior",
+    "source": "docs/项目资料/调研素材/DJI_20261114143739_0387_D.JPG",
+    "target": "assets/photos/chengqi-interior.jpg",
+    "width": 4000,
+    "height": 3840,
+    "bytes": 11272192,
+    "sha256": "b59fec7c0709ef79f482eccba24426243d619e7a7452004f486cbd77bb93a9f0"
+  },
+  {
+    "key": "chengqi-gate",
+    "source": "docs/项目资料/调研素材/DJI_20261114133637_0335_D.JPG",
+    "target": "assets/photos/chengqi-gate.jpg",
+    "width": 3840,
+    "height": 2160,
+    "bytes": 6037504,
+    "sha256": "a74676f644ffbabc25863807a628c9e148d9bbaed8f7ad39f3a8c0eb6f5d8f0b"
+  },
+  {
+    "key": "siben-front",
+    "source": "docs/项目资料/调研素材/DJI_20261114135735_0368_D.JPG",
+    "target": "assets/photos/siben-front.jpg",
+    "width": 3840,
+    "height": 2160,
+    "bytes": 5623808,
+    "sha256": "c70c8d9a41fb4797fe26a7f3d8d87a81448b25fca85fcbe5a9cd7c9cabf5542f"
+  },
+  {
+    "key": "siben-angle",
+    "source": "docs/项目资料/调研素材/DJI_20261114135738_0369_D.JPG",
+    "target": "assets/photos/siben-angle.jpg",
+    "width": 3840,
+    "height": 2160,
+    "bytes": 5226496,
+    "sha256": "e334c7314edbfc95cd3346b417cbe017874e2d09ca0f50d571dee804b1a3ea51"
+  },
+  {
+    "key": "siben-detail",
+    "source": "docs/项目资料/调研素材/DJI_20261114135804_0371_D.JPG",
+    "target": "assets/photos/siben-detail.jpg",
+    "width": 3840,
+    "height": 2160,
+    "bytes": 4976640,
+    "sha256": "9cd2eef67f1a6afbdae184b71c4ca490ab1e2e5b4b368782b922a7e248d3d2b2"
+  },
+  {
+    "key": "village-lane",
+    "source": "docs/项目资料/调研素材/DJI_20261114133429_0330_D.JPG",
+    "target": "assets/photos/village-lane.jpg",
+    "width": 3840,
+    "height": 2160,
+    "bytes": 6750208,
+    "sha256": "19f57dca25840d29a4d3f412bb26e9a40de897f3817d6b671c82a5e451b9ecd7"
+  }
+]

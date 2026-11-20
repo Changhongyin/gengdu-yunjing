@@ -1,0 +1,29 @@
+const assert=require('node:assert/strict');const config=require('../utils/cloud-assets.config');const original={...config};
+const saved=new Set(),pending=new Map();let downloads=0,initializations=0,brokenCache=false;
+config.enabled=true;config.env='test-env';config.files={'/assets/test.jpg':'cloud://test-env.bucket/test.jpg'};
+global.wx={env:{USER_DATA_PATH:'/cache'},getFileSystemManager:()=>{if(brokenCache)throw Error('cache unavailable');return {accessSync(p){if(!saved.has(p))throw Error('missing');},mkdirSync(){},writeFileSync(){},copyFileSync(a,b){saved.add(b);}};},cloud:{init(){initializations++;},downloadFile(options){assert.equal(options.config.env,'test-env');downloads++;pending.set(options.fileID,options);},getTempFileURL(options){const source=options.fileList[0];if(source.endsWith('fallback.jpg'))options.success({fileList:[{status:0,tempFileURL:'https://storage.example/image.jpg'}]});else options.fail(Error('lookup failed'));}},downloadFile(options){assert.equal(options.url,'https://storage.example/image.jpg');options.success({statusCode:200,tempFilePath:'/temp/fallback.jpg'});}};
+const assets=require('../utils/asset-source');const tick=()=>new Promise(accept=>setImmediate(accept));
+function target(){return {data:{},patches:[],setData(patch,callback){this.patches.push(patch);for(const [key,value]of Object.entries(patch)){const keys=key.replace(/\[(\d+)\]/g,'.$1').split('.');let ref=this.data;for(const part of keys.slice(0,-1))ref=ref[part];ref[keys.at(-1)]=value;}if(callback)callback();}};}
+(async()=>{try{
+ assert.equal(assets.asset('/assets/local.png'),'/assets/local.png');assert.equal(assets.asset('/assets/test.jpg'),config.files['/assets/test.jpg']);
+ const first=assets.resolve('/assets/test.jpg'),second=assets.resolve(config.files['/assets/test.jpg']);assert.equal(first,second);await tick();assert.equal(downloads,1);
+ pending.get(config.files['/assets/test.jpg']).success({tempFilePath:'/temp/image.jpg'});const cache=await first;assert(cache.startsWith('/cache/gengdu-assets/'));assert.equal(await assets.resolve(config.files['/assets/test.jpg']),cache);assert.equal(downloads,1);assert.equal(initializations,1);
+ const failed=assets.resolve('cloud://test-env.bucket/fail.jpg');await tick();pending.get('cloud://test-env.bucket/fail.jpg').fail(Error('network'));await assert.rejects(failed,/network/);
+ const retry=assets.resolve('cloud://test-env.bucket/fail.jpg');await tick();pending.get('cloud://test-env.bucket/fail.jpg').success({tempFilePath:'/temp/retry.jpg'});await retry;assert.equal(downloads,3);
+ const fallback=assets.resolve('cloud://test-env.bucket/fallback.jpg');await tick();pending.get('cloud://test-env.bucket/fallback.jpg').fail(Error('SDK download failed'));assert((await fallback).startsWith('/cache/'));
+ brokenCache=true;const noCache=assets.resolve('cloud://test-env.bucket/no-cache.jpg');await tick();pending.get('cloud://test-env.bucket/no-cache.jpg').success({tempFilePath:'/temp/no-cache.jpg'});assert.equal(await noCache,'/temp/no-cache.jpg');brokenCache=false;
+ const page=target(),source='cloud://test-env.bucket/scene.jpg';
+ const binding=assets.setImages(page,{scene:{id:0,panoramaImage:source,realPanorama:source},scenes:[{panoramaImage:source}],local:'/assets/local.png'});assert.equal(page.data.scene.panoramaImage,'');assert.equal(page.data.scenes[0].panoramaImage,'');assert.equal(page.data.scene.realPanorama,source);assert.equal(page.data.local,'/assets/local.png');await tick();pending.get(source).success({tempFilePath:'/temp/scene.jpg'});await binding;assert(page.data.scene.panoramaImage.startsWith('/cache/'));assert.equal(page.data.scene.panoramaImage,page.data.scenes[0].panoramaImage);
+ const stale='cloud://test-env.bucket/stale.jpg',race=assets.setImages(page,{scene:{id:1,panoramaImage:stale}});await tick();await assets.setImages(page,{scene:{id:2,panoramaImage:'/assets/current.png'}});pending.get(stale).success({tempFilePath:'/temp/old.jpg'});await race;assert.equal(page.data.scene.panoramaImage,'/assets/current.png');assert.equal(page.data.scene.id,2);
+ const detached='cloud://test-env.bucket/detached.jpg',disposed=assets.setImages(page,{avatar:detached});await tick();assets.release(page);const count=page.patches.length;pending.get(detached).success({tempFilePath:'/temp/avatar.jpg'});await disposed;assert.equal(page.patches.length,count);
+ // A cache file removed by the OS must never be bound as an image source.
+ saved.delete(cache);const evicted=assets.resolve('/assets/test.jpg');await tick();pending.get(config.files['/assets/test.jpg']).success({tempFilePath:'/temp/restored.jpg'});await evicted;
+ const scenic='cloud://test-env.bucket/camphor.jpg';config.files['/assets/image_358.jpg']=scenic;
+ const preview=target(),offline=assets.setImages(preview,{scene:{panoramaImage:scenic}});
+ assert.equal(preview.data.scene.panoramaImage,require('../utils/asset-fallbacks')['/assets/image_358.jpg']);await tick();pending.get(scenic).fail(Error('offline'));await offline;
+ assert.equal(preview.data.scene.panoramaImage,require('../utils/asset-fallbacks')['/assets/image_358.jpg']);assert.deepEqual(preview.data.imageStatus,{loading:false,failed:true});
+ const recovered=assets.setImages(preview,{scene:{panoramaImage:scenic}});await tick();pending.get(scenic).success({tempFilePath:'/temp/recovered.jpg'});await recovered;
+ assert(preview.data.scene.panoramaImage.startsWith('/cache/'));assert.deepEqual(preview.data.imageStatus,{loading:false,failed:false});
+ config.files['/assets/image_15.png']='cloud://test-env.bucket/tree.png';assert.equal(assets.asset('/assets/image_15.png'),require('../utils/asset-runtime')['/assets/image_15.png']);
+ console.log('PASS: downloads, cache eviction, signed URL fallback, retry, offline previews, local illustrations, image src conversion, scene-switch races and detached views.');
+ }finally{Object.assign(config,original);}})().catch(error=>{console.error(error);process.exitCode=1;});

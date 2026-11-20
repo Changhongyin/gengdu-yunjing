@@ -1,0 +1,17 @@
+<page-meta page-style="{{guideLock}}"/>
+<view class="page fade-in {{guideMotion}}">
+  <view class="eyebrow">古渊头村 / 耕读有时 · 山水有信</view>
+  <view class="title">樟影书声卡集</view><view class="subtitle">把走过的风景，收藏成一封乡信。</view>
+  <view class="row collection-progress"><text>收藏进度</text><text class="gold">{{count}} / 4</text></view>
+  <view class="progress"><view class="progress-fill" style="width:{{count * 25}}%"/></view>
+  <view class="row section-label"><text>村中四景</text><text class="tiny">一景一笺 · 通关即藏</text></view>
+  <view class="card-grid">
+    <button class="collection-card {{item.collected ? 'collected' : ''}}" wx:for="{{scenes}}" wx:key="id" data-id="{{item.id}}" bindtap="openCard">
+      <view class="card-image {{item.collected ? '' : 'uncollected'}}"><image class="card-scene" src="{{item.panoramaImage}}" mode="aspectFill" aria-label="{{item.name}}场景"/><view wx:if="{{!item.collected}}" class="question-mark">?</view><view wx:else class="stamp">✓</view></view>
+      <view class="card-meta">0{{item.id + 1}} / 古渊头</view><view class="card-name serif">{{item.name}}</view><view class="card-status {{item.collected ? 'gold' : 'muted'}}">{{item.collected ? '已收藏' : '未收集'}} · {{item.subtitle}}</view>
+    </button>
+  </view>
+  <view class="achievement {{count === 4 ? 'complete' : ''}}"><view class="row"><text class="achievement-title serif"><image class="inline-icon" src="/assets/image_68.png" mode="aspectFit"/>全图鉴成就卡</text><text class="tiny muted">{{count === 4 ? '已点亮' : '待点亮'}}</text></view><view class="small muted">{{count === 4 ? '四景已集齐，带着这份乡信到村走走。' : '集齐全部卡片，收藏属于你的古村记忆。'}}</view></view>
+  <view class="footnote">一枚樟叶，留住一段乡愁</view>
+</view>
+<village-pet id="pet"/>

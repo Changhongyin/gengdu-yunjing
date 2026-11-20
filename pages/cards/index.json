@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "樟影书声卡集",
+  "usingComponents": {
+    "village-pet": "/components/village-pet/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的寻樟明信片",
+  "usingComponents": {
+    "village-pet": "/components/village-pet/index"
+  }
+}

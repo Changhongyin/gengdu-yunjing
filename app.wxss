@@ -1,0 +1,74 @@
+page { background:#f5f1e8; color:#243f3b; font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans SC",sans-serif; font-size:25rpx; line-height:1.6; }
+view, text, button, input, textarea { box-sizing:border-box; }
+button { margin:0; padding:0; width:auto; font-size:25rpx; line-height:1.5; font-weight:400; background:transparent; color:inherit; border-radius:8rpx; }
+button::after { border:0; }
+button[disabled] { color:#92988c; background:#e9e8dd; }
+.page { padding:30rpx 32rpx 48rpx; }
+.eyebrow { color:#7b8579; font-size:21rpx; letter-spacing:1rpx; margin:0 0 12rpx; }
+.title { font-family:"STKaiti","KaiTi",serif; font-size:56rpx; line-height:1.4; letter-spacing:5rpx; font-weight:500; }
+.subtitle { color:#7a8477; font-size:24rpx; margin-top:3rpx; }
+.row { display:flex; align-items:center; justify-content:space-between; }
+.gap { gap:16rpx; }
+.column { display:flex; flex-direction:column; }
+.grow { flex:1; }
+.muted { color:#7d8779; }
+.small { font-size:21rpx; }
+.tiny { font-size:18rpx; }
+.gold { color:#ad8849; }
+.serif { font-family:"STKaiti","KaiTi",serif; letter-spacing:2rpx; }
+.section-label { font-size:21rpx; color:#7d8779; letter-spacing:3rpx; margin:28rpx 0 16rpx; }
+.panel { background:#fffcf5; border:1rpx solid #e4e1d5; border-radius:20rpx; padding:24rpx; margin-top:24rpx; }
+.primary, .outline { min-height:84rpx; display:flex; align-items:center; justify-content:center; padding:15rpx 24rpx; }
+.primary { color:#fffcf5; background:#243f3b; border:1rpx solid #243f3b; }
+.outline { border:1rpx solid #b18d50; background:#fffcf5; }
+.btn-small { min-height:68rpx; padding:12rpx 20rpx; font-size:23rpx; }
+.button-row { display:flex; gap:20rpx; margin-top:24rpx; }
+.button-row > button { flex:1; }
+.icon-button { width:72rpx !important; height:72rpx; min-width:72rpx; flex:none !important; display:flex; justify-content:center; align-items:center; border:1rpx solid #c5ccbe; border-radius:12rpx; font-size:36rpx; }
+.progress { height:6rpx; border-radius:8rpx; background:#dfe3d6; overflow:hidden; margin-top:16rpx; }
+.progress-fill { background:#ad8849; height:100%; transition:width .4s; }
+.footnote { text-align:center; color:#879080; font-size:20rpx; margin:28rpx 0 0; }
+.pill { border:1rpx solid #d7d8c8; border-radius:6rpx; padding:5rpx 14rpx; font-size:20rpx; color:#7d8779; }
+.search { display:flex; align-items:center; background:#fffcf5; border:1rpx solid #e0dfd3; border-radius:12rpx; padding:16rpx 20rpx; margin:28rpx 0 20rpx; gap:16rpx; }
+.search input { flex:1; height:44rpx; font-size:23rpx; }
+.chips { display:flex; gap:12rpx; }
+.chip { border:1rpx solid #dfdfd1; padding:12rpx 18rpx; font-size:21rpx; border-radius:8rpx; }
+.chip.active { background:#243f3b; color:#fffcf5; border-color:#243f3b; }
+.price { color:#ad8849; font-size:44rpx; line-height:1.25; }
+.price .currency { font-size:24rpx; margin-right:4rpx; }
+.favorite { font-size:39rpx; line-height:1; padding:8rpx; color:#7f897a; }
+.favorite.selected { color:#ae8747; }
+.fixed-bottom { position:fixed; left:0; right:0; bottom:0; background:#fffcf5; padding:20rpx 32rpx calc(20rpx + env(safe-area-inset-bottom)); border-top:1rpx solid #e5e2d6; z-index:10; }
+.fixed-bottom .button-row { margin:0; }
+.with-bottom { padding-bottom:190rpx; }
+.divider { height:1rpx; background:#e6e3d7; margin:24rpx 0; }
+.empty { text-align:center; padding:70rpx 16rpx; color:#7d8779; }
+.empty-symbol { font-family:serif; color:#b5945a; font-size:70rpx; margin-bottom:15rpx; }
+.back { font-size:24rpx; color:#788273; padding:0; text-align:left; }
+.sheet-mask { position:fixed; inset:0; background:rgba(25,44,39,.42); z-index:50; display:flex; align-items:flex-end; }
+.sheet { background:#f5f1e8; padding:38rpx 32rpx calc(32rpx + env(safe-area-inset-bottom)); border-radius:28rpx 28rpx 0 0; width:100%; max-height:85vh; overflow-y:auto; }
+.sheet-title { font-size:40rpx; font-family:"STKaiti","KaiTi",serif; margin-bottom:12rpx; }
+.close { width:62rpx; height:62rpx; font-size:40rpx; color:#7d8779; }
+.field { width:100%; min-height:76rpx; padding:14rpx 18rpx; border-radius:8rpx; background:#f2efe6; font-size:23rpx; }
+.field-label { font-size:21rpx; color:#7d8779; margin-bottom:10rpx; }
+.fade-in { animation:enter .3s ease-out; }
+@keyframes enter { from {opacity:0;transform:translateY(10rpx);} to {opacity:1;transform:translateY(0);} }
+
+.shortcut-icon{display:block;width:36rpx;height:36rpx;margin:auto}.inline-icon{display:inline-block;width:28rpx;height:28rpx;margin-right:10rpx;vertical-align:middle}
+
+/* Custom tab bar clearance (the custom bar overlays the page instead of shrinking it). */
+.tab-safe{padding-bottom:calc(176rpx + env(safe-area-inset-bottom))}
+/* Guide entry: the current tab page's own content recedes, then returns. Children are
+   animated one by one so fixed-position children keep their containing block. */
+.guide-out > view,.guide-out > scene-art{animation:guide-recede .48s cubic-bezier(.4,0,.6,1) both}
+.guide-out > view:nth-child(2),.guide-out > scene-art:nth-child(2){animation-delay:.035s}
+.guide-out > view:nth-child(3),.guide-out > scene-art:nth-child(3){animation-delay:.07s}
+.guide-out > view:nth-child(4),.guide-out > scene-art:nth-child(4){animation-delay:.105s}
+.guide-out > view:nth-child(5),.guide-out > scene-art:nth-child(5){animation-delay:.14s}
+.guide-out > view:nth-child(6),.guide-out > scene-art:nth-child(6){animation-delay:.175s}
+.guide-out > view:nth-child(n+7){animation-delay:.21s}
+.guide-in > view,.guide-in > scene-art{animation:guide-return .4s cubic-bezier(.2,.7,.2,1) both}
+.guide-in > view:nth-child(n+3){animation-delay:.05s}
+.guide-in > view:nth-child(n+5){animation-delay:.1s}
+@keyframes guide-recede{from{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}to{opacity:0;transform:translateY(-22rpx) scale(.965);filter:blur(6rpx)}}
+@keyframes guide-return{from{opacity:0;transform:translateY(14rpx) scale(.985)}to{opacity:1;transform:translateY(0) scale(1)}}

@@ -1,0 +1,290 @@
+﻿原设计页面,文字层级,原文,当前代码原文位置,文本核对
+登录模板（不属于古村流程）,text8,App name,,原导出文件附带的英文登录模板；当前小程序未使用
+登录模板（不属于古村流程）,text,Create an account,,原导出文件附带的英文登录模板；当前小程序未使用
+登录模板（不属于古村流程）,text1,Enter your email to sign up for this app,,原导出文件附带的英文登录模板；当前小程序未使用
+登录模板（不属于古村流程）,text2,email@domain.com,,原导出文件附带的英文登录模板；当前小程序未使用
+登录模板（不属于古村流程）,text3,Continue,,原导出文件附带的英文登录模板；当前小程序未使用
+登录模板（不属于古村流程）,text4,or,pages/guide/index.wxml / pages/guide/index.js / pages/postcard/index.wxml / pages/postcard/index.js / pages/village/index.wxml / pages/village/index.js / pages/cards/index.wxml / pages/cards/index.js / pages/shop/index.wxml / pages/shop/index.js / pages/webview/index.wxml / pages/webview/index.js / pages/product/index.wxml / pages/product/index.js / pages/checkout/index.wxml / pages/checkout/index.js / pages/profile/index.wxml / pages/profile/index.js / pages/panorama/index.wxml / pages/panorama/index.js / components/scene-art/index.wxml / utils/store.js / utils/data.js / utils/panorama-renderer.js / app.json,存在原文引用
+登录模板（不属于古村流程）,text5,Continue with Google,,原导出文件附带的英文登录模板；当前小程序未使用
+登录模板（不属于古村流程）,text6,Continue with Apple,,原导出文件附带的英文登录模板；当前小程序未使用
+登录模板（不属于古村流程）,text7,"By clicking continue, you agree to our Terms of Service and Privacy Policy",,原导出文件附带的英文登录模板；当前小程序未使用
+guide,text9,9:41,,由微信系统状态栏提供实际时间，不应绘制固定时间
+guide,text10,耕读云镜 · 樟影书声,pages/guide/index.json / app.json,存在原文引用
+guide,text11,古渊头村 / 耕读有时 · 山水有信,pages/guide/index.wxml / pages/cards/index.wxml,存在原文引用
+guide,text12,线上寻樟,pages/guide/index.wxml / pages/postcard/index.wxml / pages/panorama/index.wxml / pages/panorama/index.json / app.json,存在原文引用
+guide,text13,循一缕樟香，拾一村书声。,pages/guide/index.wxml,存在原文引用
+guide,text14,普通关卡可任选,pages/guide/index.wxml,存在原文引用
+guide,text15,✓ 印记已收集,pages/guide/index.wxml,存在原文引用
+guide,text16,北,components/scene-art/index.wxml,存在原文引用
+guide,text17,千年古樟,pages/village/index.wxml / components/scene-art/index.wxml / utils/data.js,存在原文引用
+guide,text18,壹 · 樟下听书 / 已通关,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+guide,text19,乌竹溪古水秤,components/scene-art/index.wxml / utils/data.js,存在原文引用
+guide,text20,贰 · 溪畔识古 / 可探索,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+guide,text21,承启堂,components/scene-art/index.wxml / utils/data.js,存在原文引用
+guide,text22,叁 · 耕读传家 / 可探索,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+guide,text23,博士菜供销社,pages/shop/index.js / pages/product/index.wxml / pages/checkout/index.wxml / components/scene-art/index.wxml / utils/data.js,存在原文引用
+guide,text24,终章 · 乡味寻根 / 待解锁,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+guide,text25,完成至少2个前置关卡解锁,pages/guide/index.wxml / pages/panorama/index.wxml,存在原文引用
+guide,text26,已拾得 1 枚樟影,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+guide,text27,01 / 04,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+guide,text28,再完成 1 关，即可解锁终章,pages/guide/index.wxml,存在原文引用
+guide,text29,查看卡集图鉴,pages/guide/index.wxml,存在原文引用
+guide,text30,前往全景漫游,pages/guide/index.wxml,存在原文引用
+guide,text31,任选关卡进入全景 · 完成任务领取明信片,pages/guide/index.wxml,存在原文引用
+cards,text32,9:41,,由微信系统状态栏提供实际时间，不应绘制固定时间
+cards,text33,耕读云镜 · 樟影书声,pages/guide/index.json / app.json,存在原文引用
+cards,text34,古渊头村 / 耕读有时 · 山水有信,pages/guide/index.wxml / pages/cards/index.wxml,存在原文引用
+cards,text35,樟影书声卡集,pages/cards/index.wxml / pages/cards/index.json,存在原文引用
+cards,text36,把走过的风景，收藏成一封乡信。,pages/cards/index.wxml,存在原文引用
+cards,text37,收藏进度,pages/cards/index.wxml,存在原文引用
+cards,text38,1 / 4,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+cards,text39,村 中 四 景,pages/village/index.wxml / pages/cards/index.wxml,存在原文引用
+cards,text40,一景一笺 · 通关即藏,pages/cards/index.wxml,存在原文引用
+cards,text41,01 / 古渊头,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+cards,text42,千年古樟,pages/village/index.wxml / components/scene-art/index.wxml / utils/data.js,存在原文引用
+cards,text43,已收藏 · 樟下听书,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+cards,text44,?,pages/guide/index.wxml / pages/guide/index.js / pages/postcard/index.wxml / pages/postcard/index.js / pages/village/index.js / pages/cards/index.wxml / pages/cards/index.js / pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/product/index.js / pages/checkout/index.wxml / pages/checkout/index.js / pages/profile/index.wxml / pages/profile/index.js / pages/panorama/index.wxml / pages/panorama/index.js / components/scene-art/index.wxml / utils/panorama-renderer.js,存在原文引用
+cards,text45,02 / 古渊头,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+cards,text46,乌竹溪古水秤,components/scene-art/index.wxml / utils/data.js,存在原文引用
+cards,text47,未收集 · 溪畔识古,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+cards,text48,?,pages/guide/index.wxml / pages/guide/index.js / pages/postcard/index.wxml / pages/postcard/index.js / pages/village/index.js / pages/cards/index.wxml / pages/cards/index.js / pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/product/index.js / pages/checkout/index.wxml / pages/checkout/index.js / pages/profile/index.wxml / pages/profile/index.js / pages/panorama/index.wxml / pages/panorama/index.js / components/scene-art/index.wxml / utils/panorama-renderer.js,存在原文引用
+cards,text49,03 / 古渊头,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+cards,text50,承启堂,components/scene-art/index.wxml / utils/data.js,存在原文引用
+cards,text51,未收集 · 耕读传家,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+cards,text52,?,pages/guide/index.wxml / pages/guide/index.js / pages/postcard/index.wxml / pages/postcard/index.js / pages/village/index.js / pages/cards/index.wxml / pages/cards/index.js / pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/product/index.js / pages/checkout/index.wxml / pages/checkout/index.js / pages/profile/index.wxml / pages/profile/index.js / pages/panorama/index.wxml / pages/panorama/index.js / components/scene-art/index.wxml / utils/panorama-renderer.js,存在原文引用
+cards,text53,04 / 古渊头,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+cards,text54,博士菜供销社,pages/shop/index.js / pages/product/index.wxml / pages/checkout/index.wxml / components/scene-art/index.wxml / utils/data.js,存在原文引用
+cards,text55,未收集 · 乡味寻根,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+cards,text56,全图鉴成就卡,pages/cards/index.wxml,存在原文引用
+cards,text57,待点亮,pages/cards/index.wxml,存在原文引用
+cards,text58,集齐全部卡片，线下打卡分享小程序 兑换限定文创礼品,,未接入线下兑换；当前卡集仅显示集齐成就，不宣称可兑换
+cards,text59,一枚樟叶，留住一段乡愁,pages/cards/index.wxml,存在原文引用
+shop,text60,9:41,,由微信系统状态栏提供实际时间，不应绘制固定时间
+shop,text61,耕读云镜 · 樟影书声,pages/guide/index.json / app.json,存在原文引用
+shop,text62,古渊头村 / 把乡味与书香带回家,pages/shop/index.wxml,存在原文引用
+shop,text63,乡味好物,pages/shop/index.wxml / pages/shop/index.json / pages/product/index.wxml / pages/checkout/index.wxml / app.json,存在原文引用
+shop,text64,一份古法手作，一缕耕读乡愁。,pages/shop/index.wxml,存在原文引用
+shop,text65,搜一份乡味，寻一件好物,pages/shop/index.wxml,存在原文引用
+shop,text66,全部好物,pages/shop/index.wxml / pages/shop/index.js,存在原文引用
+shop,text67,博士菜,pages/village/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/checkout/index.wxml / components/scene-art/index.wxml / utils/data.js,存在原文引用
+shop,text68,古村文创,pages/shop/index.js / utils/data.js,存在原文引用
+shop,text69,手作礼盒,pages/shop/index.js,存在原文引用
+shop,text70,可收藏 · 可加购 · 在线购买,,演示流程文案调整：在线购买/去付款改为查看购物车/生成演示订单
+shop,text71,乡 味,pages/village/index.wxml / pages/shop/index.wxml / pages/shop/index.json / pages/product/index.wxml / pages/checkout/index.wxml / pages/checkout/index.json / pages/panorama/index.wxml / utils/data.js / app.json,存在原文引用
+shop,text72,1 / 2,,未使用：设计的 1/2 轮播计数；当前每个商品只有一幅可用完整主图
+shop,text73,博士菜 · 古法梅干菜,utils/data.js,存在原文引用
+shop,text74,¥,pages/shop/index.wxml / pages/product/index.wxml / pages/checkout/index.wxml / pages/profile/index.wxml,存在原文引用
+shop,text75,把晴日晒进菜香，将耕读记在三餐。,utils/data.js,存在原文引用
+shop,text76,古法手作 / 100g·袋装,utils/data.js,存在原文引用
+shop,text77,28,pages/product/index.js / components/scene-art/index.wxml / utils/data.js,存在原文引用
+shop,text78,联系商家,pages/shop/index.wxml,存在原文引用
+shop,text79,加入购物车,pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/product/index.js,存在原文引用
+shop,text80,书 香,pages/shop/index.wxml,存在原文引用
+shop,text81,1 / 2,,未使用：设计的 1/2 轮播计数；当前每个商品只有一幅可用完整主图
+shop,text82,樟影书声 · 文创手札,utils/data.js,存在原文引用
+shop,text83,¥,pages/shop/index.wxml / pages/product/index.wxml / pages/checkout/index.wxml / pages/profile/index.wxml,存在原文引用
+shop,text84,以樟叶为签，把古村书声夹进日常。,utils/data.js,存在原文引用
+shop,text85,樟叶书签 + 古村明信片,utils/data.js,存在原文引用
+shop,text86,36,pages/panorama/index.js / components/scene-art/index.wxml / utils/data.js,存在原文引用
+shop,text87,联系商家,pages/shop/index.wxml,存在原文引用
+shop,text88,加入购物车,pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/product/index.js,存在原文引用
+shop,text89,购物车 · 1件,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+shop,text90,¥28,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+shop,text91,去付款,,演示流程文案调整：在线购买/去付款改为查看购物车/生成演示订单
+product 自提,text92,9:41,,由微信系统状态栏提供实际时间，不应绘制固定时间
+product 自提,text93,耕读云镜 · 樟影书声,pages/guide/index.json / app.json,存在原文引用
+product 自提,text94,乡味好物 / 商品详情,pages/product/index.wxml,存在原文引用
+product 自提,text95,古渊头村,pages/guide/index.wxml / pages/village/index.wxml / pages/cards/index.wxml / pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/checkout/index.wxml / pages/profile/index.wxml,存在原文引用
+product 自提,text96,古 法,pages/village/index.wxml / pages/shop/index.wxml / pages/product/index.wxml / utils/data.js,存在原文引用
+product 自提,text97,1 / 2,,未使用：设计的 1/2 轮播计数；当前每个商品只有一幅可用完整主图
+product 自提,text98,博士菜 · 古法梅干菜,utils/data.js,存在原文引用
+product 自提,text99,晴日晒菜，雨日读书。把古村的慢时光， 酿成餐桌上的一缕乡香。,utils/data.js,存在原文引用
+product 自提,text100,¥,pages/shop/index.wxml / pages/product/index.wxml / pages/checkout/index.wxml / pages/profile/index.wxml,存在原文引用
+product 自提,text101,28,pages/product/index.js / components/scene-art/index.wxml / utils/data.js,存在原文引用
+product 自提,text102,/ 100g·袋,utils/data.js,存在原文引用
+product 自提,text103,古法晾晒 · 村民手作,,同主题文案改写/缩略；详见页级核对说明
+product 自提,text104,选择规格,pages/product/index.wxml,存在原文引用
+product 自提,text105,100g 尝鲜装 ¥28,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+product 自提,text106,购买数量,pages/product/index.wxml,存在原文引用
+product 自提,text107,200g 家庭装 ¥48,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+product 自提,text108,1,pages/guide/index.wxml / pages/guide/index.js / pages/postcard/index.wxml / pages/village/index.wxml / pages/cards/index.wxml / pages/cards/index.js / pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/product/index.js / pages/checkout/index.wxml / pages/checkout/index.js / pages/profile/index.wxml / pages/profile/index.js / pages/panorama/index.wxml / pages/panorama/index.js / components/scene-art/index.wxml / utils/store.js / utils/data.js / utils/panorama-renderer.js / app.json,存在原文引用
+product 自提,text109,到村自提 · 免运费,pages/product/index.wxml / pages/checkout/index.wxml,存在原文引用
+product 自提,text110,快递到家,pages/product/index.wxml / pages/checkout/index.wxml / pages/profile/index.wxml,存在原文引用
+product 自提,text111,博士菜供销社 · 到村取货,pages/product/index.wxml,存在原文引用
+product 自提,text112,来古村走一走，让乡味与旅途相逢。,pages/product/index.wxml,存在原文引用
+product 自提,text113,明日 10:00—12:00,pages/product/index.js / pages/checkout/index.js,存在原文引用
+product 自提,text114,商品合计,pages/product/index.wxml,存在原文引用
+product 自提,text115,¥28,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+product 自提,text116,到村自提免运费，支持预约取货,,同主题文案改写/缩略；详见页级核对说明
+product 自提,text117,加入购物车,pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/product/index.js,存在原文引用
+product 自提,text118,立即购买,pages/product/index.wxml,存在原文引用
+product 快递,text119,9:41,,由微信系统状态栏提供实际时间，不应绘制固定时间
+product 快递,text120,耕读云镜 · 樟影书声,pages/guide/index.json / app.json,存在原文引用
+product 快递,text121,乡味好物 / 商品详情,pages/product/index.wxml,存在原文引用
+product 快递,text122,古渊头村,pages/guide/index.wxml / pages/village/index.wxml / pages/cards/index.wxml / pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/checkout/index.wxml / pages/profile/index.wxml,存在原文引用
+product 快递,text123,古 法,pages/village/index.wxml / pages/shop/index.wxml / pages/product/index.wxml / utils/data.js,存在原文引用
+product 快递,text124,1 / 2,,未使用：设计的 1/2 轮播计数；当前每个商品只有一幅可用完整主图
+product 快递,text125,博士菜 · 古法梅干菜,utils/data.js,存在原文引用
+product 快递,text126,晴日晒菜，雨日读书。把古村的慢时光， 酿成餐桌上的一缕乡香。,utils/data.js,存在原文引用
+product 快递,text127,¥,pages/shop/index.wxml / pages/product/index.wxml / pages/checkout/index.wxml / pages/profile/index.wxml,存在原文引用
+product 快递,text128,28,pages/product/index.js / components/scene-art/index.wxml / utils/data.js,存在原文引用
+product 快递,text129,/ 100g·袋,utils/data.js,存在原文引用
+product 快递,text130,古法晾晒 · 村民手作,,同主题文案改写/缩略；详见页级核对说明
+product 快递,text131,选择规格,pages/product/index.wxml,存在原文引用
+product 快递,text132,100g 尝鲜装 ¥28,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+product 快递,text133,购买数量,pages/product/index.wxml,存在原文引用
+product 快递,text134,200g 家庭装 ¥48,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+product 快递,text135,1,pages/guide/index.wxml / pages/guide/index.js / pages/postcard/index.wxml / pages/village/index.wxml / pages/cards/index.wxml / pages/cards/index.js / pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/product/index.js / pages/checkout/index.wxml / pages/checkout/index.js / pages/profile/index.wxml / pages/profile/index.js / pages/panorama/index.wxml / pages/panorama/index.js / components/scene-art/index.wxml / utils/store.js / utils/data.js / utils/panorama-renderer.js / app.json,存在原文引用
+product 快递,text136,到村自提 · 免运费,pages/product/index.wxml / pages/checkout/index.wxml,存在原文引用
+product 快递,text137,快递到家,pages/product/index.wxml / pages/checkout/index.wxml / pages/profile/index.wxml,存在原文引用
+product 快递,text138,收货人姓名,pages/product/index.wxml / pages/checkout/index.wxml,存在原文引用
+product 快递,text139,手机号码,pages/product/index.wxml / pages/checkout/index.wxml,存在原文引用
+product 快递,text140,填写省市区、街道及门牌号,pages/product/index.wxml / pages/checkout/index.wxml,存在原文引用
+product 快递,text141,商品合计,pages/product/index.wxml,存在原文引用
+product 快递,text142,¥28,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+product 快递,text143,快递运费 ¥6，结算时计入,pages/product/index.wxml,存在原文引用
+product 快递,text144,加入购物车,pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/product/index.js,存在原文引用
+product 快递,text145,立即购买,pages/product/index.wxml,存在原文引用
+checkout,text146,9:41,,由微信系统状态栏提供实际时间，不应绘制固定时间
+checkout,text147,耕读云镜 · 樟影书声,pages/guide/index.json / app.json,存在原文引用
+checkout,text148,古渊头村 / 乡味好物,pages/checkout/index.wxml,存在原文引用
+checkout,text149,把乡味带回家,pages/checkout/index.wxml / pages/checkout/index.json / utils/data.js,存在原文引用
+checkout,text150,所选好物与取货安排，都在这里。,pages/checkout/index.wxml,存在原文引用
+checkout,text151,古渊头村 · 博士菜供销社,pages/shop/index.js / pages/checkout/index.wxml,存在原文引用
+checkout,text152,古法梅干菜,utils/data.js,存在原文引用
+checkout,text153,100g 尝鲜装,utils/data.js,存在原文引用
+checkout,text154,¥28,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+checkout,text156,已选好物,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+checkout,text155,1,pages/guide/index.wxml / pages/guide/index.js / pages/postcard/index.wxml / pages/village/index.wxml / pages/cards/index.wxml / pages/cards/index.js / pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/product/index.js / pages/checkout/index.wxml / pages/checkout/index.js / pages/profile/index.wxml / pages/profile/index.js / pages/panorama/index.wxml / pages/panorama/index.js / components/scene-art/index.wxml / utils/store.js / utils/data.js / utils/panorama-renderer.js / app.json,存在原文引用
+checkout,text157,收货与取货,pages/checkout/index.wxml,存在原文引用
+checkout,text158,到村自提 · 免运费,pages/product/index.wxml / pages/checkout/index.wxml,存在原文引用
+checkout,text159,古渊头村 · 博士菜供销社,pages/shop/index.js / pages/checkout/index.wxml,存在原文引用
+checkout,text160,明日 10:00—12:00,pages/product/index.js / pages/checkout/index.js,存在原文引用
+checkout,text161,修改 ›,pages/checkout/index.wxml,存在原文引用
+checkout,text162,商品金额,pages/checkout/index.wxml,存在原文引用
+checkout,text163,¥28,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+checkout,text164,运费,pages/product/index.wxml / pages/checkout/index.wxml,存在原文引用
+checkout,text165,¥8,,原稿自提却显示运费8元、合计36元；当前按自提0元/快递6元动态计算
+checkout,text166,应付合计,pages/checkout/index.wxml,存在原文引用
+checkout,text167,¥36,,原稿自提却显示运费8元、合计36元；当前按自提0元/快递6元动态计算
+checkout,text168,选择到村自提，留一点时间给古村。 村民手作，愿每一份乡味都被珍惜。,,同主题文案改写/缩略；详见页级核对说明
+checkout,text169,应付合计,pages/checkout/index.wxml,存在原文引用
+checkout,text170,¥36,,原稿自提却显示运费8元、合计36元；当前按自提0元/快递6元动态计算
+checkout,text171,去付款,,演示流程文案调整：在线购买/去付款改为查看购物车/生成演示订单
+village,text172,9:41,,由微信系统状态栏提供实际时间，不应绘制固定时间
+village,text173,耕读云镜 · 樟影书声,pages/guide/index.json / app.json,存在原文引用
+village,text174,搜索村落、景点与活动,,当前未实现村落搜索/外部导航；原稿没有目的地经纬度
+village,text175,耕 读,pages/guide/index.wxml / pages/guide/index.json / pages/village/index.wxml / pages/cards/index.wxml / pages/shop/index.wxml / pages/profile/index.wxml / pages/profile/index.json / utils/data.js / app.json,存在原文引用
+village,text176,古渊头村,pages/guide/index.wxml / pages/village/index.wxml / pages/cards/index.wxml / pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/checkout/index.wxml / pages/profile/index.wxml,存在原文引用
+village,text177,村落档案 / 01,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+village,text178,千年古樟撑起一片清荫，耕读文化串起村落日常。 在樟影、溪声与书声之间，读一段古村时光。,utils/data.js,存在原文引用
+village,text179,千年古樟,pages/village/index.wxml / components/scene-art/index.wxml / utils/data.js,存在原文引用
+village,text180,耕读文化,pages/village/index.wxml / utils/data.js,存在原文引用
+village,text181,古村漫行,pages/village/index.wxml / pages/village/index.json / app.json,存在原文引用
+village,text182,导航目的地,,当前未实现村落搜索/外部导航；原稿没有目的地经纬度
+village,text183,古渊头村,pages/guide/index.wxml / pages/village/index.wxml / pages/cards/index.wxml / pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/checkout/index.wxml / pages/profile/index.wxml,存在原文引用
+village,text184,跳转导航,,当前未实现村落搜索/外部导航；原稿没有目的地经纬度
+village,text185,村中四景,pages/village/index.wxml / pages/cards/index.wxml,存在原文引用
+village,text186,一景一故事 · 慢行古渊头,pages/village/index.wxml,存在原文引用
+village,text187,01 / 樟下听书,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+village,text188,千年古樟,pages/village/index.wxml / components/scene-art/index.wxml / utils/data.js,存在原文引用
+village,text189,在樟荫下驻足， 听一段村落与书声的故事。,,以 utils/data.js 中同一景点的扩写介绍替代原稿短介绍
+village,text190,景点介绍,pages/village/index.wxml,存在原文引用
+village,text191,打卡留言,,当前未实现打卡留言入口和存储；原稿仅有入口标签
+village,text192,全景入口,pages/village/index.wxml,存在原文引用
+village,text193,前往打卡,pages/village/index.wxml,存在原文引用
+village,text194,02 / 溪畔识古,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+village,text195,乌竹溪古水秤,components/scene-art/index.wxml / utils/data.js,存在原文引用
+village,text196,沿着溪声走近古水秤， 读乡村生活里的朴素智慧。,utils/data.js,存在原文引用
+village,text197,景点介绍,pages/village/index.wxml,存在原文引用
+village,text198,打卡留言,,当前未实现打卡留言入口和存储；原稿仅有入口标签
+village,text199,全景入口,pages/village/index.wxml,存在原文引用
+village,text200,前往打卡,pages/village/index.wxml,存在原文引用
+village,text201,03 / 耕读传家,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+village,text202,承启堂,components/scene-art/index.wxml / utils/data.js,存在原文引用
+village,text203,从一方堂屋读起， 感受耕读传家的文化意蕴。,utils/data.js,存在原文引用
+village,text204,景点介绍,pages/village/index.wxml,存在原文引用
+village,text205,打卡留言,,当前未实现打卡留言入口和存储；原稿仅有入口标签
+village,text206,全景入口,pages/village/index.wxml,存在原文引用
+village,text207,前往打卡,pages/village/index.wxml,存在原文引用
+village,text208,04 / 乡味寻根,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+village,text209,博士菜供销社,pages/shop/index.js / pages/product/index.wxml / pages/checkout/index.wxml / components/scene-art/index.wxml / utils/data.js,存在原文引用
+village,text210,看看一份博士菜， 如何连接手作、乡味与日常。,,以 utils/data.js 中同一景点的扩写介绍替代原稿短介绍
+village,text211,景点介绍,pages/village/index.wxml,存在原文引用
+village,text212,打卡留言,,当前未实现打卡留言入口和存储；原稿仅有入口标签
+village,text213,全景入口,pages/village/index.wxml,存在原文引用
+village,text214,前往打卡,pages/village/index.wxml,存在原文引用
+village,text215,村落新事,pages/village/index.wxml,存在原文引用
+village,text216,村落活动 / 竞赛示例,,已合并展示为“竞赛示例 · 活动时间待发布”；没有正式活动时间
+village,text217,樟下共读 · 耕读时光,pages/village/index.wxml,存在原文引用
+village,text218,在古樟下读一段村落故事， 赴一场与书声相伴的文化之约。,pages/village/index.wxml,存在原文引用
+village,text219,来源：竞赛示例,,已合并展示为“竞赛示例 · 活动时间待发布”；没有正式活动时间
+village,text220,时间：待发布,,已合并展示为“竞赛示例 · 活动时间待发布”；没有正式活动时间
+village,text221,乡味手作 · 博士菜体验,pages/village/index.wxml,存在原文引用
+village,text222,从古法晾晒到家常餐桌， 认识古村手作的日常温度。,pages/village/index.wxml,存在原文引用
+village,text223,来源：竞赛示例,,已合并展示为“竞赛示例 · 活动时间待发布”；没有正式活动时间
+village,text224,时间：待发布,,已合并展示为“竞赛示例 · 活动时间待发布”；没有正式活动时间
+village,text225,资料与出行提示,,部分使用：保留开放交通提示；原稿的资料说明标题与来源句未完整显示
+village,text226,村落主题依据本次资料整理；活动为竞赛示例。 开放、交通与活动安排以正式发布为准。,,部分使用：保留开放交通提示；原稿的资料说明标题与来源句未完整显示
+profile,text227,9:41,,由微信系统状态栏提供实际时间，不应绘制固定时间
+profile,text228,耕读云镜 · 樟影书声,pages/guide/index.json / app.json,存在原文引用
+profile,text229,古渊头村 / 我的耕读日常,pages/profile/index.wxml,存在原文引用
+profile,text230,个人中心,pages/profile/index.wxml,存在原文引用
+profile,text231,把足迹与喜欢，轻轻收藏。,pages/profile/index.wxml,存在原文引用
+profile,text232,寻樟旅人,pages/profile/index.wxml / pages/profile/index.js / utils/store.js,存在原文引用
+profile,text233,樟下听书人,pages/profile/index.wxml,存在原文引用
+profile,text234,在古渊头，拾一页乡愁。,pages/profile/index.wxml,存在原文引用
+profile,text235,樟 友,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+profile,text236,樟影相伴 · 书声入心,,同主题文案改写/缩略；详见页级核对说明
+profile,text237,个人信息,pages/profile/index.wxml,存在原文引用
+profile,text239,卡集,pages/guide/index.wxml / pages/postcard/index.wxml / pages/cards/index.wxml / pages/cards/index.json / pages/panorama/index.wxml,存在原文引用
+profile,text240,寻樟明信片,pages/postcard/index.json / pages/profile/index.wxml,存在原文引用
+profile,text241,通关一景，收藏一笺,pages/profile/index.wxml,存在原文引用
+profile,text238,1 / 4,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+profile,text242,我的收藏,pages/profile/index.wxml,存在原文引用
+profile,text243,村落 / 景点,,语义差异：原稿我的收藏指村落/景点；当前 favorites 指商品收藏
+profile,text244,我的商品,pages/profile/index.js,存在原文引用
+profile,text245,订单与商品收藏,,入口合并/更名：当前为购买记录、商品收藏、我的购物车，见 profile 页面
+profile,text246,订单页,,入口合并/更名：当前为购买记录、商品收藏、我的购物车，见 profile 页面
+profile,text247,购买记录,pages/checkout/index.js / pages/profile/index.wxml / pages/profile/index.js,存在原文引用
+profile,text248,收藏页,,入口合并/更名：当前为购买记录、商品收藏、我的购物车，见 profile 页面
+profile,text249,商品收藏,pages/profile/index.wxml / pages/profile/index.js,存在原文引用
+profile,text250,反馈,pages/profile/index.wxml,存在原文引用
+profile,text251,樟影入心，书声相伴,pages/profile/index.wxml,存在原文引用
+panorama,text252,9:41,,由微信系统状态栏提供实际时间，不应绘制固定时间
+panorama,text253,耕读云镜 · 樟影书声,pages/guide/index.json / app.json,存在原文引用
+panorama,text257,线上寻樟 / 全景漫游,pages/panorama/index.wxml,存在原文引用
+panorama,text258,千年古樟,pages/village/index.wxml / components/scene-art/index.wxml / utils/data.js,存在原文引用
+panorama,text259,01 / 04,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+panorama,text254,壹 · 樟下听书,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+panorama,text255,印记已收藏,pages/panorama/index.wxml,存在原文引用
+panorama,text256,左右拖动，慢看古村,,同主题文案改写/缩略；详见页级核对说明
+panorama,text260,线上寻樟 · 关卡地图,pages/panorama/index.wxml,存在原文引用
+panorama,text261,已集 1 张明信片 · 普通关卡任选,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+panorama,text262,终章任务：完成至少2个前置关卡解锁,pages/panorama/index.wxml,存在原文引用
+panorama,text263,全景图切换,pages/panorama/index.wxml,存在原文引用
+panorama,text264,四处风景,pages/panorama/index.wxml,存在原文引用
+panorama,text265,上一关,pages/panorama/index.wxml,存在原文引用
+panorama,text267,01/04,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+panorama,text266,下一关,pages/panorama/index.wxml,存在原文引用
+panorama,text268,了解这里,pages/panorama/index.wxml,存在原文引用
+panorama,text269,前往卡集,pages/postcard/index.wxml / pages/panorama/index.wxml,存在原文引用
+panorama,text270,1,pages/guide/index.wxml / pages/guide/index.js / pages/postcard/index.wxml / pages/village/index.wxml / pages/cards/index.wxml / pages/cards/index.js / pages/shop/index.wxml / pages/shop/index.js / pages/product/index.wxml / pages/product/index.js / pages/checkout/index.wxml / pages/checkout/index.js / pages/profile/index.wxml / pages/profile/index.js / pages/panorama/index.wxml / pages/panorama/index.js / components/scene-art/index.wxml / utils/store.js / utils/data.js / utils/panorama-renderer.js / app.json,存在原文引用
+panorama,text271,明信片,pages/guide/index.wxml / pages/postcard/index.wxml / pages/postcard/index.json / pages/profile/index.wxml / pages/panorama/index.wxml / utils/data.js,存在原文引用
+panorama,text272,古渊头村 · 水墨全景插画示意,,同主题文案改写/缩略；详见页级核对说明
+postcard,text273,9:41,,由微信系统状态栏提供实际时间，不应绘制固定时间
+postcard,text274,耕读云镜 · 樟影书声,pages/guide/index.json / app.json,存在原文引用
+postcard,text275,线上寻樟 / 我的明信片,pages/postcard/index.wxml,存在原文引用
+postcard,text276,樟下书声,utils/data.js,存在原文引用
+postcard,text277,01 / 04,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+postcard,text278,这一枚印记，来自千年古樟。,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+postcard,text279,GU YUAN TOU / POSTCARD 01,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+postcard,text280,千年古樟 · 樟下听书,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+postcard,text281,在一树清荫里，读一页古村。 把樟影与书声，寄给远方的自己。,,由页面模板与 utils/data.js / utils/store.js 动态组合，见页级核对说明
+postcard,text282,樟影书声 · 已收藏,pages/postcard/index.wxml,存在原文引用
+postcard,text283,线上寻樟印记,pages/postcard/index.wxml,存在原文引用
+postcard,text284,一景一笺，慢慢集齐,pages/postcard/index.wxml,存在原文引用
+postcard,text285,每通关一处景点，可收集一张打卡明信片。 尚未收集的风景，等你在卡集中继续点亮。,pages/postcard/index.wxml,存在原文引用
+postcard,text286,返回漫游,pages/postcard/index.wxml,存在原文引用
+postcard,text287,前往卡集,pages/postcard/index.wxml / pages/panorama/index.wxml,存在原文引用
+postcard,text288,把一程樟影，收藏成一封乡信,pages/postcard/index.wxml,存在原文引用

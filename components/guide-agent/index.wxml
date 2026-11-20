@@ -1,0 +1,162 @@
+<!-- Invisible back catcher: a shown page-container turns one hardware/gesture back into its leave events.
+     Mounted only while this layer is open on the visible page (one instance in the whole app). -->
+<page-container wx:if="{{backCapture && containerMounted}}" show="{{containerShown}}" overlay="{{false}}" duration="{{100}}" z-index="{{1}}" custom-style="height:0;background:transparent;" bind:beforeleave="containerLeave" bind:leave="containerLeave" bind:afterleave="containerLeave"/>
+<!-- enable=false: plain wrapper. enable=true (guide-config layerPortal) moves the layer to the page root. -->
+<root-portal enable="{{portal}}">
+<view wx:if="{{phase !== 'idle'}}" class="g-layer p-{{phase}} {{short ? 'is-short' : ''}} {{skipped ? 'is-skipped' : ''}}">
+  <!-- catchtouchmove sits only on parts that never scroll. It must not be on an
+       ancestor of the scroll-view or textarea, where it can block their scrolling. -->
+  <view class="g-veil" catchtouchmove="noop"/>
+  <view class="g-ripple"/>
+  <view class="g-hills" aria-hidden="true"><view class="g-hill g-hill-far"/><view class="g-hill g-hill-near"/></view>
+
+  <view class="g-stream" aria-hidden="true"/>
+
+  <!-- Cinematic: one channel, a dividing stone, four streams, four characters. -->
+  <view class="g-stage" aria-hidden="true">
+    <view class="g-water"/>
+    <view class="g-leaf"/>
+    <view class="g-ring g-ring-1"/><view class="g-ring g-ring-2"/>
+    <view class="g-stone"/>
+    <view class="g-ch g-ch-1"><view class="g-ch-h"/><view class="g-ch-c"/><view class="g-ch-v"/></view>
+    <view class="g-ch g-ch-2"><view class="g-ch-h"/><view class="g-ch-c"/><view class="g-ch-v"/></view>
+    <view class="g-ch g-ch-3"><view class="g-ch-h"/><view class="g-ch-c"/><view class="g-ch-v"/></view>
+    <view class="g-ch g-ch-4"><view class="g-ch-h"/><view class="g-ch-c"/><view class="g-ch-v"/></view>
+    <view class="g-cell g-cell-1"><view class="g-motif g-motif-tree"/><text class="g-cell-tag">树</text></view>
+    <view class="g-cell g-cell-2"><view class="g-motif g-motif-water"/><text class="g-cell-tag">水</text></view>
+    <view class="g-cell g-cell-3"><view class="g-motif g-motif-hall"/><text class="g-cell-tag">屋</text></view>
+    <view class="g-cell g-cell-4"><view class="g-motif g-motif-book"/><text class="g-cell-tag">书</text></view>
+    <view class="g-seal"><text class="g-seal-text">古渊</text><text class="g-seal-text">头村</text></view>
+    <view class="g-sub">循一渠水声，问一村旧事。</view>
+  </view>
+
+  <!-- The title is one element: it soaks in during the cinematic, then travels to the chat header. -->
+  <view class="g-title" aria-label="古村问地"><text class="g-char g-char-1">古</text><text class="g-char g-char-2">村</text><text class="g-char g-char-3">问</text><text class="g-char g-char-4">地</text></view>
+
+  <view wx:if="{{phase === 'receding' || phase === 'cinema'}}" class="g-skip" bindtap="skip" catchtouchmove="noop" hover-class="g-press" role="button" aria-label="跳过开场动画">跳过<text class="g-skip-arrow">›</text></view>
+
+  <view wx:if="{{chatMounted}}" class="g-chat" style="padding-bottom:{{keyboard}}px">
+    <view class="g-head" catchtouchmove="noop">
+      <view class="g-back" bindtap="close" hover-class="g-press" role="button" aria-label="返回{{sourceName}}"><text class="g-back-arrow">‹</text></view>
+      <view class="g-head-text"><text class="g-head-sub">古渊头村 · AI 讲解员阿樟</text></view>
+      <view class="g-mode {{live ? 'g-mode-live' : ''}}" bindtap="tapMode" role="button" aria-label="{{modeHint}}"><view class="g-mode-dot"/><text>{{modeLabel}}</text></view>
+    </view>
+    <view class="g-rule"/>
+    <view wx:if="{{contextName}}" class="g-context" catchtouchmove="noop">
+      <text class="g-context-label">你正在</text><text class="g-context-name">{{contextName}}</text>
+      <view class="g-context-ask" data-question="{{contextQuestion}}" bindtap="ask" hover-class="g-press" role="button" aria-label="{{contextQuestion}}">讲讲这里 ↗</view>
+    </view>
+
+    <scroll-view class="g-scroll" scroll-y="{{true}}" scroll-top="{{scrollTop}}" scroll-with-animation="{{true}}" enhanced="{{true}}" show-scrollbar="{{false}}" bindscroll="onScroll" bindtap="blurInput">
+      <view class="g-welcome">
+        <view class="g-w g-w-1 g-hello">
+          <view class="g-avatar g-avatar-lg"><text class="g-avatar-glyph">樟</text></view>
+          <view class="g-hello-copy">
+            <view class="g-hello-name">阿樟<text class="g-hello-role">古渊头 AI 讲解员</text></view>
+            <text class="g-hello-text" user-select="{{true}}">你好，我是阿樟。村里的树、水、屋与书，我照着村子提供的讲解资料来讲；资料里没有写的，我会直说不知道。</text>
+          </view>
+        </view>
+        <view class="g-w g-w-2">
+          <view class="g-label"><text>村中四景</text><text class="g-label-note">点一处，听我讲</text></view>
+          <view class="g-stamps">
+            <view wx:for="{{stamps}}" wx:key="id" class="g-stamp" data-question="{{item.question}}" bindtap="ask" hover-class="g-press" role="button" aria-label="{{item.question}}">
+              <view class="g-stamp-photo"><image class="g-stamp-img" src="{{item.photo}}" mode="aspectFill" lazy-load="{{true}}"/></view>
+              <text class="g-stamp-no">{{item.no}}</text>
+              <text class="g-stamp-name">{{item.name}}</text>
+            </view>
+          </view>
+        </view>
+        <view class="g-w g-w-3">
+          <view class="g-label"><text>不妨这样问</text><text class="g-label-note">也可以直接写下你的问题</text></view>
+          <view wx:for="{{suggestions}}" wx:key="text" class="g-ask {{item.creative ? 'g-ask-creative' : ''}}" data-question="{{item.text}}" bindtap="ask" hover-class="g-press" role="button">
+            <text class="g-ask-no">{{item.no}}</text><text class="g-ask-text">{{item.text}}</text><text wx:if="{{item.creative}}" class="g-ask-tag">创意</text><text class="g-ask-arrow">↗</text>
+          </view>
+        </view>
+        <view class="g-w g-w-4 g-ground">回答依据《古渊头村AI讲解知识库》。开放、票务、交通与活动安排请以村方公告为准。{{live ? '' : '当前为离线演示，回答直接引用资料原文，不是模型生成。'}}</view>
+      </view>
+
+      <view wx:for="{{messages}}" wx:key="id" class="g-msg">
+        <view wx:if="{{item.role === 'user'}}" class="g-user"><text class="g-user-text" user-select="{{true}}">{{item.text}}</text></view>
+        <view wx:else class="g-guide">
+          <view class="g-guide-head">
+            <view class="g-avatar"><text class="g-avatar-glyph">樟</text></view>
+            <text class="g-guide-name">阿樟</text>
+            <text wx:if="{{item.status === 'waiting'}}" class="g-guide-state">正在翻资料</text>
+            <text wx:elif="{{item.status === 'streaming'}}" class="g-guide-state">落笔中</text>
+            <text wx:if="{{item.creative}}" class="g-creative">创意讲述 · 非史实</text>
+          </view>
+
+          <view wx:if="{{item.status === 'waiting'}}" class="g-letter g-letter-wait" aria-label="正在准备回答"><view class="g-drop g-drop-1"/><view class="g-drop g-drop-2"/><view class="g-drop g-drop-3"/></view>
+
+          <view wx:elif="{{item.paras.length}}" class="g-letter {{item.creative ? 'g-letter-creative' : ''}}">
+            <view wx:for="{{item.paras}}" wx:for-item="para" wx:key="k" class="g-para"><text user-select="{{true}}"><text wx:for="{{para.spans}}" wx:for-item="span" wx:key="k" class="{{span.cite ? 'g-cite' : ''}}">{{span.text}}</text></text></view>
+            <view wx:if="{{item.status === 'streaming'}}" class="g-caret"/>
+            <view wx:if="{{item.cites.length}}" class="g-sources">
+              <text class="g-sources-label">依据</text>
+              <text wx:for="{{item.cites}}" wx:for-item="cite" wx:key="id" class="g-source" data-id="{{cite.id}}" bindtap="tapCite" role="button" aria-label="查看资料来源 {{cite.label}}">{{cite.label}}</text>
+            </view>
+            <view wx:if="{{item.status === 'done'}}" class="g-origin">{{item.origin === 'live' ? 'AI 生成 · 依据知识库资料，仅供参考' : '离线演示 · 引用资料原文，非模型生成'}}{{item.truncated ? ' · 回答较长已截断' : ''}}</view>
+          </view>
+
+          <view wx:if="{{item.status === 'stopped'}}" class="g-note">
+            <text>{{item.stopReason === 'interrupted' ? '回答被中断，已保留上面的内容。' : '已停止。'}}</text>
+            <text class="g-note-action" data-id="{{item.id}}" bindtap="retry" role="button">重新回答</text>
+          </view>
+
+          <view wx:if="{{item.status === 'error'}}" class="g-error" role="alert">
+            <view class="g-error-title">{{item.error.title}}</view>
+            <view class="g-error-detail">{{item.error.detail}}<text wx:if="{{item.error.code}}" class="g-error-code">（{{item.error.code}}）</text></view>
+            <view class="g-error-detail">你的问题已保留，可以重试。</view>
+            <view class="g-error-actions">
+              <view wx:if="{{item.error.retryable}}" class="g-btn g-btn-solid" data-id="{{item.id}}" bindtap="retry" hover-class="g-press" role="button">重试</view>
+              <view class="g-btn" data-id="{{item.id}}" bindtap="retryDemo" hover-class="g-press" role="button">改用离线演示回答</view>
+            </view>
+          </view>
+
+          <view wx:if="{{item.status === 'done' && item.card}}" class="g-card">
+            <image class="g-card-photo" src="{{item.card.photo}}" mode="aspectFill" lazy-load="{{true}}" data-id="{{item.card.id}}" bindtap="openGallery"/>
+            <view class="g-card-copy">
+              <text class="g-card-kicker">{{item.card.kicker}}</text>
+              <text class="g-card-name">{{item.card.name}}</text>
+              <view class="g-card-links">
+                <text class="g-link" data-id="{{item.card.id}}" bindtap="openPlace" role="button">{{item.card.isVillage ? '村落介绍' : '景点介绍'}}</text>
+                <text class="g-link" data-id="{{item.card.id}}" bindtap="openGallery" role="button">实景影册</text>
+                <text class="g-link" data-id="{{item.card.id}}" bindtap="openRoute" role="button">虚拟路线</text>
+              </view>
+            </view>
+          </view>
+
+          <view wx:if="{{item.status === 'done' && item.followups.length}}" class="g-follow">
+            <view wx:for="{{item.followups}}" wx:for-item="follow" wx:key="*this" class="g-follow-item" data-question="{{follow}}" bindtap="ask" hover-class="g-press" role="button"><text class="g-follow-mark">↳</text><text>{{follow}}</text></view>
+          </view>
+        </view>
+      </view>
+      <view class="g-end"/>
+    </scroll-view>
+
+    <view class="g-dock {{keyboard ? 'g-dock-kb' : ''}}">
+      <view wx:if="{{showJump}}" class="g-jump" bindtap="jumpBottom" catchtouchmove="noop" role="button" aria-label="回到最新回答">回到最新 ↓</view>
+      <view wx:if="{{hint}}" class="g-hint" role="alert">{{hint}}</view>
+      <view class="g-dock-row">
+        <view class="g-field {{focused ? 'g-field-on' : ''}}">
+          <textarea class="g-input" value="{{draft}}" placeholder="问问古渊头的树、水、屋与书…" placeholder-class="g-placeholder" maxlength="{{maxLength}}" auto-height="{{true}}" fixed="{{true}}" adjust-position="{{false}}" show-confirm-bar="{{false}}" disable-default-padding="{{true}}" hold-keyboard="{{true}}" cursor-spacing="{{24}}" bindinput="input" bindfocus="focus" bindblur="blur" bindkeyboardheightchange="keyboardChange"/>
+        </view>
+        <view wx:if="{{busy}}" class="g-send g-send-stop" bindtap="stop" hover-class="g-press" role="button" aria-label="停止回答"><view class="g-stop-icon"/></view>
+        <view wx:else class="g-send {{canSend ? 'g-send-on' : ''}}" bindtap="send" hover-class="g-press" role="button" aria-label="发送问题"><text class="g-send-glyph">问</text></view>
+      </view>
+      <view class="g-dock-foot" catchtouchmove="noop"><text>{{draftLength}} / {{maxLength}}</text><text>AI 讲解可能有误，重要信息请以村方公告为准</text></view>
+    </view>
+  </view>
+
+  <view wx:if="{{source}}" class="g-sheet-mask" bindtap="closeSource" catchtouchmove="noop">
+    <view class="g-sheet" catchtap="noop">
+      <view class="g-sheet-kicker">资料来源 · {{source.id}}</view>
+      <view class="g-sheet-title">{{source.title}}</view>
+      <view class="g-sheet-meta">{{source.publisher}}<text wx:if="{{source.date}}"> · {{source.date}}</text></view>
+      <view class="g-sheet-use">在讲解资料中的用途：{{source.use}}</view>
+      <view class="g-sheet-note">来源条目出自用户提供的《古渊头村AI讲解知识库》第十一节，阿樟未联网核对原文。</view>
+      <view class="g-btn g-btn-solid g-sheet-close" bindtap="closeSource" hover-class="g-press" role="button">知道了</view>
+    </view>
+  </view>
+</view>
+</root-portal>

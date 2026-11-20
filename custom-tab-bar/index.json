@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "guide-agent": "/components/guide-agent/index"
+  }
+}

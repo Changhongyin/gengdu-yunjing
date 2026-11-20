@@ -1,0 +1,158 @@
+<view class="art-fit" style="height:{{boxHeight}}px"><view class="art-native" style="width:{{naturalWidth}}px;height:{{naturalHeight}}px;transform:scale({{scale}})"><view wx:if="{{kind === 'map'}}" class="art-content"><view class="content8 art-root">
+        <view class="section8">
+          <view class="subSection12">
+            <view class="image9"><image class="art-bg" src="/assets/image_10.png" mode="scaleToFill"/>
+              <image src="{{scenePhotos[0]}}" class="image10 map-real-photo" mode="aspectFill"/><image src="/assets/image_12.png" class="image11" wx:if="{{collected[0]}}" mode="scaleToFill"/>
+            </view>
+            <image src="/assets/image_13.png" class="image12" mode="scaleToFill"/><image src="/assets/image_14.png" class="image13" mode="scaleToFill"/><image src="{{assetImages.image15}}" class="image14" mode="scaleToFill"/><image src="/assets/image_16.png" class="image15" mode="scaleToFill"/><image src="{{scenePhotos[1]}}" class="image16 map-real-photo" mode="aspectFill"/><image src="{{scenePhotos[2]}}" class="image17 map-real-photo" mode="aspectFill"/><image src="{{scenePhotos[3]}}" class="image18 map-real-photo" mode="aspectFill"/>
+            <view class="image19"><image class="art-bg" src="/assets/image_20.png" mode="scaleToFill"/>
+              <view class="image20"><image class="art-bg" src="/assets/image_21.png" mode="scaleToFill"/><view class="div"></view></view>
+            </view>
+            <view class="block3">
+              <view class="subBlock">
+                <image src="/assets/image_22.png" class="image21" mode="scaleToFill"/>
+              </view>
+              <view class="text16">北</view>
+            </view>
+            <view class="block4" bindtap="pick" data-id="0" hover-class="landmark-hover">
+              <view class="text17">千年古樟</view>
+              <view class="text18">{{collected[0] ? "✓ 已收藏" : "壹 · 可探索"}}</view>
+            </view>
+            <view class="block5" bindtap="pick" data-id="1" hover-class="landmark-hover">
+              <view class="text19">乌竹溪古水秤</view>
+              <view class="text20">{{collected[1] ? "✓ 已收藏" : "贰 · 可探索"}}</view>
+            </view>
+            <view class="block6" bindtap="pick" data-id="2" hover-class="landmark-hover">
+              <view class="text21">承启堂</view>
+              <view class="text22">{{collected[2] ? "✓ 已收藏" : "叁 · 可探索"}}</view>
+            </view>
+            <view class="block7" bindtap="pick" data-id="3" hover-class="landmark-hover">
+              <view class="subBlock1">
+                <view class="text23">四本堂</view>
+                <view class="text24">{{collected[3] ? "✓ 已收藏" : finalUnlocked ? "终章 · 可探索" : "终章 · 待解锁"}}</view>
+              </view>
+              <view class="subBlock2">
+                <image src="/assets/image_23.png" class="image22" mode="scaleToFill"/>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view></view><view wx:if="{{kind === 'scene0'}}" class="art-content"><image class="real-scene-photo" src="{{scenePhotos[0]}}" mode="aspectFill" lazy-load/></view><view wx:if="{{kind === 'scene1'}}" class="art-content"><image class="real-scene-photo" src="{{scenePhotos[1]}}" mode="aspectFill" lazy-load/></view><view wx:if="{{kind === 'scene2'}}" class="art-content"><image class="real-scene-photo" src="{{scenePhotos[2]}}" mode="aspectFill" lazy-load/></view><view wx:if="{{kind === 'scene3'}}" class="art-content"><image class="real-scene-photo" src="{{scenePhotos[3]}}" mode="aspectFill" lazy-load/></view><view wx:if="{{kind === 'vegetable'}}" class="art-content"><view class="main48 art-root">
+        <view class="subSection41">
+          <view class="block19">
+            <view class="subBlock11">
+              <view class="image119"><image class="art-bg" src="/assets/image_120.png" mode="scaleToFill"/>
+                <image src="/assets/image_121.png" class="image120" mode="scaleToFill"/>
+              </view>
+              <image src="/assets/image_122.png" class="image121" mode="scaleToFill"/>
+              <view class="image122"><image class="art-bg" src="/assets/image_123.png" mode="scaleToFill"/>
+                <image src="/assets/image_124.png" class="image123" mode="scaleToFill"/><image src="/assets/image_125.png" class="image124" mode="scaleToFill"/>
+              </view>
+              <image src="/assets/image_126.png" class="image125" mode="scaleToFill"/>
+              <view class="div17">
+                <image src="/assets/image_127.png" class="image126" mode="scaleToFill"/>
+                <view class="image127"><image class="art-bg" src="/assets/image_128.png" mode="scaleToFill"/>
+                  <image src="/assets/image_129.png" class="image128" mode="scaleToFill"/><image src="/assets/image_130.png" class="image129" mode="scaleToFill"/><image src="/assets/image_131.png" class="image130" mode="scaleToFill"/><image src="/assets/image_132.png" class="image131" mode="scaleToFill"/>
+                  <view class="image132"><image class="art-bg" src="/assets/image_133.png" mode="scaleToFill"/>
+                    <view class="image133"><image class="art-bg" src="/assets/image_134.png" mode="scaleToFill"/>
+                      <image src="/assets/image_135.png" class="image134" mode="scaleToFill"/><image src="/assets/image_136.png" class="image135" mode="scaleToFill"/><image src="/assets/image_137.png" class="image136" mode="scaleToFill"/>
+                    </view>
+                  </view>
+                </view>
+              </view>
+              <view class="div18">
+                <view class="text96">
+                  <view class="text96__linebreak">古</view>
+                  <view>法</view>
+                </view>
+              </view>
+              
+            </view>
+            <view class="subBlock12">
+              <view class="div21">
+                <view class="div22">
+                  <view class="image137"><image class="art-bg" src="/assets/image_138.png" mode="scaleToFill"/>
+                    <image src="/assets/image_139.png" class="image138" mode="scaleToFill"/>
+                  </view>
+                </view>
+                <view class="div23">
+                  <image src="/assets/image_140.png" class="image139" mode="scaleToFill"/>
+                  <view class="image140"><image class="art-bg" src="/assets/image_141.png" mode="scaleToFill"/>
+                    <image src="/assets/image_142.png" class="image141" mode="scaleToFill"/><image src="/assets/image_143.png" class="image142" mode="scaleToFill"/>
+                  </view>
+                  <image src="/assets/image_144.png" class="image143" mode="scaleToFill"/>
+                  <view class="div24">
+                    <image src="/assets/image_145.png" class="image144" mode="scaleToFill"/>
+                    <view class="image145"><image class="art-bg" src="/assets/image_146.png" mode="scaleToFill"/>
+                      <image src="/assets/image_147.png" class="image146" mode="scaleToFill"/><image src="/assets/image_148.png" class="image147" mode="scaleToFill"/><image src="/assets/image_149.png" class="image148" mode="scaleToFill"/><image src="/assets/image_150.png" class="image149" mode="scaleToFill"/>
+                      <view class="image150"><image class="art-bg" src="/assets/image_151.png" mode="scaleToFill"/>
+                        <view class="image151"><image class="art-bg" src="/assets/image_152.png" mode="scaleToFill"/>
+                          <image src="/assets/image_153.png" class="image152" mode="scaleToFill"/><image src="/assets/image_154.png" class="image153" mode="scaleToFill"/><image src="/assets/image_155.png" class="image154" mode="scaleToFill"/>
+                        </view>
+                      </view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view></view><view wx:if="{{kind === 'notebook'}}" class="art-content"><view class="section27 art-root">
+          <view class="subSection32">
+            <view class="block15">
+              <view class="subBlock10">
+                <view class="div6">
+                  <view class="div15">
+                    <view class="text80">
+                      <view class="text80__linebreak">书</view>
+                      <view>香</view>
+                    </view>
+                  </view>
+                  <view class="div7">
+                    <view class="image93"><image class="art-bg" src="/assets/image_94.png" mode="scaleToFill"/>
+                      <view class="div8">
+                        <view class="image94"><image class="art-bg" src="/assets/image_95.png" mode="scaleToFill"/>
+                          <image src="/assets/image_96.png" class="image95" mode="scaleToFill"/><image src="/assets/image_97.png" class="image96" mode="scaleToFill"/><image src="/assets/image_98.png" class="image97" mode="scaleToFill"/><image src="/assets/image_99.png" class="image98" mode="scaleToFill"/><image src="/assets/image_100.png" class="image99" mode="scaleToFill"/>
+                        </view>
+                      </view>
+                      <view class="div9">
+                        <view class="image100"><image class="art-bg" src="/assets/image_101.png" mode="scaleToFill"/>
+                          <view class="image101"><image class="art-bg" src="/assets/image_102.png" mode="scaleToFill"/>
+                            <image src="/assets/image_103.png" class="image102" mode="scaleToFill"/>
+                          </view>
+                          <image src="/assets/image_104.png" class="image103" mode="scaleToFill"/><image src="/assets/image_105.png" class="image104" mode="scaleToFill"/><image src="/assets/image_106.png" class="image105" mode="scaleToFill"/>
+                        </view>
+                      </view>
+                      <image src="/assets/image_107.png" class="image106" mode="scaleToFill"/>
+                    </view>
+                    <view class="div10">
+                      <view class="div11"></view>
+                      <view class="image107"><image class="art-bg" src="/assets/image_108.png" mode="scaleToFill"/>
+                        <view class="div13"><view class="div14"></view></view>
+                        <view class="div12">
+                          <image src="/assets/image_109.png" class="image108" mode="scaleToFill"/><image src="/assets/image_110.png" class="image109" mode="scaleToFill"/><image src="/assets/image_111.png" class="image110" mode="scaleToFill"/><image src="/assets/image_112.png" class="image111" mode="scaleToFill"/>
+                        </view>
+                      </view>
+                    </view>
+                    <image src="/assets/image_113.png" class="image112" mode="scaleToFill"/>
+                  </view>
+                  
+                </view>
+              </view>
+              <image src="/assets/image_114.png" class="image113" mode="scaleToFill"/>
+            </view>
+          </view>
+          <view class="subSection33"></view>
+        </view></view><view wx:if="{{kind === 'villageHero'}}" class="art-content"><view class="subSection63 art-root">
+            <image src="/assets/image_235.png" class="image234" mode="scaleToFill"/><image src="/assets/image_236.png" class="image235" mode="scaleToFill"/>
+            <view class="image236"><image class="art-bg" src="/assets/image_237.png" mode="scaleToFill"/>
+              <image src="/assets/image_238.png" class="image237" mode="scaleToFill"/><image src="/assets/image_239.png" class="image238" mode="scaleToFill"/>
+            </view>
+            <image src="/assets/image_240.png" class="image239" mode="scaleToFill"/><image src="/assets/image_241.png" class="image240" mode="scaleToFill"/><image src="/assets/image_242.png" class="image241" mode="scaleToFill"/><image src="/assets/image_243.png" class="image242" mode="scaleToFill"/><image src="/assets/image_244.png" class="image243" mode="scaleToFill"/><image src="/assets/image_245.png" class="image244" mode="scaleToFill"/>
+            <view class="block27">
+              <view class="text175">
+                <view class="text175__linebreak">耕</view>
+                <view>读</view>
+              </view>
+            </view>
+          </view></view></view></view>

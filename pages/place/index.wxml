@@ -1,0 +1,32 @@
+<page-meta page-style="{{guideLock}}"/>
+<view class="place-page fade-in {{guideMotion}}">
+ <view class="archive-top row"><text>耕读云镜 / {{isVillage ? '村落档案' : '四景手记'}}</text><text class="archive-edition">GU YUAN TOU</text></view>
+ <view class="place-hero">
+  <swiper class="place-swiper" autoplay="{{playing}}" interval="5200" duration="600" circular bindchange="slideChange" current="{{slide}}">
+   <swiper-item wx:for="{{place.gallery}}" wx:key="src">
+    <image wx:if="{{!failedImages[index]}}" class="hero-photo" src="{{item.src}}" mode="aspectFill" data-index="{{index}}" bindtap="preview" binderror="imageError"/>
+    <view wx:else class="photo-error" bindtap="retryPhoto">照片暂未加载 · 点击重试</view>
+   </swiper-item>
+  </swiper>
+  <view class="hero-gradient"/>
+  <view class="hero-seal">{{isVillage ? '耕读' : '寻樟'}}<view>古渊头</view></view>
+  <view class="hero-type"><view class="hero-kicker">{{place.kicker}}</view><view class="hero-title serif">{{place.name}}</view><view class="hero-en">{{place.en}}</view></view>
+  <button class="gallery-control" bindtap="togglePlay" aria-label="{{playing ? '暂停轮播' : '播放轮播'}}">{{playing ? 'Ⅱ' : '▷'}}　0{{slide+1}} / 0{{place.gallery.length}}</button>
+ </view>
+ <view class="photo-caption row"><text>{{place.gallery[slide].caption}}</text><button bindtap="preview" data-index="{{slide}}">查看原图 ↗</button></view>
+ <view class="place-body">
+  <view class="opening"><view class="opening-mark">{{isVillage ? '村' : '景'}}</view><view class="opening-poem serif">{{place.line}}</view><view class="opening-summary">{{place.summary}}</view></view>
+  <view class="place-facts"><view wx:for="{{place.facts}}" wx:key="index"><text class="fact-label">{{item[0]}}</text><text class="fact-value">{{item[1]}}</text></view></view>
+  <view class="place-tags"><text wx:for="{{place.tags}}" wx:key="*this">{{item}}</text></view>
+  <view class="reading-nav"><button class="gold" bindtap="goStory">01　读故事</button><button bindtap="preview" data-index="{{slide}}">02　看实景</button><button bindtap="goThird">03　{{isVillage ? '慢行路线' : '留一笔'}}</button></view>
+  <view id="story-{{index}}" class="story-section" wx:for="{{place.sections}}" wx:key="title"><view class="story-number">0{{index+1}} / {{isVillage ? '村落文脉' : '风景里的故事'}}</view><view class="story-title serif">{{item.title}}</view><view class="story-copy">{{item.text}}</view><view wx:if="{{index === 0}}" class="story-photo-wrap"><image class="story-photo" src="{{place.gallery[1].src}}" mode="aspectFill" lazy-load data-index="1" bindtap="preview"/><view class="image-label">{{place.gallery[1].caption}}<text>FIELD NOTES / 02</text></view></view></view>
+  <view class="observation"><view class="observation-label">停一停 · 看见细节</view><view class="serif observation-title">带着一个问题，走进风景。</view><view>{{place.observation}}</view><text class="observation-credit">AI 原创观察引导</text></view>
+  <view wx:if="{{isVillage}}" class="village-scenes"><view class="section-heading row"><view class="serif">循四景，读一村</view><text>四处风景 / FOUR PLACES</text></view><view class="scene-link" wx:for="{{sceneLinks}}" wx:key="id" bindtap="openScene" data-id="{{item.id}}"><image src="{{item.image}}" mode="aspectFill" lazy-load/><view><text class="tiny gold">0{{index+1}} / 景点档案</text><view class="serif">{{item.name}}</view></view><text>↗</text></view></view>
+  <view wx:else id="notes" class="notes-section"><view class="section-heading row"><view class="serif">在这里，留一笔。</view><text>{{notes.length}} 则我的游记</text></view><view class="notes-intro">记下此刻看到的风景，也收藏走过这里的自己。</view><view wx:if="{{!notes.length}}" class="notes-empty"><text class="serif">风景有了，你的故事呢？</text><view>写下第一条打卡留言</view></view><view wx:for="{{notes}}" wx:key="id" class="note"><view class="row"><text class="note-person">{{item.nickname}}</text><text class="note-date">{{item.date}}</text></view><view class="note-copy">{{item.text}}</view><view class="row"><text class="note-location">已记于 · {{place.name}}</text><button class="delete-note" data-id="{{item.id}}" bindtap="deleteNote">删除</button></view></view><button class="outline note-button" bindtap="compose">＋ 写一条打卡留言</button><view class="local-note">留言仅保存在当前设备，不公开发布；不验证实际到访。</view></view>
+  <view class="visit-card"><view class="visit-card-label">下一步 / WALK INTO THE VILLAGE</view><view class="serif">{{isVillage ? '把屏幕里的风景，走成脚下的路。' : '让下一程，继续发生。'}}</view><view class="visit-note">{{place.note}}</view><view class="button-row"><button class="outline" bindtap="navigate">慢行路线 ↗</button><button wx:if="{{!isVillage}}" class="primary" bindtap="explore">进入全景漫游</button></view></view>
+  <view class="source-note"><view>文字与影像</view><text>{{place.sources}}</text><view>照片：用户提供的古渊头实地调研原片。标题、诗性引言及观察引导为 AI 原创文案。</view></view>
+  <view class="archive-end"><text>樟影书声</text><view>慢慢走，慢慢读，慢慢记得。</view></view>
+ </view>
+ <view wx:if="{{showComposer}}" class="sheet-mask" bindtap="closeComposer"><view class="sheet note-sheet" catchtap="noop"><view class="row"><text class="sheet-title">写给{{place.name}}</text><button class="close" bindtap="closeComposer" aria-label="关闭留言">×</button></view><view class="muted small">留住一个细节，一段心情。</view><textarea class="note-input" value="{{draft}}" bindinput="editNote" maxlength="300" auto-height adjust-position placeholder="今天在这里，我看见……"/><view class="row tiny muted"><text>仅保存到当前设备</text><text>{{draft.length}} / 300</text></view><button class="primary save-note" disabled="{{!draft.length || submitting}}" bindtap="saveNote">收好这一笔</button></view></view>
+</view>
+<village-pet id="pet" covered="{{showComposer}}"/>

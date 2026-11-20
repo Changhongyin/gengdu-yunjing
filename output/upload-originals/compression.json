@@ -1,0 +1,32 @@
+[
+  {
+    "file": "assets/scenes/chengqi-hall.jpg",
+    "before": 713366,
+    "after": 168650,
+    "q": 15
+  },
+  {
+    "file": "assets/scenes/wuzhu-waterwheel.jpg",
+    "before": 748363,
+    "after": 171431,
+    "q": 13
+  },
+  {
+    "file": "assets/scenes/vegetable-cooperative.jpg",
+    "before": 868346,
+    "after": 169387,
+    "q": 18
+  },
+  {
+    "file": "assets/panoramas/camphor-original.jpg",
+    "before": 406319,
+    "after": 169550,
+    "q": 17
+  },
+  {
+    "file": "assets/panoramas/camphor-enhanced.jpg",
+    "before": 683117,
+    "after": 170243,
+    "q": 14
+  }
+]

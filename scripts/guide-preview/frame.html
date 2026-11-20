@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>webview</title>
+<link rel="stylesheet" href="/__font/kai.css">
+<style>
+:root{--safe-bottom:34px}
+html,body{margin:0;height:100%;overflow:hidden;-webkit-text-size-adjust:100%}
+*{-webkit-tap-highlight-color:transparent}
+::-webkit-scrollbar{display:none}
+#world{position:absolute;inset:0}
+.wx-page{position:absolute;inset:0;overflow-x:hidden;overflow-y:auto;visibility:hidden;pointer-events:none}
+.wx-page.hx-top{visibility:visible;pointer-events:auto}
+wx-view,wx-swiper,wx-scroll-view,wx-movable-area,wx-movable-view,wx-picker,wx-canvas{display:block}
+wx-text{display:inline;white-space:pre-line;user-select:none}
+wx-text[user-select]{user-select:text}
+wx-image{display:inline-block;width:320px;height:240px;overflow:hidden;background-repeat:no-repeat;background-position:center}
+wx-button{display:block;box-sizing:border-box;position:relative;margin-left:auto;margin-right:auto;padding:0 14px;font-size:18px;line-height:2.55;text-align:center;border-radius:5px;background:#f8f8f8;overflow:hidden;cursor:pointer;user-select:none}
+wx-swiper{height:150px;position:relative;overflow:hidden}
+wx-swiper-item{display:block;position:absolute;inset:0;opacity:0;pointer-events:none;transition:opacity .35s}
+wx-swiper-item.hx-current{opacity:1;pointer-events:auto}
+wx-scroll-view{overflow-x:hidden;overflow-y:auto}
+wx-textarea{display:block;width:300px;height:150px}
+wx-input{display:block;height:1.4em}
+wx-textarea>textarea,wx-input>input{display:block;box-sizing:border-box;width:100%;height:100%;min-height:inherit;max-height:inherit;margin:0;padding:0;border:0;outline:0;resize:none;background:transparent;color:inherit;font:inherit;line-height:inherit;overflow-y:auto}
+textarea::placeholder,input::placeholder{color:#a3a894}
+wx-page-container,wx-page-meta{display:none}
+wx-root-portal{display:block}
+.hx-toast{position:fixed;left:50%;top:42%;transform:translateX(-50%);max-width:70%;padding:12px 18px;border-radius:8px;background:rgba(40,40,40,.88);color:#fff;font:14px/1.5 sans-serif;z-index:9999;text-align:center}
+</style></head>
+<body><div id="world"></div>
+<script src="/__bundle.js"></script>
+<script src="/runtime.js"></script>
+</body></html>

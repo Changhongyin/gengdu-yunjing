@@ -1,0 +1,2362 @@
+{
+  "description": "耕读云镜 · 樟影书声，古渊头村导览小程序",
+  "miniprogramRoot": "./",
+  "compileType": "miniprogram",
+  "appid": "touristappid",
+  "projectname": "gengdu-yunjing",
+  "libVersion": "3.7.12",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "checkSiteMap": false,
+    "urlCheck": true,
+    "ignoreUploadUnusedFiles": true,
+    "compileWorklet": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "localPlugins": false,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "condition": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "packOptions": {
+    "ignore": [
+      {
+        "value": "index.html",
+        "type": "file"
+      },
+      {
+        "value": "design-reference.html",
+        "type": "file"
+      },
+      {
+        "value": "scripts",
+        "type": "folder"
+      },
+      {
+        "value": "README.md",
+        "type": "file"
+      },
+      {
+        "value": "docs",
+        "type": "folder"
+      },
+      {
+        "value": "output",
+        "type": "folder"
+      },
+      {
+        "value": "web",
+        "type": "folder"
+      },
+      {
+        "value": ".git",
+        "type": "folder"
+      },
+      {
+        "value": ".agents",
+        "type": "folder"
+      },
+      {
+        "value": ".codex",
+        "type": "folder"
+      },
+      {
+        "value": ".DS_Store",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_1.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_115.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_116.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_117.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_118.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_119.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_156.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_157.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_158.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_159.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_160.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_161.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_162.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_163.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_164.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_165.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_166.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_167.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_168.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_169.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_170.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_171.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_172.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_173.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_174.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_175.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_176.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_177.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_178.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_179.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_180.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_181.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_182.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_183.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_184.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_185.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_186.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_187.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_188.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_189.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_190.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_191.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_192.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_193.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_194.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_195.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_196.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_197.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_198.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_199.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_2.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_200.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_201.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_202.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_203.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_204.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_205.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_206.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_207.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_208.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_209.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_210.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_211.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_212.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_213.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_214.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_215.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_216.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_217.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_218.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_219.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_220.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_221.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_222.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_223.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_224.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_225.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_226.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_227.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_228.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_229.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_230.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_231.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_232.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_233.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_234.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_24.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_246.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_247.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_248.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_249.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_25.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_250.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_251.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_252.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_253.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_254.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_255.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_256.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_257.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_259.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_26.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_260.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_262.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_263.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_264.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_265.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_266.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_267.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_268.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_269.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_270.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_271.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_272.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_273.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_274.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_275.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_276.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_277.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_278.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_279.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_280.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_281.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_282.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_283.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_284.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_285.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_286.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_287.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_288.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_289.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_290.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_291.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_292.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_293.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_294.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_295.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_296.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_297.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_298.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_299.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_3.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_300.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_301.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_302.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_303.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_304.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_305.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_306.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_307.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_308.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_309.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_310.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_311.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_312.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_313.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_314.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_315.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_316.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_317.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_318.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_319.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_32.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_320.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_321.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_322.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_323.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_324.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_325.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_326.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_327.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_328.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_329.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_33.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_330.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_331.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_332.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_333.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_334.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_335.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_336.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_34.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_340.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_342.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_343.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_344.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_346.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_348.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_35.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_350.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_351.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_352.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_354.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_356.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_357.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_358.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_358.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_359.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_36.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_360.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_361.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_362.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_363.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_364.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_365.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_366.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_367.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_368.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_369.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_37.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_370.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_371.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_372.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_374.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_375.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_377.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_378.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_379.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_38.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_380.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_381.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_381.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_382.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_39.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_4.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_46.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_47.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_5.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_51.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_52.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_53.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_54.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_55.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_56.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_57.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_58.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_59.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_6.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_60.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_61.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_62.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_63.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_64.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_69.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_7.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_70.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_71.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_72.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_73.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_74.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_75.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_76.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_77.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_78.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_79.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_8.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_80.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_81.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_82.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_83.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_84.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_85.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_86.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_87.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_88.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_89.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_9.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_90.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_91.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_92.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_93.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_10.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_100.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_101.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_102.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_103.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_104.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_105.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_106.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_107.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_108.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_109.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_11.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_110.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_111.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_112.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_113.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_114.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_12.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_120.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_121.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_122.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_123.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_124.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_125.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_126.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_127.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_128.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_129.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_13.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_130.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_131.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_132.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_133.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_134.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_135.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_136.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_137.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_138.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_139.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_14.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_140.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_141.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_142.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_143.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_144.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_145.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_146.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_147.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_148.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_149.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_15.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_150.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_151.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_152.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_153.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_154.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_155.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_16.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_17.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_18.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_19.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_20.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_21.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_22.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_23.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_235.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_236.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_237.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_238.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_239.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_240.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_241.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_242.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_243.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_244.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_245.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_258.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_261.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_27.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_28.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_29.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_30.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_31.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_337.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_338.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_339.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_341.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_345.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_347.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_349.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_353.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_355.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_358.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_373.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_376.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_381.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_40.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_41.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_42.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_43.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_44.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_45.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_48.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_49.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_50.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_65.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_66.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_67.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_68.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_94.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_95.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_96.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_97.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_98.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/image_99.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/panoramas/camphor-enhanced.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/panoramas/camphor-original.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/scenes/chengqi-hall.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/scenes/vegetable-cooperative.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/optimized/scenes/wuzhu-waterwheel.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/panoramas/camphor-enhanced.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/panoramas/camphor-original.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/previews/camphor.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/previews/cooperative.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/previews/hall.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/previews/postcard.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/previews/waterwheel.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/scenes/chengqi-hall.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/scenes/vegetable-cooperative.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/scenes/wuzhu-waterwheel.jpg",
+        "type": "file"
+      }
+    ],
+    "include": [
+      {
+        "value": "assets/highres/image_358.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/highres/image_381.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/highres/panoramas/camphor-enhanced.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/highres/panoramas/camphor-original.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/highres/scenes/chengqi-hall.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/highres/scenes/vegetable-cooperative.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/highres/scenes/wuzhu-waterwheel.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_10.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_100.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_101.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_102.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_103.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_104.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_105.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_106.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_107.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_108.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_109.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_11.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_110.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_111.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_112.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_113.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_114.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_12.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_120.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_121.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_122.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_123.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_124.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_125.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_126.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_127.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_128.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_129.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_13.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_130.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_131.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_132.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_133.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_134.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_135.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_136.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_137.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_138.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_139.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_14.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_140.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_141.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_142.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_143.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_144.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_145.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_146.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_147.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_148.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_149.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_15.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_150.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_151.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_152.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_153.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_154.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_155.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_16.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_17.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_18.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_19.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_20.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_21.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_22.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_23.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_235.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_236.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_237.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_238.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_239.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_240.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_241.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_242.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_243.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_244.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_245.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_258.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_261.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_27.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_28.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_29.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_30.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_31.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_337.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_338.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_339.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_341.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_345.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_347.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_349.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_353.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_355.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_373.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_376.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_40.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_41.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_42.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_43.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_44.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_45.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_48.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_49.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_50.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_65.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_66.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_67.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_68.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_94.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_95.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_96.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_97.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_98.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/image_99.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/pet/azhang-poses.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/pet/pose-approve.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/pet/pose-celebrate.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/pet/pose-cheer.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/pet/pose-fish.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/pet/pose-greet.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/pet/pose-point.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/pet/pose-read.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/pet/pose-scroll.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/pet/pose-shy.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/pet/pose-sleep.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/pet/pose-think.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/pet/pose-walk.png",
+        "type": "file"
+      },
+      {
+        "value": "assets/photos/camphor-canopy.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/photos/camphor-square.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/photos/camphor-trunk.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/photos/chengqi-front.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/photos/chengqi-gate.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/photos/chengqi-interior.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/photos/siben-angle.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/photos/siben-detail.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/photos/siben-front.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/photos/village-lane.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/photos/water-channel.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/photos/water-divider.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/photos/water-street.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/canvas-tote.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/drinkware-set.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/gift-pack.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/mug-lifestyle.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/notebook-lifestyle.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/stationery-set.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/travel-set.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/umbrella.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/vegetable-bowl.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/vegetable-dish.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/vegetable-plate.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/wood-bookmark-detail.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/wood-bookmarks.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/wood-coaster.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/wood-desk.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/wood-gift.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/wood-keyrings.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/wood-magnets.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/wood-pin.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/wood-roundel.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/wood-seal.jpg",
+        "type": "file"
+      },
+      {
+        "value": "assets/products/wood-sign.jpg",
+        "type": "file"
+      }
+    ]
+  },
+  "isGameTourist": false,
+  "simulatorPluginLibVersion": {},
+  "editorSetting": {}
+}

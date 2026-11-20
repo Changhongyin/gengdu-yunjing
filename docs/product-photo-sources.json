@@ -1,0 +1,161 @@
+{
+  "sourceDocument": "商品图片素材.docx",
+  "documentSha256": "56fb6dbdf2d33a3fb6406bab72fb393348502c3dd04050d32ad8f8ad964c7ebc",
+  "note": "Extracted supplied images in full; JPEG encoded without cropping, enlargement or generated content.",
+  "images": [
+    {
+      "sourceEntry": "word/media/image1.jpeg",
+      "target": "/assets/products/vegetable-plate.jpg",
+      "width": 540,
+      "height": 360,
+      "sourceSha256": "afb57110c521e3a8c2b031f91dd7b0d7a12be658b8352e7507a8fae984dda73e"
+    },
+    {
+      "sourceEntry": "word/media/image2.jpeg",
+      "target": "/assets/products/vegetable-bowl.jpg",
+      "width": 594,
+      "height": 413,
+      "sourceSha256": "4c30c690ec6ea650c244a05fe0f5fbb99ab59bc74943e0bc5b360cd849b16dfd"
+    },
+    {
+      "sourceEntry": "word/media/image3.jpeg",
+      "target": "/assets/products/vegetable-dish.jpg",
+      "width": 1080,
+      "height": 630,
+      "sourceSha256": "5cea0fc656b15270099d1e4da513c3e45817ad088b8b54bf27a5a1c4b4aa1a02"
+    },
+    {
+      "sourceEntry": "word/media/image4.png",
+      "target": "/assets/products/wood-coaster.jpg",
+      "width": 456,
+      "height": 554,
+      "sourceSha256": "84b178f2397a620f2154ef82d418ae44f87de45a242f4beedb1b00abbd2ea735"
+    },
+    {
+      "sourceEntry": "word/media/image5.png",
+      "target": "/assets/products/wood-bookmark-detail.jpg",
+      "width": 386,
+      "height": 558,
+      "sourceSha256": "24e089fe454b04641f7bbd259879f9a200e3d3a2f3cd3d43b7497fe9d7031f29"
+    },
+    {
+      "sourceEntry": "word/media/image6.png",
+      "target": "/assets/products/wood-roundel.jpg",
+      "width": 546,
+      "height": 554,
+      "sourceSha256": "b810439a32a0c573c110e9fb4b3e6d6803d7403380bedfc57cdaa617fc5828b7"
+    },
+    {
+      "sourceEntry": "word/media/image7.png",
+      "target": "/assets/products/wood-gift.jpg",
+      "width": 516,
+      "height": 560,
+      "sourceSha256": "d803d528b2186e4364f687f0fbcb7c452f26e921cd285cd3e42c00364c6cd1f7"
+    },
+    {
+      "sourceEntry": "word/media/image8.png",
+      "target": "/assets/products/wood-desk.jpg",
+      "width": 536,
+      "height": 560,
+      "sourceSha256": "8fd7d7a69e55b5296d525e91fd886de71924525ce84bfe442e0b27ea23009241"
+    },
+    {
+      "sourceEntry": "word/media/image9.png",
+      "target": "/assets/products/wood-sign.jpg",
+      "width": 606,
+      "height": 562,
+      "sourceSha256": "cc818b30e4f1495800770f9281525ae6fe1c19f8264a6659e41be3d3b4e0a9fc"
+    },
+    {
+      "sourceEntry": "word/media/image10.png",
+      "target": "/assets/products/wood-pin.jpg",
+      "width": 314,
+      "height": 462,
+      "sourceSha256": "70a5525943eb5d97c8f41b815486e88ccaade6abb892d8741a1a0074dfbc5754"
+    },
+    {
+      "sourceEntry": "word/media/image11.png",
+      "target": "/assets/products/wood-bookmarks.jpg",
+      "width": 372,
+      "height": 464,
+      "sourceSha256": "619482e3ca8d64d871e54f36f340c12c437393cf379427bfb442e25979017bd2"
+    },
+    {
+      "sourceEntry": "word/media/image12.png",
+      "target": "/assets/products/wood-magnets.jpg",
+      "width": 396,
+      "height": 498,
+      "sourceSha256": "5faa11cb0dbf9868106f6ff8af011bd915b9980c82cf20b21f500100b5f585ca"
+    },
+    {
+      "sourceEntry": "word/media/image13.png",
+      "target": "/assets/products/wood-keyrings.jpg",
+      "width": 470,
+      "height": 486,
+      "sourceSha256": "682cf97e51593af0b00db8769bda4c76e14db60691e73715ea7d73337a4e88fb"
+    },
+    {
+      "sourceEntry": "word/media/image14.png",
+      "target": "/assets/products/notebook-lifestyle.jpg",
+      "width": 624,
+      "height": 318,
+      "sourceSha256": "7b3b4958376f787b4542d0e5037090d018c320830330059f15c8dc36f37ec65a"
+    },
+    {
+      "sourceEntry": "word/media/image15.png",
+      "target": "/assets/products/umbrella.jpg",
+      "width": 628,
+      "height": 306,
+      "sourceSha256": "ae63b4aff2f082c6ff1e213b4736af8b759d90b7e02a1b9602e0ecc70ae8e6c5"
+    },
+    {
+      "sourceEntry": "word/media/image16.png",
+      "target": "/assets/products/mug-lifestyle.jpg",
+      "width": 626,
+      "height": 264,
+      "sourceSha256": "d6ba24344f3ed796dac958d5690a0b8ff779050cd5a3819a9293a5c67bf9dd7c"
+    },
+    {
+      "sourceEntry": "word/media/image17.png",
+      "target": "/assets/products/canvas-tote.jpg",
+      "width": 632,
+      "height": 380,
+      "sourceSha256": "0a07d24d46762a4b8f8778cd7cdfd107c53036b6d54daae50278d9c1f9663f51"
+    },
+    {
+      "sourceEntry": "word/media/image18.png",
+      "target": "/assets/products/travel-set.jpg",
+      "width": 634,
+      "height": 480,
+      "sourceSha256": "899207ae5f13436c58b42ec021ce7b69c75f0d4df54e566905df59f371104b2a"
+    },
+    {
+      "sourceEntry": "word/media/image19.png",
+      "target": "/assets/products/drinkware-set.jpg",
+      "width": 460,
+      "height": 490,
+      "sourceSha256": "0a606448d5e9e629a544ec0587f33b25bd5c83c72fcc48c2f661368e0e3d55b4"
+    },
+    {
+      "sourceEntry": "word/media/image20.png",
+      "target": "/assets/products/stationery-set.jpg",
+      "width": 550,
+      "height": 478,
+      "sourceSha256": "0a32f1c86dc6ed6de1f5cb708c6d10bd437bd669d618fd2adf43945f163fb9e7"
+    },
+    {
+      "sourceEntry": "word/media/image21.png",
+      "target": "/assets/products/gift-pack.jpg",
+      "width": 370,
+      "height": 458,
+      "sourceSha256": "8267577edeea65863aecc5f8eecdf7baee49719027bf2d01025532330faf5581"
+    },
+    {
+      "sourceEntry": "word/media/image22.png",
+      "target": "/assets/products/wood-seal.jpg",
+      "width": 298,
+      "height": 464,
+      "sourceSha256": "a96520cf4397673915e602aa7fdcf5eb3fb69e7f0689cca7e8740699e329fdf5"
+    }
+  ]
+}

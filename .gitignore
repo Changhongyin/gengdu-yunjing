@@ -1,0 +1,16 @@
+.DS_Store
+._*
+Thumbs.db
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+project.private.config.json
+/api-config/
+/docs/项目资料/Claude_Guide_Handoff/
+/docs/项目资料/调研素材/
+/output/*
+!/output/runtime-media.json
+!/output/upload-originals/

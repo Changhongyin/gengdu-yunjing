@@ -1,0 +1,13 @@
+<view class="tb {{sunk ? 'tb-sunk' : ''}}">
+  <view class="tb-row">
+    <view class="tb-item {{selected === 0 ? 'on' : ''}}" data-index="0" bindtap="switchTab" hover-class="tb-press" hover-stay-time="80" role="tab" aria-selected="{{selected === 0}}" aria-label="{{tabs[0].text}}"><text class="tb-text">{{tabs[0].text}}</text><view class="tb-dot"/></view>
+    <view class="tb-item {{selected === 1 ? 'on' : ''}}" data-index="1" bindtap="switchTab" hover-class="tb-press" hover-stay-time="80" role="tab" aria-selected="{{selected === 1}}" aria-label="{{tabs[1].text}}"><text class="tb-text">{{tabs[1].text}}</text><view class="tb-dot"/></view>
+    <view class="tb-center" bindtap="openGuide" hover-class="tb-center-press" hover-stay-time="120" role="button" aria-label="古村问地，向 AI 讲解员提问">
+      <view class="tb-orb"><view class="tb-halo"/><view class="tb-ring"/><text class="tb-glyph">问</text><view class="tb-leaf"/></view>
+      <text class="tb-center-text">古村问地</text>
+    </view>
+    <view class="tb-item {{selected === 2 ? 'on' : ''}}" data-index="2" bindtap="switchTab" hover-class="tb-press" hover-stay-time="80" role="tab" aria-selected="{{selected === 2}}" aria-label="{{tabs[2].text}}"><text class="tb-text">{{tabs[2].text}}</text><view class="tb-dot"/></view>
+    <view class="tb-item {{selected === 3 ? 'on' : ''}}" data-index="3" bindtap="switchTab" hover-class="tb-press" hover-stay-time="80" role="tab" aria-selected="{{selected === 3}}" aria-label="{{tabs[3].text}}"><text class="tb-text">{{tabs[3].text}}</text><view class="tb-dot"/></view>
+  </view>
+</view>
+<guide-agent id="guide" bind:phase="onPhase"/>

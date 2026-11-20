@@ -1,0 +1,2 @@
+<web-view wx:if="{{!failed}}" src="{{url}}" binderror="onError"/>
+<view wx:else class="page"><view class="title">暂时无法打开全景</view><view class="panel"><view>720云页面未能载入。</view><view class="small muted">可复制链接到浏览器查看。小程序内打开还需要账号支持 web-view，并完成业务域名配置。</view><button class="primary" bindtap="copy">复制全景链接</button><button class="outline" bindtap="back">返回插画漫游</button></view></view>

@@ -1,0 +1,3 @@
+const {getPlace,places}=require('../../utils/places');
+const pet=require('../../utils/pet-controller');
+Page({data:{place:getPlace('village'),stops:places.map(p=>({id:p.id,name:p.name,image:p.gallery[0].src})),selected:0,guideMotion:'',guideLock:''},onLoad(o){const place=getPlace(o.id);this.setData({place,selected:place.id==='village'?0:place.id});pet.enter(this,{topic:'route',place:place.id});},select(e){const id=Number(e.currentTarget.dataset.id);this.setData({selected:id});pet.enter(this,{topic:'route',place:id});},open(){wx.navigateTo({url:'/pages/place/index?id='+this.data.selected});},demo(){wx.showModal({title:'路线演示',content:'当前为虚拟游览路线，尚未接入地图定位或真实导航。可点击各站查看景点介绍。',showCancel:false});}});

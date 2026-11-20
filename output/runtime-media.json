@@ -1,0 +1,1203 @@
+{
+  "profile": "original-quality",
+  "totalBytes": 101953260,
+  "files": [
+    {
+      "source": "assets/image_10.png",
+      "input": "assets/image_10.png",
+      "target": "assets/image_10.png",
+      "originalBytes": 3459,
+      "bytes": 3459,
+      "width": 245,
+      "height": 183
+    },
+    {
+      "source": "assets/image_100.png",
+      "input": "assets/image_100.png",
+      "target": "assets/image_100.png",
+      "originalBytes": 292,
+      "bytes": 292,
+      "width": 88,
+      "height": 48
+    },
+    {
+      "source": "assets/image_101.png",
+      "input": "assets/image_101.png",
+      "target": "assets/image_101.png",
+      "originalBytes": 5724,
+      "bytes": 5724,
+      "width": 119,
+      "height": 57
+    },
+    {
+      "source": "assets/image_102.png",
+      "input": "assets/image_102.png",
+      "target": "assets/image_102.png",
+      "originalBytes": 695,
+      "bytes": 695,
+      "width": 87,
+      "height": 17
+    },
+    {
+      "source": "assets/image_103.png",
+      "input": "assets/image_103.png",
+      "target": "assets/image_103.png",
+      "originalBytes": 304,
+      "bytes": 304,
+      "width": 55,
+      "height": 8
+    },
+    {
+      "source": "assets/image_104.png",
+      "input": "assets/image_104.png",
+      "target": "assets/image_104.png",
+      "originalBytes": 2841,
+      "bytes": 2841,
+      "width": 56,
+      "height": 44
+    },
+    {
+      "source": "assets/image_105.png",
+      "input": "assets/image_105.png",
+      "target": "assets/image_105.png",
+      "originalBytes": 194,
+      "bytes": 194,
+      "width": 8,
+      "height": 2
+    },
+    {
+      "source": "assets/image_106.png",
+      "input": "assets/image_106.png",
+      "target": "assets/image_106.png",
+      "originalBytes": 245,
+      "bytes": 245,
+      "width": 91,
+      "height": 43
+    },
+    {
+      "source": "assets/image_107.png",
+      "input": "assets/image_107.png",
+      "target": "assets/image_107.png",
+      "originalBytes": 709,
+      "bytes": 709,
+      "width": 33,
+      "height": 11
+    },
+    {
+      "source": "assets/image_108.png",
+      "input": "assets/image_108.png",
+      "target": "assets/image_108.png",
+      "originalBytes": 4027,
+      "bytes": 4027,
+      "width": 49,
+      "height": 96
+    },
+    {
+      "source": "assets/image_109.png",
+      "input": "assets/image_109.png",
+      "target": "assets/image_109.png",
+      "originalBytes": 801,
+      "bytes": 801,
+      "width": 26,
+      "height": 50
+    },
+    {
+      "source": "assets/image_11.png",
+      "input": "assets/image_11.png",
+      "target": "assets/image_11.png",
+      "originalBytes": 6005,
+      "bytes": 6005,
+      "width": 103,
+      "height": 92
+    },
+    {
+      "source": "assets/image_110.png",
+      "input": "assets/image_110.png",
+      "target": "assets/image_110.png",
+      "originalBytes": 1980,
+      "bytes": 1980,
+      "width": 29,
+      "height": 59
+    },
+    {
+      "source": "assets/image_111.png",
+      "input": "assets/image_111.png",
+      "target": "assets/image_111.png",
+      "originalBytes": 210,
+      "bytes": 210,
+      "width": 9,
+      "height": 2
+    },
+    {
+      "source": "assets/image_112.png",
+      "input": "assets/image_112.png",
+      "target": "assets/image_112.png",
+      "originalBytes": 287,
+      "bytes": 287,
+      "width": 36,
+      "height": 76
+    },
+    {
+      "source": "assets/image_113.png",
+      "input": "assets/image_113.png",
+      "target": "assets/image_113.png",
+      "originalBytes": 992,
+      "bytes": 992,
+      "width": 27,
+      "height": 42
+    },
+    {
+      "source": "assets/image_114.png",
+      "input": "assets/image_114.png",
+      "target": "assets/image_114.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_12.png",
+      "input": "assets/image_12.png",
+      "target": "assets/image_12.png",
+      "originalBytes": 1093,
+      "bytes": 1093,
+      "width": 31,
+      "height": 31
+    },
+    {
+      "source": "assets/image_120.png",
+      "input": "assets/image_120.png",
+      "target": "assets/image_120.png",
+      "originalBytes": 2998,
+      "bytes": 2998,
+      "width": 262,
+      "height": 59
+    },
+    {
+      "source": "assets/image_121.png",
+      "input": "assets/image_121.png",
+      "target": "assets/image_121.png",
+      "originalBytes": 2950,
+      "bytes": 2950,
+      "width": 249,
+      "height": 33
+    },
+    {
+      "source": "assets/image_122.png",
+      "input": "assets/image_122.png",
+      "target": "assets/image_122.png",
+      "originalBytes": 1974,
+      "bytes": 1974,
+      "width": 214,
+      "height": 27
+    },
+    {
+      "source": "assets/image_123.png",
+      "input": "assets/image_123.png",
+      "target": "assets/image_123.png",
+      "originalBytes": 6785,
+      "bytes": 6785,
+      "width": 190,
+      "height": 45
+    },
+    {
+      "source": "assets/image_124.png",
+      "input": "assets/image_124.png",
+      "target": "assets/image_124.png",
+      "originalBytes": 3171,
+      "bytes": 3171,
+      "width": 55,
+      "height": 31
+    },
+    {
+      "source": "assets/image_125.png",
+      "input": "assets/image_125.png",
+      "target": "assets/image_125.png",
+      "originalBytes": 386,
+      "bytes": 386,
+      "width": 19,
+      "height": 7
+    },
+    {
+      "source": "assets/image_126.png",
+      "input": "assets/image_126.png",
+      "target": "assets/image_126.png",
+      "originalBytes": 2655,
+      "bytes": 2655,
+      "width": 50,
+      "height": 42
+    },
+    {
+      "source": "assets/image_127.png",
+      "input": "assets/image_127.png",
+      "target": "assets/image_127.png",
+      "originalBytes": 696,
+      "bytes": 696,
+      "width": 97,
+      "height": 17
+    },
+    {
+      "source": "assets/image_128.png",
+      "input": "assets/image_128.png",
+      "target": "assets/image_128.png",
+      "originalBytes": 2259,
+      "bytes": 2259,
+      "width": 93,
+      "height": 126
+    },
+    {
+      "source": "assets/image_129.png",
+      "input": "assets/image_129.png",
+      "target": "assets/image_129.png",
+      "originalBytes": 1250,
+      "bytes": 1250,
+      "width": 76,
+      "height": 109
+    },
+    {
+      "source": "assets/image_13.png",
+      "input": "assets/image_13.png",
+      "target": "assets/image_13.png",
+      "originalBytes": 1406,
+      "bytes": 1406,
+      "width": 210,
+      "height": 79
+    },
+    {
+      "source": "assets/image_130.png",
+      "input": "assets/image_130.png",
+      "target": "assets/image_130.png",
+      "originalBytes": 972,
+      "bytes": 972,
+      "width": 17,
+      "height": 105
+    },
+    {
+      "source": "assets/image_131.png",
+      "input": "assets/image_131.png",
+      "target": "assets/image_131.png",
+      "originalBytes": 960,
+      "bytes": 960,
+      "width": 14,
+      "height": 108
+    },
+    {
+      "source": "assets/image_132.png",
+      "input": "assets/image_132.png",
+      "target": "assets/image_132.png",
+      "originalBytes": 481,
+      "bytes": 481,
+      "width": 69,
+      "height": 10
+    },
+    {
+      "source": "assets/image_133.png",
+      "input": "assets/image_133.png",
+      "target": "assets/image_133.png",
+      "originalBytes": 933,
+      "bytes": 933,
+      "width": 85,
+      "height": 116
+    },
+    {
+      "source": "assets/image_134.png",
+      "input": "assets/image_134.png",
+      "target": "assets/image_134.png",
+      "originalBytes": 760,
+      "bytes": 760,
+      "width": 81,
+      "height": 101
+    },
+    {
+      "source": "assets/image_135.png",
+      "input": "assets/image_135.png",
+      "target": "assets/image_135.png",
+      "originalBytes": 734,
+      "bytes": 734,
+      "width": 10,
+      "height": 97
+    },
+    {
+      "source": "assets/image_136.png",
+      "input": "assets/image_136.png",
+      "target": "assets/image_136.png",
+      "originalBytes": 573,
+      "bytes": 573,
+      "width": 24,
+      "height": 75
+    },
+    {
+      "source": "assets/image_137.png",
+      "input": "assets/image_137.png",
+      "target": "assets/image_137.png",
+      "originalBytes": 307,
+      "bytes": 307,
+      "width": 9,
+      "height": 9
+    },
+    {
+      "source": "assets/image_138.png",
+      "input": "assets/image_138.png",
+      "target": "assets/image_138.png",
+      "originalBytes": 155,
+      "bytes": 155,
+      "width": 1,
+      "height": 82
+    },
+    {
+      "source": "assets/image_139.png",
+      "input": "assets/image_139.png",
+      "target": "assets/image_139.png",
+      "originalBytes": 154,
+      "bytes": 154,
+      "width": 1,
+      "height": 46
+    },
+    {
+      "source": "assets/image_14.png",
+      "input": "assets/image_14.png",
+      "target": "assets/image_14.png",
+      "originalBytes": 6113,
+      "bytes": 6113,
+      "width": 59,
+      "height": 219
+    },
+    {
+      "source": "assets/image_140.png",
+      "input": "assets/image_140.png",
+      "target": "assets/image_140.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_141.png",
+      "input": "assets/image_141.png",
+      "target": "assets/image_141.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_142.png",
+      "input": "assets/image_142.png",
+      "target": "assets/image_142.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_143.png",
+      "input": "assets/image_143.png",
+      "target": "assets/image_143.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_144.png",
+      "input": "assets/image_144.png",
+      "target": "assets/image_144.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_145.png",
+      "input": "assets/image_145.png",
+      "target": "assets/image_145.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_146.png",
+      "input": "assets/image_146.png",
+      "target": "assets/image_146.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_147.png",
+      "input": "assets/image_147.png",
+      "target": "assets/image_147.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_148.png",
+      "input": "assets/image_148.png",
+      "target": "assets/image_148.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_149.png",
+      "input": "assets/image_149.png",
+      "target": "assets/image_149.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_15.png",
+      "input": "assets/image_15.png",
+      "target": "assets/image_15.png",
+      "originalBytes": 6927,
+      "bytes": 6927,
+      "width": 135,
+      "height": 257
+    },
+    {
+      "source": "assets/image_150.png",
+      "input": "assets/image_150.png",
+      "target": "assets/image_150.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_151.png",
+      "input": "assets/image_151.png",
+      "target": "assets/image_151.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_152.png",
+      "input": "assets/image_152.png",
+      "target": "assets/image_152.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_153.png",
+      "input": "assets/image_153.png",
+      "target": "assets/image_153.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_154.png",
+      "input": "assets/image_154.png",
+      "target": "assets/image_154.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_155.png",
+      "input": "assets/image_155.png",
+      "target": "assets/image_155.png",
+      "originalBytes": 149,
+      "bytes": 149,
+      "width": 1,
+      "height": 1
+    },
+    {
+      "source": "assets/image_16.png",
+      "input": "assets/image_16.png",
+      "target": "assets/image_16.png",
+      "originalBytes": 2643,
+      "bytes": 2643,
+      "width": 85,
+      "height": 222
+    },
+    {
+      "source": "assets/image_17.png",
+      "input": "assets/image_17.png",
+      "target": "assets/image_17.png",
+      "originalBytes": 3577,
+      "bytes": 3577,
+      "width": 45,
+      "height": 53
+    },
+    {
+      "source": "assets/image_18.png",
+      "input": "assets/image_18.png",
+      "target": "assets/image_18.png",
+      "originalBytes": 4818,
+      "bytes": 4818,
+      "width": 87,
+      "height": 78
+    },
+    {
+      "source": "assets/image_19.png",
+      "input": "assets/image_19.png",
+      "target": "assets/image_19.png",
+      "originalBytes": 4276,
+      "bytes": 4276,
+      "width": 66,
+      "height": 62
+    },
+    {
+      "source": "assets/image_20.png",
+      "input": "assets/image_20.png",
+      "target": "assets/image_20.png",
+      "originalBytes": 1807,
+      "bytes": 1807,
+      "width": 259,
+      "height": 224
+    },
+    {
+      "source": "assets/image_21.png",
+      "input": "assets/image_21.png",
+      "target": "assets/image_21.png",
+      "originalBytes": 2898,
+      "bytes": 2898,
+      "width": 46,
+      "height": 46
+    },
+    {
+      "source": "assets/image_22.png",
+      "input": "assets/image_22.png",
+      "target": "assets/image_22.png",
+      "originalBytes": 397,
+      "bytes": 397,
+      "width": 9,
+      "height": 13
+    },
+    {
+      "source": "assets/image_23.png",
+      "input": "assets/image_23.png",
+      "target": "assets/image_23.png",
+      "originalBytes": 418,
+      "bytes": 418,
+      "width": 12,
+      "height": 15
+    },
+    {
+      "source": "assets/image_235.png",
+      "input": "assets/image_235.png",
+      "target": "assets/image_235.png",
+      "originalBytes": 2893,
+      "bytes": 2893,
+      "width": 265,
+      "height": 53
+    },
+    {
+      "source": "assets/image_236.png",
+      "input": "assets/image_236.png",
+      "target": "assets/image_236.png",
+      "originalBytes": 500,
+      "bytes": 500,
+      "width": 89,
+      "height": 21
+    },
+    {
+      "source": "assets/image_237.png",
+      "input": "assets/image_237.png",
+      "target": "assets/image_237.png",
+      "originalBytes": 3275,
+      "bytes": 3275,
+      "width": 265,
+      "height": 58
+    },
+    {
+      "source": "assets/image_238.png",
+      "input": "assets/image_238.png",
+      "target": "assets/image_238.png",
+      "originalBytes": 1123,
+      "bytes": 1123,
+      "width": 34,
+      "height": 16
+    },
+    {
+      "source": "assets/image_239.png",
+      "input": "assets/image_239.png",
+      "target": "assets/image_239.png",
+      "originalBytes": 1474,
+      "bytes": 1474,
+      "width": 240,
+      "height": 22
+    },
+    {
+      "source": "assets/image_240.png",
+      "input": "assets/image_240.png",
+      "target": "assets/image_240.png",
+      "originalBytes": 2190,
+      "bytes": 2190,
+      "width": 49,
+      "height": 59
+    },
+    {
+      "source": "assets/image_241.png",
+      "input": "assets/image_241.png",
+      "target": "assets/image_241.png",
+      "originalBytes": 1284,
+      "bytes": 1284,
+      "width": 34,
+      "height": 31
+    },
+    {
+      "source": "assets/image_242.png",
+      "input": "assets/image_242.png",
+      "target": "assets/image_242.png",
+      "originalBytes": 1434,
+      "bytes": 1434,
+      "width": 33,
+      "height": 33
+    },
+    {
+      "source": "assets/image_243.png",
+      "input": "assets/image_243.png",
+      "target": "assets/image_243.png",
+      "originalBytes": 2334,
+      "bytes": 2334,
+      "width": 48,
+      "height": 40
+    },
+    {
+      "source": "assets/image_244.png",
+      "input": "assets/image_244.png",
+      "target": "assets/image_244.png",
+      "originalBytes": 4006,
+      "bytes": 4006,
+      "width": 63,
+      "height": 76
+    },
+    {
+      "source": "assets/image_245.png",
+      "input": "assets/image_245.png",
+      "target": "assets/image_245.png",
+      "originalBytes": 6103,
+      "bytes": 6103,
+      "width": 132,
+      "height": 68
+    },
+    {
+      "source": "assets/image_258.png",
+      "input": "assets/image_258.png",
+      "target": "assets/image_258.png",
+      "originalBytes": 543,
+      "bytes": 543,
+      "width": 17,
+      "height": 16
+    },
+    {
+      "source": "assets/image_261.png",
+      "input": "assets/image_261.png",
+      "target": "assets/image_261.png",
+      "originalBytes": 558,
+      "bytes": 558,
+      "width": 17,
+      "height": 17
+    },
+    {
+      "source": "assets/image_27.png",
+      "input": "assets/image_27.png",
+      "target": "assets/image_27.png",
+      "originalBytes": 216,
+      "bytes": 216,
+      "width": 144,
+      "height": 109
+    },
+    {
+      "source": "assets/image_28.png",
+      "input": "assets/image_28.png",
+      "target": "assets/image_28.png",
+      "originalBytes": 425,
+      "bytes": 425,
+      "width": 144,
+      "height": 101
+    },
+    {
+      "source": "assets/image_29.png",
+      "input": "assets/image_29.png",
+      "target": "assets/image_29.png",
+      "originalBytes": 334,
+      "bytes": 334,
+      "width": 8,
+      "height": 78
+    },
+    {
+      "source": "assets/image_30.png",
+      "input": "assets/image_30.png",
+      "target": "assets/image_30.png",
+      "originalBytes": 6933,
+      "bytes": 6933,
+      "width": 144,
+      "height": 109
+    },
+    {
+      "source": "assets/image_31.png",
+      "input": "assets/image_31.png",
+      "target": "assets/image_31.png",
+      "originalBytes": 1093,
+      "bytes": 1093,
+      "width": 31,
+      "height": 31
+    },
+    {
+      "source": "assets/image_337.png",
+      "input": "assets/image_337.png",
+      "target": "assets/image_337.png",
+      "originalBytes": 7790,
+      "bytes": 7790,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "source": "assets/image_338.png",
+      "input": "assets/image_338.png",
+      "target": "assets/image_338.png",
+      "originalBytes": 309,
+      "bytes": 309,
+      "width": 18,
+      "height": 20
+    },
+    {
+      "source": "assets/image_339.png",
+      "input": "assets/image_339.png",
+      "target": "assets/image_339.png",
+      "originalBytes": 306,
+      "bytes": 306,
+      "width": 12,
+      "height": 6
+    },
+    {
+      "source": "assets/image_341.png",
+      "input": "assets/image_341.png",
+      "target": "assets/image_341.png",
+      "originalBytes": 615,
+      "bytes": 615,
+      "width": 20,
+      "height": 20
+    },
+    {
+      "source": "assets/image_345.png",
+      "input": "assets/image_345.png",
+      "target": "assets/image_345.png",
+      "originalBytes": 670,
+      "bytes": 670,
+      "width": 20,
+      "height": 17
+    },
+    {
+      "source": "assets/image_347.png",
+      "input": "assets/image_347.png",
+      "target": "assets/image_347.png",
+      "originalBytes": 657,
+      "bytes": 657,
+      "width": 18,
+      "height": 21
+    },
+    {
+      "source": "assets/image_349.png",
+      "input": "assets/image_349.png",
+      "target": "assets/image_349.png",
+      "originalBytes": 352,
+      "bytes": 352,
+      "width": 12,
+      "height": 15
+    },
+    {
+      "source": "assets/image_353.png",
+      "input": "assets/image_353.png",
+      "target": "assets/image_353.png",
+      "originalBytes": 341,
+      "bytes": 341,
+      "width": 18,
+      "height": 19
+    },
+    {
+      "source": "assets/image_355.png",
+      "input": "assets/image_355.png",
+      "target": "assets/image_355.png",
+      "originalBytes": 501,
+      "bytes": 501,
+      "width": 21,
+      "height": 12
+    },
+    {
+      "source": "assets/image_358.jpg",
+      "input": "assets/image_358.jpg",
+      "target": "assets/highres/image_358.jpg",
+      "originalBytes": 47477,
+      "bytes": 47477,
+      "width": 343,
+      "height": 365
+    },
+    {
+      "source": "assets/image_373.png",
+      "input": "assets/image_373.png",
+      "target": "assets/image_373.png",
+      "originalBytes": 285,
+      "bytes": 285,
+      "width": 7,
+      "height": 12
+    },
+    {
+      "source": "assets/image_376.png",
+      "input": "assets/image_376.png",
+      "target": "assets/image_376.png",
+      "originalBytes": 399,
+      "bytes": 399,
+      "width": 20,
+      "height": 19
+    },
+    {
+      "source": "assets/image_381.jpg",
+      "input": "assets/image_381.jpg",
+      "target": "assets/highres/image_381.jpg",
+      "originalBytes": 28937,
+      "bytes": 28937,
+      "width": 303,
+      "height": 270
+    },
+    {
+      "source": "assets/image_40.png",
+      "input": "assets/image_40.png",
+      "target": "assets/image_40.png",
+      "originalBytes": 199,
+      "bytes": 199,
+      "width": 103,
+      "height": 109
+    },
+    {
+      "source": "assets/image_41.png",
+      "input": "assets/image_41.png",
+      "target": "assets/image_41.png",
+      "originalBytes": 2098,
+      "bytes": 2098,
+      "width": 60,
+      "height": 109
+    },
+    {
+      "source": "assets/image_42.png",
+      "input": "assets/image_42.png",
+      "target": "assets/image_42.png",
+      "originalBytes": 176,
+      "bytes": 176,
+      "width": 50,
+      "height": 109
+    },
+    {
+      "source": "assets/image_43.png",
+      "input": "assets/image_43.png",
+      "target": "assets/image_43.png",
+      "originalBytes": 3333,
+      "bytes": 3333,
+      "width": 42,
+      "height": 109
+    },
+    {
+      "source": "assets/image_44.png",
+      "input": "assets/image_44.png",
+      "target": "assets/image_44.png",
+      "originalBytes": 5421,
+      "bytes": 5421,
+      "width": 65,
+      "height": 77
+    },
+    {
+      "source": "assets/image_45.png",
+      "input": "assets/image_45.png",
+      "target": "assets/image_45.png",
+      "originalBytes": 214,
+      "bytes": 214,
+      "width": 143,
+      "height": 106
+    },
+    {
+      "source": "assets/image_48.png",
+      "input": "assets/image_48.png",
+      "target": "assets/image_48.png",
+      "originalBytes": 2054,
+      "bytes": 2054,
+      "width": 49,
+      "height": 109
+    },
+    {
+      "source": "assets/image_49.png",
+      "input": "assets/image_49.png",
+      "target": "assets/image_49.png",
+      "originalBytes": 6399,
+      "bytes": 6399,
+      "width": 126,
+      "height": 99
+    },
+    {
+      "source": "assets/image_50.png",
+      "input": "assets/image_50.png",
+      "target": "assets/image_50.png",
+      "originalBytes": 216,
+      "bytes": 216,
+      "width": 144,
+      "height": 109
+    },
+    {
+      "source": "assets/image_65.png",
+      "input": "assets/image_65.png",
+      "target": "assets/image_65.png",
+      "originalBytes": 1043,
+      "bytes": 1043,
+      "width": 60,
+      "height": 84
+    },
+    {
+      "source": "assets/image_66.png",
+      "input": "assets/image_66.png",
+      "target": "assets/image_66.png",
+      "originalBytes": 5877,
+      "bytes": 5877,
+      "width": 96,
+      "height": 90
+    },
+    {
+      "source": "assets/image_67.png",
+      "input": "assets/image_67.png",
+      "target": "assets/image_67.png",
+      "originalBytes": 357,
+      "bytes": 357,
+      "width": 143,
+      "height": 74
+    },
+    {
+      "source": "assets/image_68.png",
+      "input": "assets/image_68.png",
+      "target": "assets/image_68.png",
+      "originalBytes": 947,
+      "bytes": 947,
+      "width": 24,
+      "height": 29
+    },
+    {
+      "source": "assets/image_94.png",
+      "input": "assets/image_94.png",
+      "target": "assets/image_94.png",
+      "originalBytes": 1568,
+      "bytes": 1568,
+      "width": 179,
+      "height": 96
+    },
+    {
+      "source": "assets/image_95.png",
+      "input": "assets/image_95.png",
+      "target": "assets/image_95.png",
+      "originalBytes": 6571,
+      "bytes": 6571,
+      "width": 114,
+      "height": 70
+    },
+    {
+      "source": "assets/image_96.png",
+      "input": "assets/image_96.png",
+      "target": "assets/image_96.png",
+      "originalBytes": 1239,
+      "bytes": 1239,
+      "width": 93,
+      "height": 42
+    },
+    {
+      "source": "assets/image_97.png",
+      "input": "assets/image_97.png",
+      "target": "assets/image_97.png",
+      "originalBytes": 667,
+      "bytes": 667,
+      "width": 94,
+      "height": 16
+    },
+    {
+      "source": "assets/image_98.png",
+      "input": "assets/image_98.png",
+      "target": "assets/image_98.png",
+      "originalBytes": 3795,
+      "bytes": 3795,
+      "width": 89,
+      "height": 41
+    },
+    {
+      "source": "assets/image_99.png",
+      "input": "assets/image_99.png",
+      "target": "assets/image_99.png",
+      "originalBytes": 258,
+      "bytes": 258,
+      "width": 99,
+      "height": 42
+    },
+    {
+      "source": "assets/panoramas/camphor-enhanced.jpg",
+      "input": "output/upload-originals/panoramas/camphor-enhanced.jpg",
+      "target": "assets/highres/panoramas/camphor-enhanced.jpg",
+      "originalBytes": 683117,
+      "bytes": 683117,
+      "width": 1774,
+      "height": 887
+    },
+    {
+      "source": "assets/panoramas/camphor-original.jpg",
+      "input": "output/upload-originals/panoramas/camphor-original.jpg",
+      "target": "assets/highres/panoramas/camphor-original.jpg",
+      "originalBytes": 406319,
+      "bytes": 406319,
+      "width": 2560,
+      "height": 1280
+    },
+    {
+      "source": "assets/scenes/chengqi-hall.jpg",
+      "input": "output/upload-originals/scenes/chengqi-hall.jpg",
+      "target": "assets/highres/scenes/chengqi-hall.jpg",
+      "originalBytes": 713366,
+      "bytes": 713366,
+      "width": 1217,
+      "height": 1293
+    },
+    {
+      "source": "assets/scenes/vegetable-cooperative.jpg",
+      "input": "output/upload-originals/scenes/vegetable-cooperative.jpg",
+      "target": "assets/highres/scenes/vegetable-cooperative.jpg",
+      "originalBytes": 868346,
+      "bytes": 868346,
+      "width": 1216,
+      "height": 1293
+    },
+    {
+      "source": "assets/scenes/wuzhu-waterwheel.jpg",
+      "input": "output/upload-originals/scenes/wuzhu-waterwheel.jpg",
+      "target": "assets/highres/scenes/wuzhu-waterwheel.jpg",
+      "originalBytes": 748363,
+      "bytes": 748363,
+      "width": 1216,
+      "height": 1293
+    },
+    {
+      "source": "assets/photos/camphor-canopy.jpg",
+      "input": "assets/photos/camphor-canopy.jpg",
+      "target": "assets/photos/camphor-canopy.jpg",
+      "originalBytes": 9908224,
+      "bytes": 9908224,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "source": "assets/photos/camphor-trunk.jpg",
+      "input": "assets/photos/camphor-trunk.jpg",
+      "target": "assets/photos/camphor-trunk.jpg",
+      "originalBytes": 7774208,
+      "bytes": 7774208,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "source": "assets/photos/camphor-square.jpg",
+      "input": "assets/photos/camphor-square.jpg",
+      "target": "assets/photos/camphor-square.jpg",
+      "originalBytes": 8912896,
+      "bytes": 8912896,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "source": "assets/photos/water-street.jpg",
+      "input": "assets/photos/water-street.jpg",
+      "target": "assets/photos/water-street.jpg",
+      "originalBytes": 9797632,
+      "bytes": 9797632,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "source": "assets/photos/water-divider.jpg",
+      "input": "assets/photos/water-divider.jpg",
+      "target": "assets/photos/water-divider.jpg",
+      "originalBytes": 7663616,
+      "bytes": 7663616,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "source": "assets/photos/water-channel.jpg",
+      "input": "assets/photos/water-channel.jpg",
+      "target": "assets/photos/water-channel.jpg",
+      "originalBytes": 8486912,
+      "bytes": 8486912,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "source": "assets/photos/chengqi-front.jpg",
+      "input": "assets/photos/chengqi-front.jpg",
+      "target": "assets/photos/chengqi-front.jpg",
+      "originalBytes": 5836800,
+      "bytes": 5836800,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "source": "assets/photos/chengqi-interior.jpg",
+      "input": "assets/photos/chengqi-interior.jpg",
+      "target": "assets/photos/chengqi-interior.jpg",
+      "originalBytes": 11272192,
+      "bytes": 11272192,
+      "width": 4000,
+      "height": 3840
+    },
+    {
+      "source": "assets/photos/chengqi-gate.jpg",
+      "input": "assets/photos/chengqi-gate.jpg",
+      "target": "assets/photos/chengqi-gate.jpg",
+      "originalBytes": 6037504,
+      "bytes": 6037504,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "source": "assets/photos/siben-front.jpg",
+      "input": "assets/photos/siben-front.jpg",
+      "target": "assets/photos/siben-front.jpg",
+      "originalBytes": 5623808,
+      "bytes": 5623808,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "source": "assets/photos/siben-angle.jpg",
+      "input": "assets/photos/siben-angle.jpg",
+      "target": "assets/photos/siben-angle.jpg",
+      "originalBytes": 5226496,
+      "bytes": 5226496,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "source": "assets/photos/siben-detail.jpg",
+      "input": "assets/photos/siben-detail.jpg",
+      "target": "assets/photos/siben-detail.jpg",
+      "originalBytes": 4976640,
+      "bytes": 4976640,
+      "width": 3840,
+      "height": 2160
+    },
+    {
+      "source": "assets/photos/village-lane.jpg",
+      "input": "assets/photos/village-lane.jpg",
+      "target": "assets/photos/village-lane.jpg",
+      "originalBytes": 6750208,
+      "bytes": 6750208,
+      "width": 3840,
+      "height": 2160
+    }
+  ]
+}

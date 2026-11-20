@@ -1,0 +1,14 @@
+const fs=require('node:fs'),cp=require('node:child_process'),assert=require('node:assert/strict');
+const args=process.argv.slice(2);const value=key=>{const i=args.indexOf(key);return i<0?'':args[i+1];};
+const env=value('--env'),sample=value('--sample-file-id');
+assert(env&&sample&&args.includes('--uploaded-all'),'Need --env ENV --sample-file-id cloud://... --uploaded-all after all 10 files were uploaded.');
+const match=/^(cloud:\/\/[^/]+)\/(.+)$/.exec(sample);assert(match,'Invalid cloud file ID');
+assert(match[1].startsWith('cloud://'+env+'.'),'The environment and file ID do not match.');
+const manifest=JSON.parse(fs.readFileSync('output/cloud-upload/manifest.json','utf8'));
+assert(Object.values(manifest.files).some(entry=>entry.cloudPath===match[2]),'Sample must be a file from the prepared upload directory.');
+const files={};for(const [key,entry]of Object.entries(manifest.files))files[key]=match[1]+'/'+entry.cloudPath;
+const config={enabled:true,env,files};
+fs.writeFileSync('utils/cloud-assets.config.js','// Cloud images preserve the exact local image bytes.\nmodule.exports='+JSON.stringify(config,null,2)+';\n');
+cp.execFileSync(process.execPath,['scripts/prepare-upload.cjs'],{stdio:'inherit'});
+cp.execFileSync(process.execPath,['scripts/check-upload.cjs'],{stdio:'inherit'});
+cp.execFileSync(process.execPath,['scripts/check-cloud-ui.cjs'],{stdio:'inherit'});

@@ -1,0 +1,14 @@
+<view class="page with-bottom fade-in">
+ <view class="row"><button class="back" bindtap="back">‹ 乡味好物 / 商品详情</button><text class="tiny gold">古渊头村</text></view>
+ <view class="hero-art"><product-gallery images="{{product.images}}" label="{{product.name}}" preview/></view>
+ <view class="row"><view class="product-heading serif">{{product.name}}</view><button class="favorite {{favorite ? 'selected' : ''}}" bindtap="toggleFavorite">{{favorite ? '♥' : '♡'}}</button></view>
+ <view class="small muted detail-copy">{{product.detail}}</view>
+ <view class="row detail-price"><view class="price"><text class="currency">¥</text>{{unitPrice}}<text class="unit"> / {{product.specs[specIndex].name}}</text></view><text class="tiny muted">{{product.category}} · 古村好物</text></view>
+ <view class="panel"><view class="small">选择规格</view><view class="specs"><button wx:for="{{product.specs}}" wx:key="name" class="spec {{specIndex === index ? 'chosen' : ''}}" bindtap="selectSpec" data-index="{{index}}">{{item.name}} ¥{{item.price}}</button></view><view class="row quantity-row"><text class="small">购买数量</text><view class="stepper"><button bindtap="decrease" disabled="{{quantity <= 1}}">−</button><text>{{quantity}}</text><button bindtap="increase" disabled="{{quantity >= 99}}">+</button></view></view></view>
+ <view class="panel"><view class="fulfillment"><button class="{{delivery === 'pickup' ? 'active' : ''}}" data-mode="pickup" bindtap="setDelivery">到村自提 · 免运费</button><button class="{{delivery === 'shipping' ? 'active' : ''}}" data-mode="shipping" bindtap="setDelivery">快递到家</button></view>
+  <block wx:if="{{delivery === 'pickup'}}"><view class="pickup-title">♧ 四本堂 · 到村取货</view><view class="tiny muted pickup-copy">来古村走一走，让乡味与旅途相逢。</view><picker range="{{slots}}" value="{{slotIndex}}" bindchange="setSlot"><view class="field row"><text>▦ {{slots[slotIndex]}}</text><text>⌄</text></view></picker></block>
+  <block wx:else><view class="address-row"><input class="field" placeholder="收货人姓名" value="{{address.name}}" data-field="name" bindinput="addressInput"/><input class="field" placeholder="手机号码" type="number" maxlength="11" value="{{address.phone}}" data-field="phone" bindinput="addressInput"/></view><input class="field street" placeholder="填写省市区、街道及门牌号" value="{{address.street}}" data-field="street" bindinput="addressInput"/></block>
+ </view>
+ <view class="row subtotal"><text class="small muted">商品合计 <text class="gold">¥{{subtotal}}</text></text><text class="tiny muted">{{delivery === 'pickup' ? '到村自提免运费' : '快递运费 ¥6，结算时计入'}}</text></view>
+ <view class="fixed-bottom"><view class="button-row"><button class="outline" bindtap="addCart">加入购物车</button><button class="primary" bindtap="buyNow">立即购买</button></view></view>
+</view>

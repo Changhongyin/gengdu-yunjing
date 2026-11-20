@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/guide/index",
+    "pages/village/index",
+    "pages/shop/index",
+    "pages/profile/index",
+    "pages/cards/index",
+    "pages/panorama/index",
+    "pages/postcard/index",
+    "pages/product/index",
+    "pages/checkout/index",
+    "pages/webview/index",
+    "pages/place/index",
+    "pages/visit/index",
+    "pages/gallery/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "耕读云镜 · 樟影书声",
+    "navigationBarBackgroundColor": "#f5f1e8",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f5f1e8",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7d8779",
+    "selectedColor": "#243f3b",
+    "backgroundColor": "#fffcf5",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/guide/index",
+        "text": "线上寻樟"
+      },
+      {
+        "pagePath": "pages/village/index",
+        "text": "古村漫行"
+      },
+      {
+        "pagePath": "pages/shop/index",
+        "text": "乡味好物"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

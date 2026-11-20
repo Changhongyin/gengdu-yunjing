@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "好物详情",
+  "usingComponents": {
+    "product-gallery": "/components/product-gallery/index"
+  }
+}

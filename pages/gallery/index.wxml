@@ -1,0 +1,17 @@
+<page-meta page-style="{{guideLock}}"/>
+<view class="gallery-page {{guideMotion}}">
+ <view class="gallery-heading row"><text>{{placeName}}</text><text class="gallery-count">{{current+1}} / {{photos.length}}</text></view>
+ <swiper class="gallery-swiper" current="{{current}}" bindchange="changed" duration="280">
+  <swiper-item wx:for="{{photos}}" wx:key="key">
+   <movable-area class="photo-area" scale-area>
+    <movable-view class="photo-view" direction="{{zoom > 1 ? 'all' : 'none'}}" scale scale-min="1" scale-max="5" scale-value="{{item.scale}}" data-index="{{index}}" bindscale="scaled" inertia>
+     <image wx:if="{{!item.failed}}" class="full-photo" src="{{item.src}}" mode="aspectFit" data-index="{{index}}" bindload="loaded" binderror="failed"/>
+    </movable-view>
+   </movable-area>
+   <view wx:if="{{!item.loaded && !item.failed}}" class="loading-hint">正在读取实景原片…</view>
+   <view wx:if="{{item.failed}}" class="photo-failed"><text>照片暂未读取成功</text><button bindtap="retry">重新加载</button></view>
+  </swiper-item>
+ </swiper>
+ <view class="gallery-footer"><view class="photo-caption">{{photos[current].caption}}</view><view class="zoom-hint">双指缩放查看细节 · 左右切换照片</view><view class="gallery-toolbar"><button class="step" bindtap="previous" disabled="{{current === 0}}" aria-label="上一张">‹</button><button bindtap="zoomOut" disabled="{{zoom <= 1}}" aria-label="缩小">−</button><button class="reset" bindtap="reset">重置 {{zoom > 1 ? '· 已放大' : ''}}</button><button bindtap="zoomIn" disabled="{{zoom >= 5}}" aria-label="放大">＋</button><button class="step" bindtap="next" disabled="{{current === photos.length-1}}" aria-label="下一张">›</button></view><view class="original-label">调研实拍 · 完整原片</view></view>
+</view>
+<village-pet id="pet"/>

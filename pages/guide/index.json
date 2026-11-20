@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "耕读云镜 · 樟影书声",
+  "usingComponents": {
+    "scene-art": "/components/scene-art/index",
+    "village-pet": "/components/village-pet/index"
+  }
+}

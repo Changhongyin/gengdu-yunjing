@@ -1,0 +1,17 @@
+<page-meta page-style="{{guideLock}}"/>
+<view class="page fade-in tab-safe {{guideMotion}}">
+  <view class="eyebrow">古渊头村 / 耕读有时 · 山水有信</view>
+  <view class="row"><view class="title">线上寻樟</view><button class="icon-button" bindtap="openCards" aria-label="查看卡集"><image class="shortcut-icon" src="/assets/image_341.png" mode="aspectFit"/></button></view>
+  <view class="subtitle">循一缕樟香，拾一村书声。</view>
+  <view class="row legend"><text>● 普通关卡可任选</text><text class="gold">✓ 印记已收集</text></view>
+  <scene-art style="display:block;width:100%;" kind="map" collected="{{marks}}" final-unlocked="{{finalUnlocked}}" bind:select="selectScene" />
+  <view class="unlock-hint">{{finalUnlocked ? '终章已解锁 · 去四本堂读一段文脉' : '完成至少 2 个前置关卡解锁终章'}}</view>
+  <view class="panel progress-panel">
+    <view class="row"><text class="progress-title">已拾得 {{count}} 枚樟影</text><text class="gold small">0{{count}} / 04</text></view>
+    <view class="muted small">{{count === 4 ? '四景已藏，乡信已成。' : finalUnlocked ? '终章已解锁，继续收藏古村风景。' : '再完成 1 关，即可解锁终章'}}</view>
+    <view class="progress"><view class="progress-fill" style="width:{{count * 25}}%" /></view>
+    <view class="button-row"><button class="outline" bindtap="openCards">查看卡集图鉴</button><button class="primary" bindtap="openPanorama">前往全景漫游</button></view>
+  </view>
+  <view class="footnote">任选关卡进入全景 · 完成任务领取明信片</view>
+</view>
+<village-pet id="pet"/>

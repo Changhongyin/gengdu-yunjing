@@ -1,0 +1,36 @@
+<!-- Keep the companion in page flow when docked beside native content. -->
+<root-portal enable="{{portal && !docked}}">
+<view wx:if="{{visible}}" class="vp vp-{{side}} vp-m-{{mode}} {{docked ? 'vp-docked' : ''}} {{minimized ? 'vp-min' : ''}} {{dragging ? 'vp-drag' : ''}} {{away || covered ? 'vp-away' : ''}}" style="{{docked ? '' : 'left:' + x + 'px;top:' + y + 'px;width:' + w + 'px;height:' + h + 'px;'}}">
+  <view wx:if="{{bubble && !minimized && !away && !covered}}" class="vp-bubble vp-b-{{bubble.kind}} {{bubbleUp && !docked ? 'vp-b-up' : 'vp-b-down'}}" style="{{docked ? '' : 'width:' + bubbleW + 'px;'}}" catchtouchmove="noop" role="status" aria-live="polite">
+    <view class="vp-b-head">
+      <text class="vp-b-name">{{bubble.title}}</text>
+      <text wx:if="{{bubble.tag}}" class="vp-b-tag">{{bubble.tag}}</text>
+      <view class="vp-b-close" bindtap="closeBubble" hover-class="vp-hover" role="button" aria-label="关闭气泡"><text class="vp-b-x">×</text></view>
+    </view>
+    <text class="vp-b-text" user-select="{{true}}">{{bubble.text}}</text>
+    <view wx:if="{{bubble.done && bubble.source}}" class="vp-b-source">{{bubble.source}} · 非模型生成</view>
+    <view wx:if="{{bubble.done && bubble.actions.length}}" class="vp-b-actions">
+      <view wx:for="{{bubble.actions}}" wx:key="id" class="vp-b-act {{item.primary ? 'vp-b-act-on' : ''}}" data-id="{{item.id}}" bindtap="tapAction" hover-class="vp-hover" role="button">{{item.label}}</view>
+    </view>
+    <view wx:if="{{bubble.done && bubble.tip}}" class="vp-b-tip">轻点互动 · 长按对话{{docked ? '' : ' · 拖动移位'}}</view>
+  </view>
+
+  <view class="vp-character" style="width:{{w}}px;height:{{h}}px;">
+  <view wx:if="{{!minimized}}" class="vp-body {{pressing ? 'vp-press' : ''}}" bindtouchstart="touchStart" catchtouchmove="touchMove" bindtouchend="touchEnd" bindtouchcancel="touchCancel" role="button" aria-label="讲解员阿樟。轻点有回应，长按打开古村问地对话{{docked ? '' : '，按住拖动可以移动位置'}}">
+    <view class="vp-shadow"/>
+    <view class="vp-ring"/>
+    <view class="vp-actor vp-a-{{anim}} {{alt ? 'vp-alt' : ''}}">
+      <view class="vp-breath vp-p-{{pose}}">
+        <view class="vp-clip"><image class="vp-sheet" src="/assets/pet/azhang-poses.png" style="transform:translate(-{{col * 25}}%,-{{row * 33.3333}}%);"/></view>
+      </view>
+    </view>
+  </view>
+
+  <view wx:else class="vp-tab" bindtap="restore" hover-class="vp-hover" role="button" aria-label="展开讲解员阿樟">
+    <view class="vp-tab-clip"><image class="vp-tab-img" src="/assets/pet/azhang-poses.png"/></view>
+  </view>
+  </view>
+</view>
+</root-portal>
+<!-- Pages without the custom tab bar get the existing guide layer from here (outside the portal). -->
+<guide-agent wx:if="{{hostGuide}}" id="pet-guide" bind:phase="onGuidePhase"/>

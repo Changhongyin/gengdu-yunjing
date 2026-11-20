@@ -1,0 +1,7 @@
+<view class="gallery" aria-label="{{label}}">
+ <swiper wx:if="{{images.length > 1}}" class="gallery-swiper" current="{{current}}" circular autoplay="{{active}}" interval="{{4200}}" duration="{{450}}" indicator-dots indicator-color="rgba(36,63,59,.2)" indicator-active-color="#ad8849" bindchange="change">
+  <swiper-item wx:for="{{images}}" wx:key="*this"><image class="gallery-image" src="{{item}}" mode="aspectFit" data-index="{{index}}" bindtap="imageTap" aria-label="{{label + ' · 图片' + (index + 1)}}"/></swiper-item>
+ </swiper>
+ <image wx:else class="gallery-image gallery-single" src="{{images[0]}}" mode="aspectFit" data-index="0" bindtap="imageTap" aria-label="{{label}}"/>
+ <view wx:if="{{images.length > 1}}" class="gallery-count">{{current + 1}} / {{images.length}}</view>
+</view>

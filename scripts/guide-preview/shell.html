@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Guide preview harness</title>
+<style>
+html,body{margin:0;background:#1d2422;font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+#note{height:28px;line-height:28px;padding:0 10px;font-size:11px;color:#d9d3c2;background:#1d2422;white-space:nowrap;overflow:hidden}
+#phone{position:relative;width:390px;height:844px;overflow:hidden;background:#f5f1e8}
+#status{height:47px;box-sizing:border-box;padding:16px 28px 0;display:flex;justify-content:space-between;font-size:15px;font-weight:600}
+#status span:last-child{font-size:12px;letter-spacing:1px}
+#nav{height:44px;position:relative;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:600}
+#back{position:absolute;left:10px;top:0;width:44px;height:44px;border:0;background:none;font-size:26px;display:none;color:inherit;cursor:pointer}
+#capsule{position:absolute;right:8px;top:6px;width:87px;height:32px;box-sizing:border-box;border:1px solid rgba(0,0,0,.12);border-radius:16px;display:flex;align-items:center;justify-content:space-evenly;font-size:14px;letter-spacing:2px;background:rgba(255,255,255,.6);color:#000}
+#view{position:absolute;left:0;top:91px;width:390px;height:753px;border:0;display:block}
+#keyboard{position:absolute;left:0;right:0;bottom:0;height:0;overflow:hidden;background:#d1d4da;transition:height .25s ease;z-index:5}
+#keyboard div{margin:10px 6px 0;display:flex;gap:6px}
+#keyboard i{flex:1;height:42px;border-radius:5px;background:#fff;box-shadow:0 1px 0 #898a8d;font-style:normal;font-size:16px;display:flex;align-items:center;justify-content:center;color:#111}
+#keyboard p{margin:8px 0 0;text-align:center;font-size:11px;color:#555}
+#home{position:absolute;left:50%;bottom:8px;width:134px;height:5px;margin-left:-67px;border-radius:3px;background:#111;z-index:6;pointer-events:none}
+</style></head>
+<body>
+<div id="note">Preview harness in headless Edge - interprets the real WXML/WXSS/JS - NOT the WeChat runtime</div>
+<div id="phone">
+  <div id="status"><span>9:41</span><span>5G ▮▮▮</span></div>
+  <div id="nav"><button id="back" aria-label="back">‹</button><span id="title"></span><div id="capsule"><span>•••</span><span>|</span><span>◎</span></div></div>
+  <iframe id="view" title="webview"></iframe>
+  <div id="keyboard"><div><i>q</i><i>w</i><i>e</i><i>r</i><i>t</i><i>y</i><i>u</i><i>i</i><i>o</i><i>p</i></div><div><i>a</i><i>s</i><i>d</i><i>f</i><i>g</i><i>h</i><i>j</i><i>k</i><i>l</i></div><div><i>z</i><i>x</i><i>c</i><i>v</i><i>b</i><i>n</i><i>m</i></div><div><i>123</i><i style="flex:5">空格</i><i>换行</i></div><p>模拟键盘（预览框架，非系统键盘）</p></div>
+  <div id="home"></div>
+</div>
+<script>
+const $ = id => document.getElementById(id);
+window.__shell = {
+  nav(o) {
+    $('title').textContent = o.title;
+    $('back').style.display = o.back ? 'block' : 'none';
+    const color = o.dark ? '#000' : '#fff';
+    for (const id of ['status', 'nav']) { $(id).style.background = o.background; $(id).style.color = color; }
+    $('phone').style.background = o.background;
+  },
+  title(t) { $('title').textContent = t; },
+  keyboard(h) { $('keyboard').style.height = h + 'px'; $('home').style.display = h ? 'none' : 'block'; }
+};
+$('back').onclick = () => $('view').contentWindow.__harness.back();
+$('view').src = '/frame.html' + location.search;
+</script>
+</body></html>

@@ -1,0 +1,1 @@
+Page({data:{url:'',failed:false},onLoad(){this.setData({url:getApp().globalData.panoramaUrl});},onError(){this.setData({failed:true});},copy(){wx.setClipboardData({data:this.data.url});},back(){wx.navigateBack();}});

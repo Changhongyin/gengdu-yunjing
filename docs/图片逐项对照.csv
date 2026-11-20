@@ -1,0 +1,383 @@
+﻿素材,宽,高,原设计页面,原设计层级（精确位置）,当前代码引用,组件用途,静态核对结论
+image_1.png,54,21,登录模板（不属于古村流程）,page > wrap > container2 > content3 > image5,,,未直接引用；见页级说明，不能等同于缺图
+image_2.png,17,11,登录模板（不属于古村流程）,page > wrap > container2 > content2 > image4,,,未直接引用；见页级说明，不能等同于缺图
+image_3.png,16,11,登录模板（不属于古村流程）,page > wrap > container2 > content2 > image3,,,未直接引用；见页级说明，不能等同于缺图
+image_4.png,2,4,登录模板（不属于古村流程）,page > wrap > container2 > content2 > main4 > image2,,,未直接引用；见页级说明，不能等同于缺图
+image_5.png,20,20,登录模板（不属于古村流程）,page > wrap > container1 > content1 > main3 > section3 > subSection4 > block > image,,,未直接引用；见页级说明，不能等同于缺图
+image_6.png,20,20,登录模板（不属于古村流程）,page > wrap > container1 > content1 > main3 > section4 > subSection5 > block1 > image1,,,未直接引用；见页级说明，不能等同于缺图
+image_7.png,62,12,guide,page > wrap1 > container3 > content4 > image6,,,未直接引用；见页级说明，不能等同于缺图
+image_8.png,37,13,guide,page > wrap1 > container3 > content4 > image7,,,未直接引用；见页级说明，不能等同于缺图
+image_9.png,18,20,guide,page > wrap1 > container6 > content6 > main8 > image8,,,未直接引用；见页级说明，不能等同于缺图
+image_10.png,245,183,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > image9,components/scene-art/index.wxml:4,map,已引用（显示仍受页面状态与裁切影响）
+image_11.png,103,92,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > image9 > image10,components/scene-art/index.wxml:5,map,已引用（显示仍受页面状态与裁切影响）
+image_12.png,31,31,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > image9 > image11,components/scene-art/index.wxml:5,map,已引用（显示仍受页面状态与裁切影响）
+image_13.png,210,79,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > image12,components/scene-art/index.wxml:7,map,已引用（显示仍受页面状态与裁切影响）
+image_14.png,59,219,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > image13,components/scene-art/index.wxml:7,map,已引用（显示仍受页面状态与裁切影响）
+image_15.png,135,257,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > image14,components/scene-art/index.wxml:7,map,已引用（显示仍受页面状态与裁切影响）
+image_16.png,85,222,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > image15,components/scene-art/index.wxml:7,map,已引用（显示仍受页面状态与裁切影响）
+image_17.png,45,53,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > image16,components/scene-art/index.wxml:7,map,已引用（显示仍受页面状态与裁切影响）
+image_18.png,87,78,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > image17,components/scene-art/index.wxml:7,map,已引用（显示仍受页面状态与裁切影响）
+image_19.png,66,62,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > image18,components/scene-art/index.wxml:7,map,已引用（显示仍受页面状态与裁切影响）
+image_20.png,259,224,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > image19,components/scene-art/index.wxml:8,map,已引用（显示仍受页面状态与裁切影响）
+image_21.png,46,46,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > image19 > image20,components/scene-art/index.wxml:9,map,已引用（显示仍受页面状态与裁切影响）
+image_22.png,9,13,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > block3 > subBlock > image21,components/scene-art/index.wxml:13,map,已引用（显示仍受页面状态与裁切影响）
+image_23.png,12,15,guide,page > wrap1 > container8 > content8 > section8 > subSection12 > block7 > subBlock2 > image22,components/scene-art/index.wxml:35,map,已引用（显示仍受页面状态与裁切影响）
+image_24.png,62,12,cards,page > wrap2 > container10 > content10 > image23,,,未直接引用；见页级说明，不能等同于缺图
+image_25.png,37,13,cards,page > wrap2 > container10 > content10 > image24,,,未直接引用；见页级说明，不能等同于缺图
+image_26.png,8,14,cards,page > wrap2 > container13 > content12 > main16 > image25,,,未直接引用；见页级说明，不能等同于缺图
+image_27.png,144,109,cards,page > wrap2 > container17 > content14 > main17 > section14 > block9 > subBlock3 > image26,components/scene-art/index.wxml:41,scene0,已引用（显示仍受页面状态与裁切影响）
+image_28.png,144,101,cards,page > wrap2 > container17 > content14 > main17 > section14 > block9 > subBlock3 > image26 > image27,components/scene-art/index.wxml:42,scene0,已引用（显示仍受页面状态与裁切影响）
+image_29.png,8,78,cards,page > wrap2 > container17 > content14 > main17 > section14 > block9 > subBlock3 > image26 > image28,components/scene-art/index.wxml:42,scene0,已引用（显示仍受页面状态与裁切影响）
+image_30.png,144,109,cards,page > wrap2 > container17 > content14 > main17 > section14 > block9 > subBlock3 > image26 > image29,components/scene-art/index.wxml:43,scene0,已引用（显示仍受页面状态与裁切影响）
+image_31.png,31,31,cards,page > wrap2 > container17 > content14 > main17 > section14 > block9 > subBlock3 > image26 > image29 > image30,components/scene-art/index.wxml:44,scene0,已引用（显示仍受页面状态与裁切影响）
+image_32.png,1,1,cards,page > wrap2 > container17 > content14 > main17 > section14 > block9 > image31,,,未直接引用；见页级说明，不能等同于缺图
+image_33.png,1,1,cards,page > wrap2 > container17 > content14 > main17 > section14 > block9 > image32,,,未直接引用；见页级说明，不能等同于缺图
+image_34.png,1,1,cards,page > wrap2 > container17 > content14 > main17 > section14 > block9 > image33,,,未直接引用；见页级说明，不能等同于缺图
+image_35.png,1,1,cards,page > wrap2 > container17 > content14 > main17 > section14 > block9 > image34,,,未直接引用；见页级说明，不能等同于缺图
+image_36.png,1,1,cards,page > wrap2 > container17 > content14 > main17 > section14 > block9 > image35,,,未直接引用；见页级说明，不能等同于缺图
+image_37.png,1,1,cards,page > wrap2 > container17 > content14 > main17 > section14 > block9 > image36,,,未直接引用；见页级说明，不能等同于缺图
+image_38.png,1,1,cards,page > wrap2 > container17 > content14 > main18 > section15 > subSection18 > block10 > subBlock5 > image43,,,未直接引用；见页级说明，不能等同于缺图
+image_39.png,1,1,cards,page > wrap2 > container17 > content14 > main18 > section15 > subSection18 > block10 > subBlock5 > image44,,,未直接引用；见页级说明，不能等同于缺图
+image_40.png,103,109,cards,page > wrap2 > container17 > content14 > main18 > section15 > subSection18 > block10 > subBlock4 > image37,components/scene-art/index.wxml:48,scene1,已引用（显示仍受页面状态与裁切影响）
+image_41.png,60,109,cards,page > wrap2 > container17 > content14 > main18 > section15 > subSection18 > block10 > subBlock4 > image37 > image38,components/scene-art/index.wxml:49,scene1,已引用（显示仍受页面状态与裁切影响）
+image_42.png,50,109,cards,page > wrap2 > container17 > content14 > main18 > section15 > subSection18 > block10 > subBlock4 > image37 > image38 > image39,components/scene-art/index.wxml:50,scene1,已引用（显示仍受页面状态与裁切影响）
+image_43.png,42,109,cards,page > wrap2 > container17 > content14 > main18 > section15 > subSection18 > block10 > subBlock4 > image40,components/scene-art/index.wxml:53,scene1,已引用（显示仍受页面状态与裁切影响）
+image_44.png,65,77,cards,page > wrap2 > container17 > content14 > main18 > section15 > subSection18 > block10 > subBlock4 > image41,components/scene-art/index.wxml:53,scene1,已引用（显示仍受页面状态与裁切影响）
+image_45.png,143,106,cards,page > wrap2 > container17 > content14 > main18 > section15 > subSection18 > block10 > subBlock4 > image42,components/scene-art/index.wxml:53,scene1,已引用（显示仍受页面状态与裁切影响）
+image_46.png,1,1,cards,page > wrap2 > container17 > content14 > main18 > section15 > subSection18 > block10 > image45,,,未直接引用；见页级说明，不能等同于缺图
+image_47.png,1,1,cards,page > wrap2 > container17 > content14 > main18 > section15 > subSection18 > block10 > image46,,,未直接引用；见页级说明，不能等同于缺图
+image_48.png,49,109,cards,page > wrap2 > container17 > content14 > main19 > section16 > subSection20 > block11 > subBlock6 > div1 > image47,components/scene-art/index.wxml:55,scene2,已引用（显示仍受页面状态与裁切影响）
+image_49.png,126,99,cards,page > wrap2 > container17 > content14 > main19 > section16 > subSection20 > block11 > subBlock6 > div1 > image48,components/scene-art/index.wxml:55,scene2,已引用（显示仍受页面状态与裁切影响）
+image_50.png,144,109,cards,page > wrap2 > container17 > content14 > main19 > section16 > subSection20 > block11 > subBlock6 > div1 > image49,components/scene-art/index.wxml:55,scene2,已引用（显示仍受页面状态与裁切影响）
+image_51.png,1,1,cards,page > wrap2 > container17 > content14 > main19 > section16 > subSection20 > block11 > subBlock6 > image50,,,未直接引用；见页级说明，不能等同于缺图
+image_52.png,1,1,cards,page > wrap2 > container17 > content14 > main19 > section16 > subSection20 > block11 > subBlock6 > image50 > image51,,,未直接引用；见页级说明，不能等同于缺图
+image_53.png,1,1,cards,page > wrap2 > container17 > content14 > main19 > section16 > subSection20 > block11 > subBlock6 > image52,,,未直接引用；见页级说明，不能等同于缺图
+image_54.png,1,1,cards,page > wrap2 > container17 > content14 > main19 > section16 > subSection20 > block11 > subBlock6 > image53,,,未直接引用；见页级说明，不能等同于缺图
+image_55.png,1,1,cards,page > wrap2 > container17 > content14 > main19 > section16 > subSection20 > block11 > subBlock6 > image54,,,未直接引用；见页级说明，不能等同于缺图
+image_56.png,1,1,cards,page > wrap2 > container17 > content14 > main19 > section16 > subSection20 > block11 > subBlock6 > image55,,,未直接引用；见页级说明，不能等同于缺图
+image_57.png,1,1,cards,page > wrap2 > container17 > content14 > main19 > section16 > subSection20 > block11 > image56,,,未直接引用；见页级说明，不能等同于缺图
+image_58.png,1,1,cards,page > wrap2 > container17 > content14 > main20 > section17 > subSection22 > block12 > subBlock8 > image60,,,未直接引用；见页级说明，不能等同于缺图
+image_59.png,1,1,cards,page > wrap2 > container17 > content14 > main20 > section17 > subSection22 > block12 > subBlock8 > image60 > image61,,,未直接引用；见页级说明，不能等同于缺图
+image_60.png,1,1,cards,page > wrap2 > container17 > content14 > main20 > section17 > subSection22 > block12 > subBlock8 > image62,,,未直接引用；见页级说明，不能等同于缺图
+image_61.png,1,1,cards,page > wrap2 > container17 > content14 > main20 > section17 > subSection22 > block12 > subBlock8 > image63,,,未直接引用；见页级说明，不能等同于缺图
+image_62.png,1,1,cards,page > wrap2 > container17 > content14 > main20 > section17 > subSection22 > block12 > subBlock8 > image64,,,未直接引用；见页级说明，不能等同于缺图
+image_63.png,1,1,cards,page > wrap2 > container17 > content14 > main20 > section17 > subSection22 > block12 > subBlock8 > image65,,,未直接引用；见页级说明，不能等同于缺图
+image_64.png,1,1,cards,page > wrap2 > container17 > content14 > main20 > section17 > subSection22 > block12 > subBlock8 > image66,,,未直接引用；见页级说明，不能等同于缺图
+image_65.png,60,84,cards,page > wrap2 > container17 > content14 > main20 > section17 > subSection22 > block12 > subBlock7 > image57,components/scene-art/index.wxml:57,scene3,已引用（显示仍受页面状态与裁切影响）
+image_66.png,96,90,cards,page > wrap2 > container17 > content14 > main20 > section17 > subSection22 > block12 > subBlock7 > image58,components/scene-art/index.wxml:57,scene3,已引用（显示仍受页面状态与裁切影响）
+image_67.png,143,74,cards,page > wrap2 > container17 > content14 > main20 > section17 > subSection22 > block12 > subBlock7 > image59,components/scene-art/index.wxml:57,scene3,已引用（显示仍受页面状态与裁切影响）
+image_68.png,24,29,cards,page > wrap2 > container18 > content15 > main21 > section18 > image67,pages/cards/index.wxml:13,,已引用（显示仍受页面状态与裁切影响）
+image_69.png,62,12,shop,page > wrap3 > container19 > content16 > image68,,,未直接引用；见页级说明，不能等同于缺图
+image_70.png,37,13,shop,page > wrap3 > container19 > content16 > image69,,,未直接引用；见页级说明，不能等同于缺图
+image_71.png,53,53,shop,page > wrap3 > container21 > image70,,,未直接引用；见页级说明，不能等同于缺图
+image_72.png,23,27,shop,page > wrap3 > container21 > image70 > main26 > image71,,,未直接引用；见页级说明，不能等同于缺图
+image_73.png,6,6,shop,page > wrap3 > container22 > content19 > main27 > image72,,,未直接引用；见页级说明，不能等同于缺图
+image_74.png,15,11,shop,page > wrap3 > container22 > content20 > image73,,,未直接引用；见页级说明，不能等同于缺图
+image_75.png,230,52,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > image74,,,未直接引用；见页级说明，不能等同于缺图
+image_76.png,218,29,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > image74 > image75,,,未直接引用；见页级说明，不能等同于缺图
+image_77.png,188,15,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > image76,,,未直接引用；见页级说明，不能等同于缺图
+image_78.png,167,34,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > image77,,,未直接引用；见页级说明，不能等同于缺图
+image_79.png,48,27,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > image77 > image78,,,未直接引用；见页级说明，不能等同于缺图
+image_80.png,17,6,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > image77 > image79,,,未直接引用；见页级说明，不能等同于缺图
+image_81.png,44,37,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > image80,,,未直接引用；见页级说明，不能等同于缺图
+image_82.png,85,15,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > div3 > image81,,,未直接引用；见页级说明，不能等同于缺图
+image_83.png,82,110,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > div3 > image82,,,未直接引用；见页级说明，不能等同于缺图
+image_84.png,67,95,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > div3 > image82 > image83,,,未直接引用；见页级说明，不能等同于缺图
+image_85.png,15,92,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > div3 > image82 > image84,,,未直接引用；见页级说明，不能等同于缺图
+image_86.png,13,95,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > div3 > image82 > image85,,,未直接引用；见页级说明，不能等同于缺图
+image_87.png,61,9,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > div3 > image82 > image86,,,未直接引用；见页级说明，不能等同于缺图
+image_88.png,74,102,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > div3 > image82 > image87,,,未直接引用；见页级说明，不能等同于缺图
+image_89.png,71,89,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > div3 > image82 > image87 > image88,,,未直接引用；见页级说明，不能等同于缺图
+image_90.png,9,85,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > div3 > image82 > image87 > image88 > image89,,,未直接引用；见页级说明，不能等同于缺图
+image_91.png,21,66,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > div3 > image82 > image87 > image88 > image90,,,未直接引用；见页级说明，不能等同于缺图
+image_92.png,8,8,shop,page > wrap3 > container24 > content22 > section22 > subSection28 > block14 > subBlock9 > div2 > div3 > image82 > image87 > image88 > image91,,,未直接引用；见页级说明，不能等同于缺图
+image_93.png,17,15,shop,page > wrap3 > container24 > content23 > main34 > section24 > subSection31 > image92,,,未直接引用；见页级说明，不能等同于缺图
+image_94.png,179,96,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93,components/scene-art/index.wxml:130,notebook,已引用（显示仍受页面状态与裁切影响）
+image_95.png,114,70,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93 > div8 > image94,components/scene-art/index.wxml:132,notebook,已引用（显示仍受页面状态与裁切影响）
+image_96.png,93,42,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93 > div8 > image94 > image95,components/scene-art/index.wxml:133,notebook,已引用（显示仍受页面状态与裁切影响）
+image_97.png,94,16,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93 > div8 > image94 > image96,components/scene-art/index.wxml:133,notebook,已引用（显示仍受页面状态与裁切影响）
+image_98.png,89,41,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93 > div8 > image94 > image97,components/scene-art/index.wxml:133,notebook,已引用（显示仍受页面状态与裁切影响）
+image_99.png,99,42,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93 > div8 > image94 > image98,components/scene-art/index.wxml:133,notebook,已引用（显示仍受页面状态与裁切影响）
+image_100.png,88,48,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93 > div8 > image94 > image99,components/scene-art/index.wxml:133,notebook,已引用（显示仍受页面状态与裁切影响）
+image_101.png,119,57,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93 > div9 > image100,components/scene-art/index.wxml:137,notebook,已引用（显示仍受页面状态与裁切影响）
+image_102.png,87,17,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93 > div9 > image100 > image101,components/scene-art/index.wxml:138,notebook,已引用（显示仍受页面状态与裁切影响）
+image_103.png,55,8,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93 > div9 > image100 > image101 > image102,components/scene-art/index.wxml:139,notebook,已引用（显示仍受页面状态与裁切影响）
+image_104.png,56,44,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93 > div9 > image100 > image103,components/scene-art/index.wxml:141,notebook,已引用（显示仍受页面状态与裁切影响）
+image_105.png,8,2,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93 > div9 > image100 > image104,components/scene-art/index.wxml:141,notebook,已引用（显示仍受页面状态与裁切影响）
+image_106.png,91,43,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93 > div9 > image100 > image105,components/scene-art/index.wxml:141,notebook,已引用（显示仍受页面状态与裁切影响）
+image_107.png,33,11,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image93 > image106,components/scene-art/index.wxml:144,notebook,已引用（显示仍受页面状态与裁切影响）
+image_108.png,49,96,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > div10 > image107,components/scene-art/index.wxml:148,notebook,已引用（显示仍受页面状态与裁切影响）
+image_109.png,26,50,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > div10 > image107 > div12 > image108,components/scene-art/index.wxml:151,notebook,已引用（显示仍受页面状态与裁切影响）
+image_110.png,29,59,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > div10 > image107 > div12 > image109,components/scene-art/index.wxml:151,notebook,已引用（显示仍受页面状态与裁切影响）
+image_111.png,9,2,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > div10 > image107 > div12 > image110,components/scene-art/index.wxml:151,notebook,已引用（显示仍受页面状态与裁切影响）
+image_112.png,36,76,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > div10 > image107 > div12 > image111,components/scene-art/index.wxml:151,notebook,已引用（显示仍受页面状态与裁切影响）
+image_113.png,27,42,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > subBlock10 > div6 > div7 > image112,components/scene-art/index.wxml:155,notebook,已引用（显示仍受页面状态与裁切影响）
+image_114.png,1,1,shop,page > wrap3 > container25 > content25 > section27 > subSection32 > block15 > image113,components/scene-art/index.wxml:160,notebook,已引用（显示仍受页面状态与裁切影响）
+image_115.png,17,15,shop,page > wrap3 > container25 > content26 > main39 > section29 > subSection35 > image114,,,未直接引用；见页级说明，不能等同于缺图
+image_116.png,23,19,shop,page > wrap3 > container26 > content28 > main42 > section30 > subSection36 > image115,,,未直接引用；见页级说明，不能等同于缺图
+image_117.png,62,12,product 自提,page > wrap4 > container27 > content30 > image116,,,未直接引用；见页级说明，不能等同于缺图
+image_118.png,37,13,product 自提,page > wrap4 > container27 > content30 > image117,,,未直接引用；见页级说明，不能等同于缺图
+image_119.png,8,14,product 自提,page > wrap4 > container29 > content32 > main47 > image118,,,未直接引用；见页级说明，不能等同于缺图
+image_120.png,262,59,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > image119,components/scene-art/index.wxml:62,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_121.png,249,33,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > image119 > image120,components/scene-art/index.wxml:63,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_122.png,214,27,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > image121,components/scene-art/index.wxml:65,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_123.png,190,45,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > image122,components/scene-art/index.wxml:66,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_124.png,55,31,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > image122 > image123,components/scene-art/index.wxml:67,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_125.png,19,7,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > image122 > image124,components/scene-art/index.wxml:67,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_126.png,50,42,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > image125,components/scene-art/index.wxml:69,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_127.png,97,17,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > div17 > image126,components/scene-art/index.wxml:71,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_128.png,93,126,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > div17 > image127,components/scene-art/index.wxml:72,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_129.png,76,109,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > div17 > image127 > image128,components/scene-art/index.wxml:73,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_130.png,17,105,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > div17 > image127 > image129,components/scene-art/index.wxml:73,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_131.png,14,108,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > div17 > image127 > image130,components/scene-art/index.wxml:73,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_132.png,69,10,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > div17 > image127 > image131,components/scene-art/index.wxml:73,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_133.png,85,116,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > div17 > image127 > image132,components/scene-art/index.wxml:74,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_134.png,81,101,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > div17 > image127 > image132 > image133,components/scene-art/index.wxml:75,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_135.png,10,97,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > div17 > image127 > image132 > image133 > image134,components/scene-art/index.wxml:76,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_136.png,24,75,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > div17 > image127 > image132 > image133 > image135,components/scene-art/index.wxml:76,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_137.png,9,9,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock11 > div17 > image127 > image132 > image133 > image136,components/scene-art/index.wxml:76,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_138.png,1,82,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div22 > image137,components/scene-art/index.wxml:92,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_139.png,1,46,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div22 > image137 > image138,components/scene-art/index.wxml:93,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_140.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > image139,components/scene-art/index.wxml:97,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_141.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > image140,components/scene-art/index.wxml:98,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_142.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > image140 > image141,components/scene-art/index.wxml:99,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_143.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > image140 > image142,components/scene-art/index.wxml:99,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_144.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > image143,components/scene-art/index.wxml:101,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_145.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > div24 > image144,components/scene-art/index.wxml:103,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_146.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > div24 > image145,components/scene-art/index.wxml:104,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_147.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > div24 > image145 > image146,components/scene-art/index.wxml:105,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_148.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > div24 > image145 > image147,components/scene-art/index.wxml:105,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_149.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > div24 > image145 > image148,components/scene-art/index.wxml:105,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_150.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > div24 > image145 > image149,components/scene-art/index.wxml:105,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_151.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > div24 > image145 > image150,components/scene-art/index.wxml:106,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_152.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > div24 > image145 > image150 > image151,components/scene-art/index.wxml:107,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_153.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > div24 > image145 > image150 > image151 > image152,components/scene-art/index.wxml:108,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_154.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > div24 > image145 > image150 > image151 > image153,components/scene-art/index.wxml:108,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_155.png,1,1,product 自提,page > wrap4 > container30 > main48 > subSection41 > block19 > subBlock12 > div21 > div23 > div24 > image145 > image150 > image151 > image154,components/scene-art/index.wxml:108,vegetable,已引用（显示仍受页面状态与裁切影响）
+image_156.png,19,16,product 自提,page > wrap4 > container31 > content34 > main49 > image155,,,未直接引用；见页级说明，不能等同于缺图
+image_157.png,11,2,product 自提,page > wrap4 > container33 > content36 > main52 > section38 > subSection42 > image156,,,未直接引用；见页级说明，不能等同于缺图
+image_158.png,11,11,product 自提,page > wrap4 > container33 > content36 > main52 > section39 > subSection43 > image157,,,未直接引用；见页级说明，不能等同于缺图
+image_159.png,13,17,product 自提,page > wrap4 > container34 > content38 > main55 > section40 > image158,,,未直接引用；见页级说明，不能等同于缺图
+image_160.png,15,16,product 自提,page > wrap4 > container34 > content39 > main57 > image159,,,未直接引用；见页级说明，不能等同于缺图
+image_161.png,10,6,product 自提,page > wrap4 > container34 > content39 > main58 > image160,,,未直接引用；见页级说明，不能等同于缺图
+image_162.png,62,12,product 快递,page > wrap5 > container38 > content42 > image161,,,未直接引用；见页级说明，不能等同于缺图
+image_163.png,37,13,product 快递,page > wrap5 > container38 > content42 > image162,,,未直接引用；见页级说明，不能等同于缺图
+image_164.png,8,14,product 快递,page > wrap5 > container40 > content44 > main62 > image163,,,未直接引用；见页级说明，不能等同于缺图
+image_165.png,262,59,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > image164,,,未直接引用；见页级说明，不能等同于缺图
+image_166.png,249,33,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > image164 > image165,,,未直接引用；见页级说明，不能等同于缺图
+image_167.png,214,27,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > image166,,,未直接引用；见页级说明，不能等同于缺图
+image_168.png,190,45,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > image167,,,未直接引用；见页级说明，不能等同于缺图
+image_169.png,55,31,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > image167 > image168,,,未直接引用；见页级说明，不能等同于缺图
+image_170.png,19,7,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > image167 > image169,,,未直接引用；见页级说明，不能等同于缺图
+image_171.png,50,42,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > image170,,,未直接引用；见页级说明，不能等同于缺图
+image_172.png,97,17,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > div25 > image171,,,未直接引用；见页级说明，不能等同于缺图
+image_173.png,93,126,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > div25 > image172,,,未直接引用；见页级说明，不能等同于缺图
+image_174.png,76,109,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > div25 > image172 > image173,,,未直接引用；见页级说明，不能等同于缺图
+image_175.png,17,105,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > div25 > image172 > image174,,,未直接引用；见页级说明，不能等同于缺图
+image_176.png,14,108,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > div25 > image172 > image175,,,未直接引用；见页级说明，不能等同于缺图
+image_177.png,69,10,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > div25 > image172 > image176,,,未直接引用；见页级说明，不能等同于缺图
+image_178.png,85,116,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > div25 > image172 > image177,,,未直接引用；见页级说明，不能等同于缺图
+image_179.png,81,101,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > div25 > image172 > image177 > image178,,,未直接引用；见页级说明，不能等同于缺图
+image_180.png,10,97,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > div25 > image172 > image177 > image178 > image179,,,未直接引用；见页级说明，不能等同于缺图
+image_181.png,24,75,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > div25 > image172 > image177 > image178 > image180,,,未直接引用；见页级说明，不能等同于缺图
+image_182.png,9,9,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock13 > div25 > image172 > image177 > image178 > image181,,,未直接引用；见页级说明，不能等同于缺图
+image_183.png,1,82,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div30 > image182,,,未直接引用；见页级说明，不能等同于缺图
+image_184.png,1,46,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div30 > image182 > image183,,,未直接引用；见页级说明，不能等同于缺图
+image_185.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > image184,,,未直接引用；见页级说明，不能等同于缺图
+image_186.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > image185,,,未直接引用；见页级说明，不能等同于缺图
+image_187.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > image185 > image186,,,未直接引用；见页级说明，不能等同于缺图
+image_188.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > image185 > image187,,,未直接引用；见页级说明，不能等同于缺图
+image_189.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > image188,,,未直接引用；见页级说明，不能等同于缺图
+image_190.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > div32 > image189,,,未直接引用；见页级说明，不能等同于缺图
+image_191.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > div32 > image190,,,未直接引用；见页级说明，不能等同于缺图
+image_192.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > div32 > image190 > image191,,,未直接引用；见页级说明，不能等同于缺图
+image_193.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > div32 > image190 > image192,,,未直接引用；见页级说明，不能等同于缺图
+image_194.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > div32 > image190 > image193,,,未直接引用；见页级说明，不能等同于缺图
+image_195.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > div32 > image190 > image194,,,未直接引用；见页级说明，不能等同于缺图
+image_196.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > div32 > image190 > image195,,,未直接引用；见页级说明，不能等同于缺图
+image_197.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > div32 > image190 > image195 > image196,,,未直接引用；见页级说明，不能等同于缺图
+image_198.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > div32 > image190 > image195 > image196 > image197,,,未直接引用；见页级说明，不能等同于缺图
+image_199.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > div32 > image190 > image195 > image196 > image198,,,未直接引用；见页级说明，不能等同于缺图
+image_200.png,1,1,product 快递,page > wrap5 > container41 > main63 > subSection48 > block22 > subBlock14 > div29 > div31 > div32 > image190 > image195 > image196 > image199,,,未直接引用；见页级说明，不能等同于缺图
+image_201.png,19,16,product 快递,page > wrap5 > container42 > content46 > main64 > image200,,,未直接引用；见页级说明，不能等同于缺图
+image_202.png,11,2,product 快递,page > wrap5 > container44 > content48 > main67 > section45 > subSection49 > image201,,,未直接引用；见页级说明，不能等同于缺图
+image_203.png,11,11,product 快递,page > wrap5 > container44 > content48 > main67 > section46 > subSection50 > image202,,,未直接引用；见页级说明，不能等同于缺图
+image_204.png,12,16,product 快递,page > wrap5 > container45 > content51 > main72 > section47 > image203,,,未直接引用；见页级说明，不能等同于缺图
+image_205.png,62,12,checkout,page > wrap6 > container49 > content54 > image204,,,未直接引用；见页级说明，不能等同于缺图
+image_206.png,37,13,checkout,page > wrap6 > container49 > content54 > image205,,,未直接引用；见页级说明，不能等同于缺图
+image_207.png,8,14,checkout,page > wrap6 > container51 > content56 > main76 > image206,,,未直接引用；见页级说明，不能等同于缺图
+image_208.png,16,16,checkout,page > wrap6 > container52 > content57 > main77 > image207,,,未直接引用；见页级说明，不能等同于缺图
+image_209.png,10,8,checkout,page > wrap6 > container52 > content58 > main78 > section50 > image208,,,未直接引用；见页级说明，不能等同于缺图
+image_210.png,88,25,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > image209,,,未直接引用；见页级说明，不能等同于缺图
+image_211.png,88,14,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > image209 > image210,,,未直接引用；见页级说明，不能等同于缺图
+image_212.png,88,12,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > image211,,,未直接引用；见页级说明，不能等同于缺图
+image_213.png,81,19,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > image212,,,未直接引用；见页级说明，不能等同于缺图
+image_214.png,8,3,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > image212 > image214,,,未直接引用；见页级说明，不能等同于缺图
+image_215.png,24,13,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > image212 > image213,,,未直接引用；见页级说明，不能等同于缺图
+image_216.png,22,18,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > image215,,,未直接引用；见页级说明，不能等同于缺图
+image_217.png,41,7,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > subBlock15 > image216,,,未直接引用；见页级说明，不能等同于缺图
+image_218.png,40,53,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > subBlock15 > image217,,,未直接引用；见页级说明，不能等同于缺图
+image_219.png,32,46,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > subBlock15 > image217 > image218,,,未直接引用；见页级说明，不能等同于缺图
+image_220.png,7,45,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > subBlock15 > image217 > image219,,,未直接引用；见页级说明，不能等同于缺图
+image_221.png,6,46,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > subBlock15 > image217 > image220,,,未直接引用；见页级说明，不能等同于缺图
+image_222.png,30,5,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > subBlock15 > image217 > image221,,,未直接引用；见页级说明，不能等同于缺图
+image_223.png,36,49,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > subBlock15 > image217 > image222,,,未直接引用；见页级说明，不能等同于缺图
+image_224.png,34,43,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > subBlock15 > image217 > image222 > image223,,,未直接引用；见页级说明，不能等同于缺图
+image_225.png,4,41,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > subBlock15 > image217 > image222 > image223 > image224,,,未直接引用；见页级说明，不能等同于缺图
+image_226.png,10,32,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > subBlock15 > image217 > image222 > image223 > image225,,,未直接引用；见页级说明，不能等同于缺图
+image_227.png,4,4,checkout,page > wrap6 > container52 > content58 > main79 > subSection55 > block25 > subBlock15 > image217 > image222 > image223 > image226,,,未直接引用；见页级说明，不能等同于缺图
+image_228.png,11,2,checkout,page > wrap6 > container52 > content59 > main81 > section52 > subSection56 > image227,,,未直接引用；见页级说明，不能等同于缺图
+image_229.png,11,11,checkout,page > wrap6 > container52 > content59 > main81 > section53 > subSection57 > image228,,,未直接引用；见页级说明，不能等同于缺图
+image_230.png,17,20,checkout,page > wrap6 > container55 > content66 > image229,,,未直接引用；见页级说明，不能等同于缺图
+image_231.png,62,12,village,page > wrap7 > container58 > content69 > image230,,,未直接引用；见页级说明，不能等同于缺图
+image_232.png,37,13,village,page > wrap7 > container58 > content69 > image231,,,未直接引用；见页级说明，不能等同于缺图
+image_233.png,6,6,village,page > wrap7 > container60 > content71 > main85 > section56 > image232,,,未直接引用；见页级说明，不能等同于缺图
+image_234.png,15,11,village,page > wrap7 > container60 > content71 > main86 > image233,,,未直接引用；见页级说明，不能等同于缺图
+image_235.png,265,53,village,page > wrap7 > container61 > content72 > section57 > subSection63 > image234,components/scene-art/index.wxml:165,villageHero,已引用（显示仍受页面状态与裁切影响）
+image_236.png,89,21,village,page > wrap7 > container61 > content72 > section57 > subSection63 > image235,components/scene-art/index.wxml:165,villageHero,已引用（显示仍受页面状态与裁切影响）
+image_237.png,265,58,village,page > wrap7 > container61 > content72 > section57 > subSection63 > image236,components/scene-art/index.wxml:166,villageHero,已引用（显示仍受页面状态与裁切影响）
+image_238.png,34,16,village,page > wrap7 > container61 > content72 > section57 > subSection63 > image236 > image237,components/scene-art/index.wxml:167,villageHero,已引用（显示仍受页面状态与裁切影响）
+image_239.png,240,22,village,page > wrap7 > container61 > content72 > section57 > subSection63 > image236 > image238,components/scene-art/index.wxml:167,villageHero,已引用（显示仍受页面状态与裁切影响）
+image_240.png,49,59,village,page > wrap7 > container61 > content72 > section57 > subSection63 > image239,components/scene-art/index.wxml:169,villageHero,已引用（显示仍受页面状态与裁切影响）
+image_241.png,34,31,village,page > wrap7 > container61 > content72 > section57 > subSection63 > image240,components/scene-art/index.wxml:169,villageHero,已引用（显示仍受页面状态与裁切影响）
+image_242.png,33,33,village,page > wrap7 > container61 > content72 > section57 > subSection63 > image241,components/scene-art/index.wxml:169,villageHero,已引用（显示仍受页面状态与裁切影响）
+image_243.png,48,40,village,page > wrap7 > container61 > content72 > section57 > subSection63 > image242,components/scene-art/index.wxml:169,villageHero,已引用（显示仍受页面状态与裁切影响）
+image_244.png,63,76,village,page > wrap7 > container61 > content72 > section57 > subSection63 > image243,components/scene-art/index.wxml:169,villageHero,已引用（显示仍受页面状态与裁切影响）
+image_245.png,132,68,village,page > wrap7 > container61 > content72 > section57 > subSection63 > image244,components/scene-art/index.wxml:169,villageHero,已引用（显示仍受页面状态与裁切影响）
+image_246.png,11,15,village,page > wrap7 > container61 > content75 > main89 > section61 > subSection64 > block28 > image245,,,未直接引用；见页级说明，不能等同于缺图
+image_247.png,22,12,village,page > wrap7 > container62 > content76 > main93 > image246,,,未直接引用；见页级说明，不能等同于缺图
+image_248.png,98,94,village,page > wrap7 > container62 > content77 > main94 > section64 > block29 > subBlock16 > image247,,,未直接引用；见页级说明，不能等同于缺图
+image_249.png,48,2,village,page > wrap7 > container62 > content77 > main94 > section64 > block29 > subBlock16 > image247 > image248,,,未直接引用；见页级说明，不能等同于缺图
+image_250.png,98,88,village,page > wrap7 > container62 > content77 > main94 > section64 > block29 > subBlock16 > image247 > image249,,,未直接引用；见页级说明，不能等同于缺图
+image_251.png,98,86,village,page > wrap7 > container62 > content77 > main94 > section64 > block29 > subBlock16 > image250,,,未直接引用；见页级说明，不能等同于缺图
+image_252.png,1,1,village,page > wrap7 > container62 > content77 > main94 > section64 > block29 > image251,,,未直接引用；见页级说明，不能等同于缺图
+image_253.png,1,1,village,page > wrap7 > container62 > content77 > main94 > section64 > block29 > image252,,,未直接引用；见页级说明，不能等同于缺图
+image_254.png,1,1,village,page > wrap7 > container62 > content77 > main94 > section64 > block29 > image253,,,未直接引用；见页级说明，不能等同于缺图
+image_255.png,1,1,village,page > wrap7 > container62 > content77 > main94 > section64 > block29 > image254,,,未直接引用；见页级说明，不能等同于缺图
+image_256.png,1,1,village,page > wrap7 > container62 > content77 > main94 > section64 > block29 > image255,,,未直接引用；见页级说明，不能等同于缺图
+image_257.png,1,1,village,page > wrap7 > container62 > content77 > main94 > section64 > block29 > image256,,,未直接引用；见页级说明，不能等同于缺图
+image_258.png,17,16,village,page > wrap7 > container62 > content77 > main95 > section67 > subSection66 > image257,pages/village/index.wxml:3,,已引用（显示仍受页面状态与裁切影响）
+image_259.png,17,16,village,page > wrap7 > container62 > content77 > main95 > section68 > subSection67 > image258,,,未直接引用；见页级说明，不能等同于缺图
+image_260.png,51,51,village,page > wrap7 > container62 > content77 > main95 > image259,,,未直接引用；见页级说明，不能等同于缺图
+image_261.png,17,17,village,page > wrap7 > container62 > content77 > main95 > section69 > subSection68 > image260,pages/village/index.wxml:3,,已引用（显示仍受页面状态与裁切影响）
+image_262.png,17,17,village,page > wrap7 > container62 > content77 > main95 > section70 > subSection69 > image261,,,未直接引用；见页级说明，不能等同于缺图
+image_263.png,1,1,village,page > wrap7 > container62 > content78 > main96 > section71 > block30 > subBlock18 > image268,,,未直接引用；见页级说明，不能等同于缺图
+image_264.png,1,1,village,page > wrap7 > container62 > content78 > main96 > section71 > block30 > subBlock18 > image269,,,未直接引用；见页级说明，不能等同于缺图
+image_265.png,73,92,village,page > wrap7 > container62 > content78 > main96 > section71 > block30 > subBlock17 > image262,,,未直接引用；见页级说明，不能等同于缺图
+image_266.png,27,94,village,page > wrap7 > container62 > content78 > main96 > section71 > block30 > subBlock17 > image263,,,未直接引用；见页级说明，不能等同于缺图
+image_267.png,40,94,village,page > wrap7 > container62 > content78 > main96 > section71 > block30 > subBlock17 > image264,,,未直接引用；见页级说明，不能等同于缺图
+image_268.png,33,94,village,page > wrap7 > container62 > content78 > main96 > section71 > block30 > subBlock17 > image264 > image265,,,未直接引用；见页级说明，不能等同于缺图
+image_269.png,48,57,village,page > wrap7 > container62 > content78 > main96 > section71 > block30 > subBlock17 > image266,,,未直接引用；见页级说明，不能等同于缺图
+image_270.png,98,83,village,page > wrap7 > container62 > content78 > main96 > section71 > block30 > subBlock17 > image267,,,未直接引用；见页级说明，不能等同于缺图
+image_271.png,1,1,village,page > wrap7 > container62 > content78 > main96 > section71 > block30 > image270,,,未直接引用；见页级说明，不能等同于缺图
+image_272.png,1,1,village,page > wrap7 > container62 > content78 > main96 > section71 > block30 > image271,,,未直接引用；见页级说明，不能等同于缺图
+image_273.png,17,16,village,page > wrap7 > container62 > content78 > main98 > section73 > subSection71 > image272,,,未直接引用；见页级说明，不能等同于缺图
+image_274.png,17,16,village,page > wrap7 > container62 > content78 > main98 > section74 > subSection72 > image273,,,未直接引用；见页级说明，不能等同于缺图
+image_275.png,17,17,village,page > wrap7 > container62 > content78 > main98 > section75 > subSection73 > image274,,,未直接引用；见页级说明，不能等同于缺图
+image_276.png,17,17,village,page > wrap7 > container62 > content78 > main98 > section76 > subSection74 > image275,,,未直接引用；见页级说明，不能等同于缺图
+image_277.png,33,94,village,page > wrap7 > container62 > content79 > main99 > section77 > block31 > subBlock19 > image276,,,未直接引用；见页级说明，不能等同于缺图
+image_278.png,86,78,village,page > wrap7 > container62 > content79 > main99 > section77 > block31 > subBlock19 > image277,,,未直接引用；见页级说明，不能等同于缺图
+image_279.png,98,94,village,page > wrap7 > container62 > content79 > main99 > section77 > block31 > subBlock19 > image278,,,未直接引用；见页级说明，不能等同于缺图
+image_280.png,1,1,village,page > wrap7 > container62 > content79 > main99 > section77 > block31 > image279,,,未直接引用；见页级说明，不能等同于缺图
+image_281.png,1,1,village,page > wrap7 > container62 > content79 > main99 > section77 > block31 > image279 > image280,,,未直接引用；见页级说明，不能等同于缺图
+image_282.png,1,1,village,page > wrap7 > container62 > content79 > main99 > section77 > block31 > image281,,,未直接引用；见页级说明，不能等同于缺图
+image_283.png,1,1,village,page > wrap7 > container62 > content79 > main99 > section77 > block31 > image282,,,未直接引用；见页级说明，不能等同于缺图
+image_284.png,1,1,village,page > wrap7 > container62 > content79 > main99 > section77 > block31 > image283,,,未直接引用；见页级说明，不能等同于缺图
+image_285.png,1,1,village,page > wrap7 > container62 > content79 > main99 > section77 > block31 > image284,,,未直接引用；见页级说明，不能等同于缺图
+image_286.png,1,1,village,page > wrap7 > container62 > content79 > main99 > section77 > block31 > image285,,,未直接引用；见页级说明，不能等同于缺图
+image_287.png,17,16,village,page > wrap7 > container62 > content79 > main101 > section79 > subSection76 > image286,,,未直接引用；见页级说明，不能等同于缺图
+image_288.png,17,16,village,page > wrap7 > container62 > content79 > main101 > section80 > subSection77 > image287,,,未直接引用；见页级说明，不能等同于缺图
+image_289.png,17,17,village,page > wrap7 > container62 > content79 > main101 > section81 > subSection78 > image288,,,未直接引用；见页级说明，不能等同于缺图
+image_290.png,17,17,village,page > wrap7 > container62 > content79 > main101 > section82 > subSection79 > image289,,,未直接引用；见页级说明，不能等同于缺图
+image_291.png,1,1,village,page > wrap7 > container62 > content80 > main102 > section83 > block32 > subBlock21 > image293,,,未直接引用；见页级说明，不能等同于缺图
+image_292.png,1,1,village,page > wrap7 > container62 > content80 > main102 > section83 > block32 > subBlock21 > image293 > image294,,,未直接引用；见页级说明，不能等同于缺图
+image_293.png,1,1,village,page > wrap7 > container62 > content80 > main102 > section83 > block32 > subBlock21 > image295,,,未直接引用；见页级说明，不能等同于缺图
+image_294.png,1,1,village,page > wrap7 > container62 > content80 > main102 > section83 > block32 > subBlock21 > image296,,,未直接引用；见页级说明，不能等同于缺图
+image_295.png,1,1,village,page > wrap7 > container62 > content80 > main102 > section83 > block32 > subBlock21 > image297,,,未直接引用；见页级说明，不能等同于缺图
+image_296.png,1,1,village,page > wrap7 > container62 > content80 > main102 > section83 > block32 > subBlock21 > image298,,,未直接引用；见页级说明，不能等同于缺图
+image_297.png,1,1,village,page > wrap7 > container62 > content80 > main102 > section83 > block32 > subBlock21 > image299,,,未直接引用；见页级说明，不能等同于缺图
+image_298.png,38,76,village,page > wrap7 > container62 > content80 > main102 > section83 > block32 > subBlock20 > image290,,,未直接引用；见页级说明，不能等同于缺图
+image_299.png,83,77,village,page > wrap7 > container62 > content80 > main102 > section83 > block32 > subBlock20 > image291,,,未直接引用；见页级说明，不能等同于缺图
+image_300.png,98,66,village,page > wrap7 > container62 > content80 > main102 > section83 > block32 > subBlock20 > image292,,,未直接引用；见页级说明，不能等同于缺图
+image_301.png,17,16,village,page > wrap7 > container62 > content80 > main104 > section85 > subSection81 > image300,,,未直接引用；见页级说明，不能等同于缺图
+image_302.png,17,16,village,page > wrap7 > container62 > content80 > main104 > section86 > subSection82 > image301,,,未直接引用；见页级说明，不能等同于缺图
+image_303.png,17,17,village,page > wrap7 > container62 > content80 > main104 > section87 > subSection83 > image302,,,未直接引用；见页级说明，不能等同于缺图
+image_304.png,17,17,village,page > wrap7 > container62 > content80 > main104 > section88 > subSection84 > image303,,,未直接引用；见页级说明，不能等同于缺图
+image_305.png,22,12,village,page > wrap7 > container63 > content81 > main107 > image304,,,未直接引用；见页级说明，不能等同于缺图
+image_306.png,82,29,village,page > wrap7 > container63 > content82 > main108 > subSection85 > block33 > image305,,,未直接引用；见页级说明，不能等同于缺图
+image_307.png,3,11,village,page > wrap7 > container63 > content82 > main108 > subSection85 > block33 > image306,,,未直接引用；见页级说明，不能等同于缺图
+image_308.png,82,31,village,page > wrap7 > container63 > content82 > main108 > subSection85 > block33 > image307,,,未直接引用；见页级说明，不能等同于缺图
+image_309.png,8,9,village,page > wrap7 > container63 > content82 > main108 > subSection85 > block33 > image307 > image308,,,未直接引用；见页级说明，不能等同于缺图
+image_310.png,80,12,village,page > wrap7 > container63 > content82 > main108 > subSection85 > block33 > image307 > image309,,,未直接引用；见页级说明，不能等同于缺图
+image_311.png,3,32,village,page > wrap7 > container63 > content82 > main108 > subSection85 > block33 > image310,,,未直接引用；见页级说明，不能等同于缺图
+image_312.png,34,41,village,page > wrap7 > container63 > content82 > main108 > subSection85 > block33 > image311,,,未直接引用；见页级说明，不能等同于缺图
+image_313.png,67,36,village,page > wrap7 > container63 > content82 > main108 > subSection85 > block33 > image312,,,未直接引用；见页级说明，不能等同于缺图
+image_314.png,1,1,village,page > wrap7 > container63 > content82 > main108 > subSection85 > block34 > image313,,,未直接引用；见页级说明，不能等同于缺图
+image_315.png,1,1,village,page > wrap7 > container63 > content82 > main108 > subSection85 > block34 > image314,,,未直接引用；见页级说明，不能等同于缺图
+image_316.png,1,1,village,page > wrap7 > container63 > content82 > main108 > subSection85 > block34 > image315,,,未直接引用；见页级说明，不能等同于缺图
+image_317.png,82,24,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > image316,,,未直接引用；见页级说明，不能等同于缺图
+image_318.png,82,13,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > image316 > image317,,,未直接引用；见页级说明，不能等同于缺图
+image_319.png,82,11,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > image318,,,未直接引用；见页级说明，不能等同于缺图
+image_320.png,76,18,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > image319,,,未直接引用；见页级说明，不能等同于缺图
+image_321.png,8,3,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > image319 > image321,,,未直接引用；见页级说明，不能等同于缺图
+image_322.png,22,13,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > image319 > image320,,,未直接引用；见页级说明，不能等同于缺图
+image_323.png,20,17,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > image322,,,未直接引用；见页级说明，不能等同于缺图
+image_324.png,39,7,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > subBlock22 > image323,,,未直接引用；见页级说明，不能等同于缺图
+image_325.png,37,50,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > subBlock22 > image324,,,未直接引用；见页级说明，不能等同于缺图
+image_326.png,30,43,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > subBlock22 > image324 > image325,,,未直接引用；见页级说明，不能等同于缺图
+image_327.png,7,42,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > subBlock22 > image324 > image326,,,未直接引用；见页级说明，不能等同于缺图
+image_328.png,6,43,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > subBlock22 > image324 > image327,,,未直接引用；见页级说明，不能等同于缺图
+image_329.png,28,4,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > subBlock22 > image324 > image328,,,未直接引用；见页级说明，不能等同于缺图
+image_330.png,34,46,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > subBlock22 > image324 > image329,,,未直接引用；见页级说明，不能等同于缺图
+image_331.png,32,40,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > subBlock22 > image324 > image329 > image330,,,未直接引用；见页级说明，不能等同于缺图
+image_332.png,4,39,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > subBlock22 > image324 > image329 > image330 > image331,,,未直接引用；见页级说明，不能等同于缺图
+image_333.png,10,30,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > subBlock22 > image324 > image329 > image330 > image332,,,未直接引用；见页级说明，不能等同于缺图
+image_334.png,4,4,village,page > wrap7 > container63 > content83 > main110 > subSection86 > block35 > subBlock22 > image324 > image329 > image330 > image333,,,未直接引用；见页级说明，不能等同于缺图
+image_335.png,62,12,profile,page > wrap8 > container66 > content85 > image334,,,未直接引用；见页级说明，不能等同于缺图
+image_336.png,37,13,profile,page > wrap8 > container66 > content85 > image335,,,未直接引用；见页级说明，不能等同于缺图
+image_337.png,64,64,profile,page > wrap8 > container69 > content87 > image336,pages/profile/index.wxml:1,,已引用（显示仍受页面状态与裁切影响）
+image_338.png,18,20,profile,page > wrap8 > container70 > content89 > main117 > section97 > image337,pages/profile/index.wxml:2,,已引用（显示仍受页面状态与裁切影响）
+image_339.png,12,6,profile,page > wrap8 > container70 > content89 > main117 > section97 > image337 > image338,pages/profile/index.wxml:2,,已引用（显示仍受页面状态与裁切影响）
+image_340.png,7,11,profile,page > wrap8 > container70 > content89 > main118 > image339,,,未直接引用；见页级说明，不能等同于缺图
+image_341.png,20,20,profile,page > wrap8 > container70 > content90 > main119 > section99 > image342,pages/guide/index.wxml:3 / pages/profile/index.wxml:2,,已引用（显示仍受页面状态与裁切影响）
+image_342.png,50,50,profile,page > wrap8 > container70 > content90 > main119 > section98 > image340,,,未直接引用；见页级说明，不能等同于缺图
+image_343.png,31,31,profile,page > wrap8 > container70 > content90 > main119 > section98 > image340 > image341,,,未直接引用；见页级说明，不能等同于缺图
+image_344.png,7,11,profile,page > wrap8 > container70 > content90 > main119 > section101 > image343,,,未直接引用；见页级说明，不能等同于缺图
+image_345.png,20,17,profile,page > wrap8 > container70 > content91 > main121 > section102 > image344,pages/profile/index.wxml:2,,已引用（显示仍受页面状态与裁切影响）
+image_346.png,7,11,profile,page > wrap8 > container70 > content91 > main121 > section103 > image345,,,未直接引用；见页级说明，不能等同于缺图
+image_347.png,18,21,profile,page > wrap8 > container70 > content92 > main123 > section104 > image346,pages/profile/index.wxml:2,,已引用（显示仍受页面状态与裁切影响）
+image_348.png,7,11,profile,page > wrap8 > container70 > content92 > main123 > section105 > image347,,,未直接引用；见页级说明，不能等同于缺图
+image_349.png,12,15,profile,page > wrap8 > container70 > content93 > main125 > section106 > image348,pages/profile/index.wxml:2,,已引用（显示仍受页面状态与裁切影响）
+image_350.png,7,11,profile,page > wrap8 > container70 > content93 > main125 > section107 > image349,,,未直接引用；见页级说明，不能等同于缺图
+image_351.png,17,16,profile,page > wrap8 > container70 > content93 > main126 > section108 > subSection92 > image350,,,未直接引用；见页级说明，不能等同于缺图
+image_352.png,7,11,profile,page > wrap8 > container70 > content93 > main126 > section108 > subSection93 > image351,,,未直接引用；见页级说明，不能等同于缺图
+image_353.png,18,19,profile,page > wrap8 > container70 > content94 > main127 > section110 > image352,pages/profile/index.wxml:2,,已引用（显示仍受页面状态与裁切影响）
+image_354.png,7,11,profile,page > wrap8 > container70 > content94 > main127 > section111 > image353,,,未直接引用；见页级说明，不能等同于缺图
+image_355.png,21,12,profile,page > wrap8 > container71 > content95 > image354,pages/profile/index.wxml:2,,已引用（显示仍受页面状态与裁切影响）
+image_356.png,62,12,panorama,page > wrap9 > container73 > content96 > image355,,,未直接引用；见页级说明，不能等同于缺图
+image_357.png,37,13,panorama,page > wrap9 > container73 > content96 > image356,,,未直接引用；见页级说明，不能等同于缺图
+image_358.png,343,365,panorama,page > wrap9 > container75 > image357,utils/data.js:2,,已引用（显示仍受页面状态与裁切影响）
+image_359.png,12,14,panorama,page > wrap9 > container75 > image357 > main132 > section114 > subSection98 > image358,,,未直接引用；见页级说明，不能等同于缺图
+image_360.png,15,9,panorama,page > wrap9 > container75 > image357 > main133 > section116 > subSection99 > image359,,,未直接引用；见页级说明，不能等同于缺图
+image_361.png,9,11,panorama,page > wrap9 > container75 > image357 > main133 > section117 > subSection100 > block39 > subBlock23 > image360,,,未直接引用；见页级说明，不能等同于缺图
+image_362.png,40,30,panorama,page > wrap9 > container77 > content99 > main134 > section118 > subSection101 > image361,,,未直接引用；见页级说明，不能等同于缺图
+image_363.png,17,15,panorama,page > wrap9 > container77 > content99 > main134 > section118 > subSection101 > image361 > image362,,,未直接引用；见页级说明，不能等同于缺图
+image_364.png,35,13,panorama,page > wrap9 > container77 > content99 > main134 > section118 > subSection101 > image363,,,未直接引用；见页级说明，不能等同于缺图
+image_365.png,10,36,panorama,page > wrap9 > container77 > content99 > main134 > section118 > subSection101 > image364,,,未直接引用；见页级说明，不能等同于缺图
+image_366.png,22,42,panorama,page > wrap9 > container77 > content99 > main134 > section118 > subSection101 > image365,,,未直接引用；见页级说明，不能等同于缺图
+image_367.png,14,37,panorama,page > wrap9 > container77 > content99 > main134 > section118 > subSection101 > image366,,,未直接引用；见页级说明，不能等同于缺图
+image_368.png,8,9,panorama,page > wrap9 > container77 > content99 > main134 > section118 > subSection101 > image367,,,未直接引用；见页级说明，不能等同于缺图
+image_369.png,15,13,panorama,page > wrap9 > container77 > content99 > main134 > section118 > subSection101 > image368,,,未直接引用；见页级说明，不能等同于缺图
+image_370.png,11,10,panorama,page > wrap9 > container77 > content99 > main134 > section118 > subSection101 > image369,,,未直接引用；见页级说明，不能等同于缺图
+image_371.png,43,37,panorama,page > wrap9 > container77 > content99 > main134 > section118 > subSection101 > image370,,,未直接引用；见页级说明，不能等同于缺图
+image_372.png,36,36,panorama,page > wrap9 > container77 > content99 > main134 > section118 > subSection101 > image371,,,未直接引用；见页级说明，不能等同于缺图
+image_373.png,7,12,panorama,page > wrap9 > container77 > content101 > image372,pages/panorama/index.wxml:12,,已引用（显示仍受页面状态与裁切影响）
+image_374.png,18,17,panorama,page > wrap9 > container78 > content102 > main135 > section119 > image373,,,未直接引用；见页级说明，不能等同于缺图
+image_375.png,9,6,panorama,page > wrap9 > container78 > content102 > main135 > section120 > image374,,,未直接引用；见页级说明，不能等同于缺图
+image_376.png,20,19,panorama,page > wrap9 > container78 > content102 > main137 > section123 > subSection102 > block40 > image375,pages/panorama/index.wxml:13,,已引用（显示仍受页面状态与裁切影响）
+image_377.png,20,20,panorama,page > wrap9 > container78 > content102 > main137 > section123 > subSection103 > block41 > image376,,,未直接引用；见页级说明，不能等同于缺图
+image_378.png,22,18,panorama,page > wrap9 > container78 > content102 > main137 > section123 > subSection104 > block42 > subBlock24 > image377,,,未直接引用；见页级说明，不能等同于缺图
+image_379.png,62,12,postcard,page > wrap10 > container80 > content103 > image378,,,未直接引用；见页级说明，不能等同于缺图
+image_380.png,37,13,postcard,page > wrap10 > container80 > content103 > image379,,,未直接引用；见页级说明，不能等同于缺图
+image_381.png,303,270,postcard,page > wrap10 > container83 > content105 > main141 > image380,pages/postcard/index.wxml:1,,已引用（显示仍受页面状态与裁切影响）
+image_382.png,31,31,postcard,page > wrap10 > container83 > content105 > main141 > image381,,,未直接引用；见页级说明，不能等同于缺图
